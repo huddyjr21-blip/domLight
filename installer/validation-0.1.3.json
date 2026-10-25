@@ -1,0 +1,18 @@
+{
+  "hardware_boot_tested": false,
+  "full_install_tested": false,
+  "offline_packages": 922,
+  "required_device_firmware": {
+    "realtek-firmware": [
+      "rtw88/rtw8821c_fw.bin",
+      "rtl_bt/rtl8821c_fw.bin"
+    ],
+    "alsa-sof-firmware": [
+      "sof-apl.ri"
+    ]
+  },
+  "boot_configurations": "BIOS and both UEFI paths checked",
+  "installation_source": "USB-local repository with Fedora core group metadata",
+  "sha256": "8af647c51c790ea1630a6a2b56c820a1099343ed51b1a37cf9525419be24c9b0",
+  "bytes": 2623406080
+}

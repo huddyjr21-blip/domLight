@@ -1,0 +1,39 @@
+domLight 0.1.3 — Fedora 44 x86-64 OFFLINE installer
+
+Image: domLight-0.1.3-Fedora44-x86_64-offline.iso
+Size: 2,623,406,080 bytes (2.62 GB / 2.44 GiB)
+SHA256: 8af647c51c790ea1630a6a2b56c820a1099343ed51b1a37cf9525419be24c9b0
+
+Write this image to a USB drive with an image-writing tool. Copying the ISO file onto a USB alone does not make it bootable. Use a USB drive of at least 4 GB. Select the USB at boot, create the required administrator account, and review disk selection before installing. Installation itself requires no internet connection. Remove the USB after installation and reboot normally.
+
+This supersedes 0.1.0 and 0.1.2 network installers. It includes all 922 packages required by this desktop and the Fedora core package group, plus local repository/group metadata. Nemo remains the file manager, Dolphin is excluded, and signed domLight desktop updates are enrolled automatically. Future updates require internet connectivity.
+
+Hardware support includes the standard Fedora kernel and extra modules; Realtek, Intel, Qualcomm/Atheros, Broadcom and MediaTek Wi-Fi firmware; Bluetooth firmware and services; Intel/AMD/Nouveau graphics firmware and Mesa; Intel SOF audio firmware, ALSA configuration and utilities; and Intel/AMD CPU microcode. Includes lspci, lsusb, rfkill and ethtool for diagnostics. Proprietary NVIDIA graphics and Broadcom wl drivers are not included. Compatibility with every PC is not guaranteed.
+
+The exact missing files from the KAMRUI diagnostic photo were checked inside the embedded RPMs:
+- rtw88/rtw8821c_fw.bin (Realtek RTL8821CE Wi-Fi)
+- rtl_bt/rtl8821c_fw.bin (Realtek Bluetooth)
+- intel/sof/sof-apl.ri (Intel Apollo Lake SOF audio; may be compressed)
+
+Validation completed: Fedora 44 Kickstart validation; dependency resolution against an empty x86-64 root using only the local package repository; all 922 RPM signatures verified against Fedora/domLight keys; embedded repository metadata checksums; exact device firmware file lists; BIOS and both UEFI boot configurations; media checksum; SHA256 of the copy on the Mac. Full installation and physical GPU startup remain untested. The firmware omissions are corrected, but the earlier black-screen cause has not yet been confirmed on the physical PC.
+
+OPTIONAL: REPAIR THE EXISTING INSTALLATION WITHOUT REINSTALLING
+
+After writing the new image to USB, plug it into the installed PC while logged into the text console. Ensure this is the 0.1.3 USB, not the old installer. Run:
+
+sudo mkdir -p /mnt/domlight
+sudo mount -o ro /dev/disk/by-label/Fedora-E-dvd-x86_64-44 /mnt/domlight
+ls /mnt/domlight/domLight-package-manifest.json
+sudo dnf --disable-repo='*' --repofrompath=domlight-usb,file:///mnt/domlight --setopt=domlight-usb.gpgcheck=1 install realtek-firmware alsa-sof-firmware intel-audio-firmware intel-gpu-firmware linux-firmware-whence kernel kernel-modules kernel-modules-extra pciutils usbutils rfkill
+sudo reboot
+
+Only continue if the manifest file exists. If USB auto-mounted already, use its actual mount path instead of /mnt/domlight. Fedora may request confirmation to import its official signing key. This installs from USB without internet and does not erase user files. It may update the kernel and its dependencies.
+
+After restarting, connect Wi-Fi:
+nmcli device wifi list
+sudo nmcli --ask device wifi connect "Your WiFi Name"
+
+If the graphical login still fails, use the temporary text-console boot method and collect:
+systemctl status sddm --no-pager -l
+sudo journalctl -b -u sddm --no-pager -n 60
+sudo journalctl -b -k --no-pager | grep -Ei 'i915|drm|firmware|failed'

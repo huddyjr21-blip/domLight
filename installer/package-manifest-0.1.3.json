@@ -1,0 +1,6456 @@
+[
+  {
+    "name": "LibRaw",
+    "version": "0.22.2-1.fc44",
+    "arch": "x86_64",
+    "file": "LibRaw-0.22.2-1.fc44.x86_64.rpm",
+    "bytes": 498382
+  },
+  {
+    "name": "ModemManager-glib",
+    "version": "1.24.2-3.fc44",
+    "arch": "x86_64",
+    "file": "ModemManager-glib-1.24.2-3.fc44.x86_64.rpm",
+    "bytes": 345976
+  },
+  {
+    "name": "NetworkManager",
+    "version": "1.56.1-2.fc44",
+    "arch": "x86_64",
+    "file": "NetworkManager-1.56.1-2.fc44.x86_64.rpm",
+    "bytes": 2411313
+  },
+  {
+    "name": "NetworkManager-libnm",
+    "version": "1.56.1-2.fc44",
+    "arch": "x86_64",
+    "file": "NetworkManager-libnm-1.56.1-2.fc44.x86_64.rpm",
+    "bytes": 2022242
+  },
+  {
+    "name": "NetworkManager-wifi",
+    "version": "1.56.1-2.fc44",
+    "arch": "x86_64",
+    "file": "NetworkManager-wifi-1.56.1-2.fc44.x86_64.rpm",
+    "bytes": 139854
+  },
+  {
+    "name": "PackageKit-Qt6",
+    "version": "1.1.4-4.fc44",
+    "arch": "x86_64",
+    "file": "PackageKit-Qt6-1.1.4-4.fc44.x86_64.rpm",
+    "bytes": 139033
+  },
+  {
+    "name": "SDL3",
+    "version": "3.4.18-1.fc44",
+    "arch": "x86_64",
+    "file": "SDL3-3.4.18-1.fc44.x86_64.rpm",
+    "bytes": 1297555
+  },
+  {
+    "name": "abattis-cantarell-vf-fonts",
+    "version": "0.301-17.fc44",
+    "arch": "noarch",
+    "file": "abattis-cantarell-vf-fonts-0.301-17.fc44.noarch.rpm",
+    "bytes": 123255
+  },
+  {
+    "name": "abseil-cpp",
+    "version": "20260107.1-1.fc44",
+    "arch": "x86_64",
+    "file": "abseil-cpp-20260107.1-1.fc44.x86_64.rpm",
+    "bytes": 818797
+  },
+  {
+    "name": "accountsservice",
+    "version": "23.13.9-16.fc44",
+    "arch": "x86_64",
+    "file": "accountsservice-23.13.9-16.fc44.x86_64.rpm",
+    "bytes": 131498
+  },
+  {
+    "name": "adwaita-cursor-theme",
+    "version": "50.0-1.fc44",
+    "arch": "noarch",
+    "file": "adwaita-cursor-theme-50.0-1.fc44.noarch.rpm",
+    "bytes": 389809
+  },
+  {
+    "name": "adwaita-icon-theme",
+    "version": "50.0-1.fc44",
+    "arch": "noarch",
+    "file": "adwaita-icon-theme-50.0-1.fc44.noarch.rpm",
+    "bytes": 414576
+  },
+  {
+    "name": "adwaita-icon-theme-legacy",
+    "version": "46.2-7.fc44",
+    "arch": "noarch",
+    "file": "adwaita-icon-theme-legacy-46.2-7.fc44.noarch.rpm",
+    "bytes": 2598925
+  },
+  {
+    "name": "alsa-lib",
+    "version": "1.2.16.1-1.fc44",
+    "arch": "x86_64",
+    "file": "alsa-lib-1.2.16.1-1.fc44.x86_64.rpm",
+    "bytes": 579276
+  },
+  {
+    "name": "alsa-sof-firmware",
+    "version": "2025.12.2-1.fc44",
+    "arch": "noarch",
+    "file": "alsa-sof-firmware-2025.12.2-1.fc44.noarch.rpm",
+    "bytes": 10785983
+  },
+  {
+    "name": "alsa-ucm",
+    "version": "1.2.16.1-1.fc44",
+    "arch": "noarch",
+    "file": "alsa-ucm-1.2.16.1-1.fc44.noarch.rpm",
+    "bytes": 347175
+  },
+  {
+    "name": "alsa-utils",
+    "version": "1.2.16-1.fc44",
+    "arch": "x86_64",
+    "file": "alsa-utils-1.2.16-1.fc44.x86_64.rpm",
+    "bytes": 1249133
+  },
+  {
+    "name": "alternatives",
+    "version": "1.33-5.fc44",
+    "arch": "x86_64",
+    "file": "alternatives-1.33-5.fc44.x86_64.rpm",
+    "bytes": 41829
+  },
+  {
+    "name": "amd-gpu-firmware",
+    "version": "20261019-1.fc44",
+    "arch": "noarch",
+    "file": "amd-gpu-firmware-20261019-1.fc44.noarch.rpm",
+    "bytes": 29286972
+  },
+  {
+    "name": "amd-ucode-firmware",
+    "version": "20261019-1.fc44",
+    "arch": "noarch",
+    "file": "amd-ucode-firmware-20261019-1.fc44.noarch.rpm",
+    "bytes": 656285
+  },
+  {
+    "name": "appstream",
+    "version": "1.1.3-1.fc44",
+    "arch": "x86_64",
+    "file": "appstream-1.1.3-1.fc44.x86_64.rpm",
+    "bytes": 973075
+  },
+  {
+    "name": "appstream-qt",
+    "version": "1.1.3-1.fc44",
+    "arch": "x86_64",
+    "file": "appstream-qt-1.1.3-1.fc44.x86_64.rpm",
+    "bytes": 117062
+  },
+  {
+    "name": "aribb24",
+    "version": "1.0.3^20160216git5e9be27-5.fc44",
+    "arch": "x86_64",
+    "file": "aribb24-1.0.3^20160216git5e9be27-5.fc44.x86_64.rpm",
+    "bytes": 41507
+  },
+  {
+    "name": "assimp",
+    "version": "6.0.5-6.fc44",
+    "arch": "x86_64",
+    "file": "assimp-6.0.5-6.fc44.x86_64.rpm",
+    "bytes": 2615244
+  },
+  {
+    "name": "at-spi2-atk",
+    "version": "2.60.7-1.fc44",
+    "arch": "x86_64",
+    "file": "at-spi2-atk-2.60.7-1.fc44.x86_64.rpm",
+    "bytes": 91740
+  },
+  {
+    "name": "at-spi2-core",
+    "version": "2.60.7-1.fc44",
+    "arch": "x86_64",
+    "file": "at-spi2-core-2.60.7-1.fc44.x86_64.rpm",
+    "bytes": 411711
+  },
+  {
+    "name": "atheros-firmware",
+    "version": "20261019-1.fc44",
+    "arch": "noarch",
+    "file": "atheros-firmware-20261019-1.fc44.noarch.rpm",
+    "bytes": 49613372
+  },
+  {
+    "name": "atk",
+    "version": "2.60.7-1.fc44",
+    "arch": "x86_64",
+    "file": "atk-2.60.7-1.fc44.x86_64.rpm",
+    "bytes": 84396
+  },
+  {
+    "name": "audit",
+    "version": "4.2.1-1.fc44",
+    "arch": "x86_64",
+    "file": "audit-4.2.1-1.fc44.x86_64.rpm",
+    "bytes": 228783
+  },
+  {
+    "name": "audit-libs",
+    "version": "4.2.1-1.fc44",
+    "arch": "x86_64",
+    "file": "audit-libs-4.2.1-1.fc44.x86_64.rpm",
+    "bytes": 147056
+  },
+  {
+    "name": "audit-rules",
+    "version": "4.2.1-1.fc44",
+    "arch": "x86_64",
+    "file": "audit-rules-4.2.1-1.fc44.x86_64.rpm",
+    "bytes": 71426
+  },
+  {
+    "name": "aurorae",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "aurorae-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 219622
+  },
+  {
+    "name": "authselect",
+    "version": "1.7.1-1.fc44",
+    "arch": "x86_64",
+    "file": "authselect-1.7.1-1.fc44.x86_64.rpm",
+    "bytes": 200892
+  },
+  {
+    "name": "authselect-libs",
+    "version": "1.7.1-1.fc44",
+    "arch": "x86_64",
+    "file": "authselect-libs-1.7.1-1.fc44.x86_64.rpm",
+    "bytes": 243149
+  },
+  {
+    "name": "avahi",
+    "version": "0.9~rc2-8.fc44",
+    "arch": "x86_64",
+    "file": "avahi-0.9~rc2-8.fc44.x86_64.rpm",
+    "bytes": 465144
+  },
+  {
+    "name": "avahi-glib",
+    "version": "0.9~rc2-8.fc44",
+    "arch": "x86_64",
+    "file": "avahi-glib-0.9~rc2-8.fc44.x86_64.rpm",
+    "bytes": 15751
+  },
+  {
+    "name": "avahi-libs",
+    "version": "0.9~rc2-8.fc44",
+    "arch": "x86_64",
+    "file": "avahi-libs-0.9~rc2-8.fc44.x86_64.rpm",
+    "bytes": 73417
+  },
+  {
+    "name": "bash",
+    "version": "5.3.9-3.fc44",
+    "arch": "x86_64",
+    "file": "bash-5.3.9-3.fc44.x86_64.rpm",
+    "bytes": 1985877
+  },
+  {
+    "name": "bluedevil",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "bluedevil-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 818286
+  },
+  {
+    "name": "bluez",
+    "version": "5.87+1.git8750129efca8-1.fc44",
+    "arch": "x86_64",
+    "file": "bluez-5.87+1.git8750129efca8-1.fc44.x86_64.rpm",
+    "bytes": 1560449
+  },
+  {
+    "name": "bluez-libs",
+    "version": "5.87+1.git8750129efca8-1.fc44",
+    "arch": "x86_64",
+    "file": "bluez-libs-5.87+1.git8750129efca8-1.fc44.x86_64.rpm",
+    "bytes": 86652
+  },
+  {
+    "name": "bluez-obexd",
+    "version": "5.87+1.git8750129efca8-1.fc44",
+    "arch": "x86_64",
+    "file": "bluez-obexd-5.87+1.git8750129efca8-1.fc44.x86_64.rpm",
+    "bytes": 158709
+  },
+  {
+    "name": "brcmfmac-firmware",
+    "version": "20261019-1.fc44",
+    "arch": "noarch",
+    "file": "brcmfmac-firmware-20261019-1.fc44.noarch.rpm",
+    "bytes": 10041114
+  },
+  {
+    "name": "breeze-cursor-theme",
+    "version": "6.7.5-1.fc44",
+    "arch": "noarch",
+    "file": "breeze-cursor-theme-6.7.5-1.fc44.noarch.rpm",
+    "bytes": 1496829
+  },
+  {
+    "name": "breeze-icon-theme",
+    "version": "6.31.0-1.fc44",
+    "arch": "noarch",
+    "file": "breeze-icon-theme-6.31.0-1.fc44.noarch.rpm",
+    "bytes": 10679296
+  },
+  {
+    "name": "btrfs-progs",
+    "version": "7.1-1.fc44",
+    "arch": "x86_64",
+    "file": "btrfs-progs-7.1-1.fc44.x86_64.rpm",
+    "bytes": 1368310
+  },
+  {
+    "name": "bubblewrap",
+    "version": "0.12.0-1.fc44",
+    "arch": "x86_64",
+    "file": "bubblewrap-0.12.0-1.fc44.x86_64.rpm",
+    "bytes": 68528
+  },
+  {
+    "name": "bzip2-libs",
+    "version": "1.0.8-23.fc44",
+    "arch": "x86_64",
+    "file": "bzip2-libs-1.0.8-23.fc44.x86_64.rpm",
+    "bytes": 44832
+  },
+  {
+    "name": "c-ares",
+    "version": "1.34.8-1.fc44",
+    "arch": "x86_64",
+    "file": "c-ares-1.34.8-1.fc44.x86_64.rpm",
+    "bytes": 130058
+  },
+  {
+    "name": "ca-certificates",
+    "version": "2026.2.92_v9.0.319-2.fc44",
+    "arch": "noarch",
+    "file": "ca-certificates-2026.2.92_v9.0.319-2.fc44.noarch.rpm",
+    "bytes": 1003880
+  },
+  {
+    "name": "cairo",
+    "version": "1.18.6-1.fc44",
+    "arch": "x86_64",
+    "file": "cairo-1.18.6-1.fc44.x86_64.rpm",
+    "bytes": 775828
+  },
+  {
+    "name": "cairo-gobject",
+    "version": "1.18.6-1.fc44",
+    "arch": "x86_64",
+    "file": "cairo-gobject-1.18.6-1.fc44.x86_64.rpm",
+    "bytes": 17296
+  },
+  {
+    "name": "cdparanoia-libs",
+    "version": "10.2-50.fc44",
+    "arch": "x86_64",
+    "file": "cdparanoia-libs-10.2-50.fc44.x86_64.rpm",
+    "bytes": 57312
+  },
+  {
+    "name": "checkpolicy",
+    "version": "3.11-1.fc44",
+    "arch": "x86_64",
+    "file": "checkpolicy-3.11-1.fc44.x86_64.rpm",
+    "bytes": 391112
+  },
+  {
+    "name": "chromium",
+    "version": "156.0.8078.47-1.fc44",
+    "arch": "x86_64",
+    "file": "chromium-156.0.8078.47-1.fc44.x86_64.rpm",
+    "bytes": 141201519
+  },
+  {
+    "name": "chromium-common",
+    "version": "156.0.8078.47-1.fc44",
+    "arch": "x86_64",
+    "file": "chromium-common-156.0.8078.47-1.fc44.x86_64.rpm",
+    "bytes": 14835973
+  },
+  {
+    "name": "cinnamon-desktop",
+    "version": "6.6.2-7.fc44",
+    "arch": "x86_64",
+    "file": "cinnamon-desktop-6.6.2-7.fc44.x86_64.rpm",
+    "bytes": 321846
+  },
+  {
+    "name": "cjson",
+    "version": "1.7.19-1.fc44",
+    "arch": "x86_64",
+    "file": "cjson-1.7.19-1.fc44.x86_64.rpm",
+    "bytes": 33386
+  },
+  {
+    "name": "cloud-flex-desktop",
+    "version": "0.1.1-1.fc44",
+    "arch": "noarch",
+    "file": "cloud-flex-desktop-0.1.1-1.fc44.noarch.rpm",
+    "bytes": 99545
+  },
+  {
+    "name": "cloud-flex-release",
+    "version": "0.1.0-1.fc44",
+    "arch": "noarch",
+    "file": "cloud-flex-release-0.1.0-1.fc44.noarch.rpm",
+    "bytes": 9150
+  },
+  {
+    "name": "cmake-filesystem",
+    "version": "4.3.0-1.fc44",
+    "arch": "x86_64",
+    "file": "cmake-filesystem-4.3.0-1.fc44.x86_64.rpm",
+    "bytes": 15352
+  },
+  {
+    "name": "codec2",
+    "version": "1.2.0-9.fc44",
+    "arch": "x86_64",
+    "file": "codec2-1.2.0-9.fc44.x86_64.rpm",
+    "bytes": 659756
+  },
+  {
+    "name": "colord-libs",
+    "version": "1.4.8-4.fc44",
+    "arch": "x86_64",
+    "file": "colord-libs-1.4.8-4.fc44.x86_64.rpm",
+    "bytes": 239281
+  },
+  {
+    "name": "coreutils",
+    "version": "9.10-5.fc44",
+    "arch": "x86_64",
+    "file": "coreutils-9.10-5.fc44.x86_64.rpm",
+    "bytes": 1237923
+  },
+  {
+    "name": "coreutils-common",
+    "version": "9.10-5.fc44",
+    "arch": "x86_64",
+    "file": "coreutils-common-9.10-5.fc44.x86_64.rpm",
+    "bytes": 2235117
+  },
+  {
+    "name": "cpio",
+    "version": "2.15-9.fc44",
+    "arch": "x86_64",
+    "file": "cpio-2.15-9.fc44.x86_64.rpm",
+    "bytes": 300385
+  },
+  {
+    "name": "cracklib",
+    "version": "2.10.3-1.fc44",
+    "arch": "x86_64",
+    "file": "cracklib-2.10.3-1.fc44.x86_64.rpm",
+    "bytes": 98240
+  },
+  {
+    "name": "crypto-policies",
+    "version": "20251128-3.git19878fe.fc44",
+    "arch": "noarch",
+    "file": "crypto-policies-20251128-3.git19878fe.fc44.noarch.rpm",
+    "bytes": 100658
+  },
+  {
+    "name": "cryptsetup-libs",
+    "version": "2.8.8-1.fc44",
+    "arch": "x86_64",
+    "file": "cryptsetup-libs-2.8.8-1.fc44.x86_64.rpm",
+    "bytes": 644372
+  },
+  {
+    "name": "cups-filesystem",
+    "version": "2.4.19-3.fc44",
+    "arch": "noarch",
+    "file": "cups-filesystem-2.4.19-3.fc44.noarch.rpm",
+    "bytes": 12613
+  },
+  {
+    "name": "cups-libs",
+    "version": "2.4.19-3.fc44",
+    "arch": "x86_64",
+    "file": "cups-libs-2.4.19-3.fc44.x86_64.rpm",
+    "bytes": 276733
+  },
+  {
+    "name": "curl",
+    "version": "8.18.0-14.fc44",
+    "arch": "x86_64",
+    "file": "curl-8.18.0-14.fc44.x86_64.rpm",
+    "bytes": 246292
+  },
+  {
+    "name": "cyrus-sasl-gssapi",
+    "version": "2.1.28-35.fc44",
+    "arch": "x86_64",
+    "file": "cyrus-sasl-gssapi-2.1.28-35.fc44.x86_64.rpm",
+    "bytes": 27465
+  },
+  {
+    "name": "cyrus-sasl-lib",
+    "version": "2.1.28-35.fc44",
+    "arch": "x86_64",
+    "file": "cyrus-sasl-lib-2.1.28-35.fc44.x86_64.rpm",
+    "bytes": 819940
+  },
+  {
+    "name": "dbus",
+    "version": "1.16.2-1.fc44",
+    "arch": "x86_64",
+    "file": "dbus-1.16.2-1.fc44.x86_64.rpm",
+    "bytes": 7649
+  },
+  {
+    "name": "dbus-broker",
+    "version": "37-8.fc44",
+    "arch": "x86_64",
+    "file": "dbus-broker-37-8.fc44.x86_64.rpm",
+    "bytes": 183096
+  },
+  {
+    "name": "dbus-common",
+    "version": "1.16.2-1.fc44",
+    "arch": "noarch",
+    "file": "dbus-common-1.16.2-1.fc44.noarch.rpm",
+    "bytes": 14517
+  },
+  {
+    "name": "dbus-libs",
+    "version": "1.16.2-1.fc44",
+    "arch": "x86_64",
+    "file": "dbus-libs-1.16.2-1.fc44.x86_64.rpm",
+    "bytes": 158816
+  },
+  {
+    "name": "dbus-tools",
+    "version": "1.16.2-1.fc44",
+    "arch": "x86_64",
+    "file": "dbus-tools-1.16.2-1.fc44.x86_64.rpm",
+    "bytes": 45450
+  },
+  {
+    "name": "ddcutil",
+    "version": "2.2.1-3.fc44",
+    "arch": "x86_64",
+    "file": "ddcutil-2.2.1-3.fc44.x86_64.rpm",
+    "bytes": 572517
+  },
+  {
+    "name": "default-fonts-core-sans",
+    "version": "4.3-1.fc44",
+    "arch": "noarch",
+    "file": "default-fonts-core-sans-4.3-1.fc44.noarch.rpm",
+    "bytes": 29927
+  },
+  {
+    "name": "desktop-backgrounds-compat",
+    "version": "44.0.0-2.fc44",
+    "arch": "noarch",
+    "file": "desktop-backgrounds-compat-44.0.0-2.fc44.noarch.rpm",
+    "bytes": 9821
+  },
+  {
+    "name": "desktop-backgrounds-gnome",
+    "version": "44.0.0-2.fc44",
+    "arch": "noarch",
+    "file": "desktop-backgrounds-gnome-44.0.0-2.fc44.noarch.rpm",
+    "bytes": 8909
+  },
+  {
+    "name": "desktop-backgrounds-kde",
+    "version": "44.0.0-2.fc44",
+    "arch": "noarch",
+    "file": "desktop-backgrounds-kde-44.0.0-2.fc44.noarch.rpm",
+    "bytes": 8540
+  },
+  {
+    "name": "desktop-file-utils",
+    "version": "0.28-5.fc44",
+    "arch": "x86_64",
+    "file": "desktop-file-utils-0.28-5.fc44.x86_64.rpm",
+    "bytes": 71503
+  },
+  {
+    "name": "device-mapper",
+    "version": "1.02.212-2.fc44",
+    "arch": "x86_64",
+    "file": "device-mapper-1.02.212-2.fc44.x86_64.rpm",
+    "bytes": 144499
+  },
+  {
+    "name": "device-mapper-libs",
+    "version": "1.02.212-2.fc44",
+    "arch": "x86_64",
+    "file": "device-mapper-libs-1.02.212-2.fc44.x86_64.rpm",
+    "bytes": 191119
+  },
+  {
+    "name": "diffutils",
+    "version": "3.12-5.fc44",
+    "arch": "x86_64",
+    "file": "diffutils-3.12-5.fc44.x86_64.rpm",
+    "bytes": 404803
+  },
+  {
+    "name": "dnf5",
+    "version": "5.4.6.0-1.fc44",
+    "arch": "x86_64",
+    "file": "dnf5-5.4.6.0-1.fc44.x86_64.rpm",
+    "bytes": 1069104
+  },
+  {
+    "name": "dnf5-plugins",
+    "version": "5.4.6.0-1.fc44",
+    "arch": "x86_64",
+    "file": "dnf5-plugins-5.4.6.0-1.fc44.x86_64.rpm",
+    "bytes": 552122
+  },
+  {
+    "name": "docbook-dtds",
+    "version": "1.0-91.fc44",
+    "arch": "noarch",
+    "file": "docbook-dtds-1.0-91.fc44.noarch.rpm",
+    "bytes": 341737
+  },
+  {
+    "name": "docbook-style-xsl",
+    "version": "1.79.2-27.fc44",
+    "arch": "noarch",
+    "file": "docbook-style-xsl-1.79.2-27.fc44.noarch.rpm",
+    "bytes": 1586531
+  },
+  {
+    "name": "double-conversion",
+    "version": "3.4.0-3.fc44",
+    "arch": "x86_64",
+    "file": "double-conversion-3.4.0-3.fc44.x86_64.rpm",
+    "bytes": 55189
+  },
+  {
+    "name": "dracut",
+    "version": "108-8.fc44",
+    "arch": "x86_64",
+    "file": "dracut-108-8.fc44.x86_64.rpm",
+    "bytes": 647429
+  },
+  {
+    "name": "dracut-config-rescue",
+    "version": "108-8.fc44",
+    "arch": "x86_64",
+    "file": "dracut-config-rescue-108-8.fc44.x86_64.rpm",
+    "bytes": 11355
+  },
+  {
+    "name": "duktape",
+    "version": "2.7.0-11.fc44",
+    "arch": "x86_64",
+    "file": "duktape-2.7.0-11.fc44.x86_64.rpm",
+    "bytes": 176145
+  },
+  {
+    "name": "e2fsprogs",
+    "version": "1.47.3-4.fc44",
+    "arch": "x86_64",
+    "file": "e2fsprogs-1.47.3-4.fc44.x86_64.rpm",
+    "bytes": 1127472
+  },
+  {
+    "name": "e2fsprogs-libs",
+    "version": "1.47.3-4.fc44",
+    "arch": "x86_64",
+    "file": "e2fsprogs-libs-1.47.3-4.fc44.x86_64.rpm",
+    "bytes": 245381
+  },
+  {
+    "name": "editorconfig-libs",
+    "version": "0.12.11-1.fc44",
+    "arch": "x86_64",
+    "file": "editorconfig-libs-0.12.11-1.fc44.x86_64.rpm",
+    "bytes": 28666
+  },
+  {
+    "name": "efi-filesystem",
+    "version": "6-6.fc44",
+    "arch": "noarch",
+    "file": "efi-filesystem-6-6.fc44.noarch.rpm",
+    "bytes": 8330
+  },
+  {
+    "name": "efibootmgr",
+    "version": "18-11.fc44",
+    "arch": "x86_64",
+    "file": "efibootmgr-18-11.fc44.x86_64.rpm",
+    "bytes": 48322
+  },
+  {
+    "name": "efivar-libs",
+    "version": "39-12.fc44",
+    "arch": "x86_64",
+    "file": "efivar-libs-39-12.fc44.x86_64.rpm",
+    "bytes": 140076
+  },
+  {
+    "name": "elfutils-default-yama-scope",
+    "version": "0.196-1.fc44",
+    "arch": "noarch",
+    "file": "elfutils-default-yama-scope-0.196-1.fc44.noarch.rpm",
+    "bytes": 11622
+  },
+  {
+    "name": "elfutils-libelf",
+    "version": "0.196-1.fc44",
+    "arch": "x86_64",
+    "file": "elfutils-libelf-0.196-1.fc44.x86_64.rpm",
+    "bytes": 243870
+  },
+  {
+    "name": "elfutils-libs",
+    "version": "0.196-1.fc44",
+    "arch": "x86_64",
+    "file": "elfutils-libs-0.196-1.fc44.x86_64.rpm",
+    "bytes": 291369
+  },
+  {
+    "name": "emacs-filesystem",
+    "version": "30.2-2.fc44",
+    "arch": "x86_64",
+    "file": "emacs-filesystem-30.2-2.fc44.x86_64.rpm",
+    "bytes": 8236
+  },
+  {
+    "name": "ethtool",
+    "version": "7.1-1.fc44",
+    "arch": "x86_64",
+    "file": "ethtool-7.1-1.fc44.x86_64.rpm",
+    "bytes": 341870
+  },
+  {
+    "name": "exempi",
+    "version": "2.6.4-9.fc44",
+    "arch": "x86_64",
+    "file": "exempi-2.6.4-9.fc44.x86_64.rpm",
+    "bytes": 625689
+  },
+  {
+    "name": "exiv2-libs",
+    "version": "0.28.9-1.fc44",
+    "arch": "x86_64",
+    "file": "exiv2-libs-0.28.9-1.fc44.x86_64.rpm",
+    "bytes": 962702
+  },
+  {
+    "name": "expat",
+    "version": "2.8.5-1.fc44",
+    "arch": "x86_64",
+    "file": "expat-2.8.5-1.fc44.x86_64.rpm",
+    "bytes": 137611
+  },
+  {
+    "name": "f44-backgrounds-base",
+    "version": "44.0.0-1.fc44",
+    "arch": "noarch",
+    "file": "f44-backgrounds-base-44.0.0-1.fc44.noarch.rpm",
+    "bytes": 9748184
+  },
+  {
+    "name": "f44-backgrounds-gnome",
+    "version": "44.0.0-1.fc44",
+    "arch": "noarch",
+    "file": "f44-backgrounds-gnome-44.0.0-1.fc44.noarch.rpm",
+    "bytes": 7538
+  },
+  {
+    "name": "f44-backgrounds-kde",
+    "version": "44.0.0-1.fc44",
+    "arch": "noarch",
+    "file": "f44-backgrounds-kde-44.0.0-1.fc44.noarch.rpm",
+    "bytes": 16745
+  },
+  {
+    "name": "fdk-aac-free",
+    "version": "2.0.3-2.fc44",
+    "arch": "x86_64",
+    "file": "fdk-aac-free-2.0.3-2.fc44.x86_64.rpm",
+    "bytes": 358688
+  },
+  {
+    "name": "fedora-gpg-keys",
+    "version": "44-2",
+    "arch": "noarch",
+    "file": "fedora-gpg-keys-44-2.noarch.rpm",
+    "bytes": 192112
+  },
+  {
+    "name": "fedora-logos",
+    "version": "42.0.1-3.fc44",
+    "arch": "noarch",
+    "file": "fedora-logos-42.0.1-3.fc44.noarch.rpm",
+    "bytes": 1593080
+  },
+  {
+    "name": "fedora-release",
+    "version": "44-18",
+    "arch": "noarch",
+    "file": "fedora-release-44-18.noarch.rpm",
+    "bytes": 12761
+  },
+  {
+    "name": "fedora-release-common",
+    "version": "44-18",
+    "arch": "noarch",
+    "file": "fedora-release-common-44-18.noarch.rpm",
+    "bytes": 24167
+  },
+  {
+    "name": "fedora-release-identity-basic",
+    "version": "44-18",
+    "arch": "noarch",
+    "file": "fedora-release-identity-basic-44-18.noarch.rpm",
+    "bytes": 13542
+  },
+  {
+    "name": "fedora-repos",
+    "version": "44-2",
+    "arch": "noarch",
+    "file": "fedora-repos-44-2.noarch.rpm",
+    "bytes": 9300
+  },
+  {
+    "name": "fftw-libs-double",
+    "version": "3.3.10-17.fc44",
+    "arch": "x86_64",
+    "file": "fftw-libs-double-3.3.10-17.fc44.x86_64.rpm",
+    "bytes": 1206158
+  },
+  {
+    "name": "fftw-libs-single",
+    "version": "3.3.10-17.fc44",
+    "arch": "x86_64",
+    "file": "fftw-libs-single-3.3.10-17.fc44.x86_64.rpm",
+    "bytes": 1275271
+  },
+  {
+    "name": "file",
+    "version": "5.46-10.fc44",
+    "arch": "x86_64",
+    "file": "file-5.46-10.fc44.x86_64.rpm",
+    "bytes": 49901
+  },
+  {
+    "name": "file-libs",
+    "version": "5.46-10.fc44",
+    "arch": "x86_64",
+    "file": "file-libs-5.46-10.fc44.x86_64.rpm",
+    "bytes": 874121
+  },
+  {
+    "name": "filesystem",
+    "version": "3.18-52.fc44",
+    "arch": "x86_64",
+    "file": "filesystem-3.18-52.fc44.x86_64.rpm",
+    "bytes": 1398770
+  },
+  {
+    "name": "findutils",
+    "version": "4.10.0-7.fc44",
+    "arch": "x86_64",
+    "file": "findutils-4.10.0-7.fc44.x86_64.rpm",
+    "bytes": 565758
+  },
+  {
+    "name": "firewalld",
+    "version": "2.4.4-1.fc44",
+    "arch": "noarch",
+    "file": "firewalld-2.4.4-1.fc44.noarch.rpm",
+    "bytes": 554793
+  },
+  {
+    "name": "firewalld-filesystem",
+    "version": "2.4.4-1.fc44",
+    "arch": "noarch",
+    "file": "firewalld-filesystem-2.4.4-1.fc44.noarch.rpm",
+    "bytes": 9901
+  },
+  {
+    "name": "flac-libs",
+    "version": "1.5.0-8.fc44",
+    "arch": "x86_64",
+    "file": "flac-libs-1.5.0-8.fc44.x86_64.rpm",
+    "bytes": 231089
+  },
+  {
+    "name": "flite",
+    "version": "2.2-13.fc44",
+    "arch": "x86_64",
+    "file": "flite-2.2-13.fc44.x86_64.rpm",
+    "bytes": 13081395
+  },
+  {
+    "name": "fmt",
+    "version": "11.2.0-4.fc44",
+    "arch": "x86_64",
+    "file": "fmt-11.2.0-4.fc44.x86_64.rpm",
+    "bytes": 108140
+  },
+  {
+    "name": "fontconfig",
+    "version": "2.17.0-4.fc44",
+    "arch": "x86_64",
+    "file": "fontconfig-2.17.0-4.fc44.x86_64.rpm",
+    "bytes": 284841
+  },
+  {
+    "name": "fonts-filesystem",
+    "version": "5.0.0-2.fc44",
+    "arch": "noarch",
+    "file": "fonts-filesystem-5.0.0-2.fc44.noarch.rpm",
+    "bytes": 9111
+  },
+  {
+    "name": "fpaste",
+    "version": "0.5.0.0-4.fc44",
+    "arch": "noarch",
+    "file": "fpaste-0.5.0.0-4.fc44.noarch.rpm",
+    "bytes": 34506
+  },
+  {
+    "name": "freetype",
+    "version": "2.14.3-1.fc44",
+    "arch": "x86_64",
+    "file": "freetype-2.14.3-1.fc44.x86_64.rpm",
+    "bytes": 454638
+  },
+  {
+    "name": "fribidi",
+    "version": "1.0.16-4.fc44",
+    "arch": "x86_64",
+    "file": "fribidi-1.0.16-4.fc44.x86_64.rpm",
+    "bytes": 55049
+  },
+  {
+    "name": "fuse-common",
+    "version": "3.18.3-1.fc44",
+    "arch": "x86_64",
+    "file": "fuse-common-3.18.3-1.fc44.x86_64.rpm",
+    "bytes": 8248
+  },
+  {
+    "name": "fuse3",
+    "version": "3.18.3-1.fc44",
+    "arch": "x86_64",
+    "file": "fuse3-3.18.3-1.fc44.x86_64.rpm",
+    "bytes": 64702
+  },
+  {
+    "name": "fuse3-libs",
+    "version": "3.18.3-1.fc44",
+    "arch": "x86_64",
+    "file": "fuse3-libs-3.18.3-1.fc44.x86_64.rpm",
+    "bytes": 104693
+  },
+  {
+    "name": "fwupd",
+    "version": "2.1.8-1.fc44",
+    "arch": "x86_64",
+    "file": "fwupd-2.1.8-1.fc44.x86_64.rpm",
+    "bytes": 3332889
+  },
+  {
+    "name": "game-music-emu",
+    "version": "0.6.4-3.fc44",
+    "arch": "x86_64",
+    "file": "game-music-emu-0.6.4-3.fc44.x86_64.rpm",
+    "bytes": 176375
+  },
+  {
+    "name": "gawk",
+    "version": "5.3.2-3.fc44",
+    "arch": "x86_64",
+    "file": "gawk-5.3.2-3.fc44.x86_64.rpm",
+    "bytes": 1190532
+  },
+  {
+    "name": "gcr-libs",
+    "version": "4.4.1-1.fc44",
+    "arch": "x86_64",
+    "file": "gcr-libs-4.4.1-1.fc44.x86_64.rpm",
+    "bytes": 515122
+  },
+  {
+    "name": "gdbm",
+    "version": "1.23-11.fc44",
+    "arch": "x86_64",
+    "file": "gdbm-1.23-11.fc44.x86_64.rpm",
+    "bytes": 156723
+  },
+  {
+    "name": "gdbm-libs",
+    "version": "1.23-11.fc44",
+    "arch": "x86_64",
+    "file": "gdbm-libs-1.23-11.fc44.x86_64.rpm",
+    "bytes": 60220
+  },
+  {
+    "name": "gdk-pixbuf2",
+    "version": "2.44.6^really2.44.4-3.fc44",
+    "arch": "x86_64",
+    "file": "gdk-pixbuf2-2.44.6^really2.44.4-3.fc44.x86_64.rpm",
+    "bytes": 502171
+  },
+  {
+    "name": "geoclue2",
+    "version": "2.8.2-1.fc44",
+    "arch": "x86_64",
+    "file": "geoclue2-2.8.2-1.fc44.x86_64.rpm",
+    "bytes": 152796
+  },
+  {
+    "name": "gettext-envsubst",
+    "version": "0.26-5.fc44",
+    "arch": "x86_64",
+    "file": "gettext-envsubst-0.26-5.fc44.x86_64.rpm",
+    "bytes": 46420
+  },
+  {
+    "name": "gettext-libs",
+    "version": "0.26-5.fc44",
+    "arch": "x86_64",
+    "file": "gettext-libs-0.26-5.fc44.x86_64.rpm",
+    "bytes": 808249
+  },
+  {
+    "name": "gettext-runtime",
+    "version": "0.26-5.fc44",
+    "arch": "x86_64",
+    "file": "gettext-runtime-0.26-5.fc44.x86_64.rpm",
+    "bytes": 178526
+  },
+  {
+    "name": "giflib",
+    "version": "6.1.3-2.fc44",
+    "arch": "x86_64",
+    "file": "giflib-6.1.3-2.fc44.x86_64.rpm",
+    "bytes": 56991
+  },
+  {
+    "name": "git-core",
+    "version": "2.56.0-1.fc44",
+    "arch": "x86_64",
+    "file": "git-core-2.56.0-1.fc44.x86_64.rpm",
+    "bytes": 6023069
+  },
+  {
+    "name": "glib-networking",
+    "version": "2.80.1-4.fc44",
+    "arch": "x86_64",
+    "file": "glib-networking-2.80.1-4.fc44.x86_64.rpm",
+    "bytes": 207724
+  },
+  {
+    "name": "glib2",
+    "version": "2.88.4-1.fc44",
+    "arch": "x86_64",
+    "file": "glib2-2.88.4-1.fc44.x86_64.rpm",
+    "bytes": 3300633
+  },
+  {
+    "name": "glibc",
+    "version": "2.43-9.fc44",
+    "arch": "x86_64",
+    "file": "glibc-2.43-9.fc44.x86_64.rpm",
+    "bytes": 2486629
+  },
+  {
+    "name": "glibc-common",
+    "version": "2.43-9.fc44",
+    "arch": "x86_64",
+    "file": "glibc-common-2.43-9.fc44.x86_64.rpm",
+    "bytes": 384572
+  },
+  {
+    "name": "glibc-gconv-extra",
+    "version": "2.43-9.fc44",
+    "arch": "x86_64",
+    "file": "glibc-gconv-extra-2.43-9.fc44.x86_64.rpm",
+    "bytes": 1709698
+  },
+  {
+    "name": "glibc-minimal-langpack",
+    "version": "2.43-9.fc44",
+    "arch": "x86_64",
+    "file": "glibc-minimal-langpack-2.43-9.fc44.x86_64.rpm",
+    "bytes": 87437
+  },
+  {
+    "name": "glx-utils",
+    "version": "9.0.0-11.fc44",
+    "arch": "x86_64",
+    "file": "glx-utils-9.0.0-11.fc44.x86_64.rpm",
+    "bytes": 72140
+  },
+  {
+    "name": "glycin-libs",
+    "version": "2.1.5-1.fc44",
+    "arch": "x86_64",
+    "file": "glycin-libs-2.1.5-1.fc44.x86_64.rpm",
+    "bytes": 1621017
+  },
+  {
+    "name": "glycin-loaders",
+    "version": "2.1.5-1.fc44",
+    "arch": "x86_64",
+    "file": "glycin-loaders-2.1.5-1.fc44.x86_64.rpm",
+    "bytes": 3372440
+  },
+  {
+    "name": "gmp",
+    "version": "6.3.0-5.fc44",
+    "arch": "x86_64",
+    "file": "gmp-6.3.0-5.fc44.x86_64.rpm",
+    "bytes": 330200
+  },
+  {
+    "name": "gnome-online-accounts-libs",
+    "version": "3.58.1-1.fc44",
+    "arch": "x86_64",
+    "file": "gnome-online-accounts-libs-3.58.1-1.fc44.x86_64.rpm",
+    "bytes": 224281
+  },
+  {
+    "name": "gnulib-l10n",
+    "version": "20241231-2.fc44",
+    "arch": "noarch",
+    "file": "gnulib-l10n-20241231-2.fc44.noarch.rpm",
+    "bytes": 153933
+  },
+  {
+    "name": "gnupg2",
+    "version": "2.4.9-16.fc44",
+    "arch": "x86_64",
+    "file": "gnupg2-2.4.9-16.fc44.x86_64.rpm",
+    "bytes": 1733865
+  },
+  {
+    "name": "gnupg2-dirmngr",
+    "version": "2.4.9-16.fc44",
+    "arch": "x86_64",
+    "file": "gnupg2-dirmngr-2.4.9-16.fc44.x86_64.rpm",
+    "bytes": 288103
+  },
+  {
+    "name": "gnupg2-gpg-agent",
+    "version": "2.4.9-16.fc44",
+    "arch": "x86_64",
+    "file": "gnupg2-gpg-agent-2.4.9-16.fc44.x86_64.rpm",
+    "bytes": 287924
+  },
+  {
+    "name": "gnupg2-gpgconf",
+    "version": "2.4.9-16.fc44",
+    "arch": "x86_64",
+    "file": "gnupg2-gpgconf-2.4.9-16.fc44.x86_64.rpm",
+    "bytes": 119404
+  },
+  {
+    "name": "gnupg2-keyboxd",
+    "version": "2.4.9-16.fc44",
+    "arch": "x86_64",
+    "file": "gnupg2-keyboxd-2.4.9-16.fc44.x86_64.rpm",
+    "bytes": 99074
+  },
+  {
+    "name": "gnupg2-verify",
+    "version": "2.4.9-16.fc44",
+    "arch": "x86_64",
+    "file": "gnupg2-verify-2.4.9-16.fc44.x86_64.rpm",
+    "bytes": 180559
+  },
+  {
+    "name": "gnutls",
+    "version": "3.8.13-1.fc44",
+    "arch": "x86_64",
+    "file": "gnutls-3.8.13-1.fc44.x86_64.rpm",
+    "bytes": 1495935
+  },
+  {
+    "name": "gobject-introspection",
+    "version": "1.86.0-3.fc44",
+    "arch": "x86_64",
+    "file": "gobject-introspection-1.86.0-3.fc44.x86_64.rpm",
+    "bytes": 125663
+  },
+  {
+    "name": "google-crc32c",
+    "version": "1.1.2-13.fc44",
+    "arch": "x86_64",
+    "file": "google-crc32c-1.1.2-13.fc44.x86_64.rpm",
+    "bytes": 22880
+  },
+  {
+    "name": "google-noto-color-emoji-fonts",
+    "version": "20260921-1.fc44",
+    "arch": "noarch",
+    "file": "google-noto-color-emoji-fonts-20260921-1.fc44.noarch.rpm",
+    "bytes": 2532619
+  },
+  {
+    "name": "google-noto-fonts-common",
+    "version": "20251201-2.fc44",
+    "arch": "noarch",
+    "file": "google-noto-fonts-common-20251201-2.fc44.noarch.rpm",
+    "bytes": 18160
+  },
+  {
+    "name": "google-noto-sans-fonts",
+    "version": "20251201-2.fc44",
+    "arch": "noarch",
+    "file": "google-noto-sans-fonts-20251201-2.fc44.noarch.rpm",
+    "bytes": 11680937
+  },
+  {
+    "name": "google-noto-sans-mono-fonts",
+    "version": "20251201-2.fc44",
+    "arch": "noarch",
+    "file": "google-noto-sans-mono-fonts-20251201-2.fc44.noarch.rpm",
+    "bytes": 5084762
+  },
+  {
+    "name": "google-noto-sans-vf-fonts",
+    "version": "20251201-2.fc44",
+    "arch": "noarch",
+    "file": "google-noto-sans-vf-fonts-20251201-2.fc44.noarch.rpm",
+    "bytes": 629682
+  },
+  {
+    "name": "gpgme",
+    "version": "2.0.1-5.fc44",
+    "arch": "x86_64",
+    "file": "gpgme-2.0.1-5.fc44.x86_64.rpm",
+    "bytes": 237457
+  },
+  {
+    "name": "gpgmepp",
+    "version": "2.0.1-5.fc44",
+    "arch": "x86_64",
+    "file": "gpgmepp-2.0.1-5.fc44.x86_64.rpm",
+    "bytes": 153108
+  },
+  {
+    "name": "gpsd-libs",
+    "version": "3.27.5-5.fc44",
+    "arch": "x86_64",
+    "file": "gpsd-libs-3.27.5-5.fc44.x86_64.rpm",
+    "bytes": 73873
+  },
+  {
+    "name": "graphene",
+    "version": "1.10.8-4.fc44",
+    "arch": "x86_64",
+    "file": "graphene-1.10.8-4.fc44.x86_64.rpm",
+    "bytes": 62387
+  },
+  {
+    "name": "graphite2",
+    "version": "1.3.14-20.fc44",
+    "arch": "x86_64",
+    "file": "graphite2-1.3.14-20.fc44.x86_64.rpm",
+    "bytes": 98861
+  },
+  {
+    "name": "grep",
+    "version": "3.12-3.fc44",
+    "arch": "x86_64",
+    "file": "grep-3.12-3.fc44.x86_64.rpm",
+    "bytes": 308807
+  },
+  {
+    "name": "groff-base",
+    "version": "1.23.0-12.fc44",
+    "arch": "x86_64",
+    "file": "groff-base-1.23.0-12.fc44.x86_64.rpm",
+    "bytes": 1177840
+  },
+  {
+    "name": "grub2-common",
+    "version": "2.12-66.fc44",
+    "arch": "noarch",
+    "file": "grub2-common-2.12-66.fc44.noarch.rpm",
+    "bytes": 1045896
+  },
+  {
+    "name": "grub2-efi-x64",
+    "version": "2.12-66.fc44",
+    "arch": "x86_64",
+    "file": "grub2-efi-x64-2.12-66.fc44.x86_64.rpm",
+    "bytes": 2223623
+  },
+  {
+    "name": "grub2-pc",
+    "version": "2.12-66.fc44",
+    "arch": "x86_64",
+    "file": "grub2-pc-2.12-66.fc44.x86_64.rpm",
+    "bytes": 15786
+  },
+  {
+    "name": "grub2-pc-modules",
+    "version": "2.12-66.fc44",
+    "arch": "noarch",
+    "file": "grub2-pc-modules-2.12-66.fc44.noarch.rpm",
+    "bytes": 1160848
+  },
+  {
+    "name": "grub2-tools",
+    "version": "2.12-66.fc44",
+    "arch": "x86_64",
+    "file": "grub2-tools-2.12-66.fc44.x86_64.rpm",
+    "bytes": 1927813
+  },
+  {
+    "name": "grub2-tools-minimal",
+    "version": "2.12-66.fc44",
+    "arch": "x86_64",
+    "file": "grub2-tools-minimal-2.12-66.fc44.x86_64.rpm",
+    "bytes": 708199
+  },
+  {
+    "name": "gsettings-desktop-schemas",
+    "version": "50.1-1.fc44",
+    "arch": "x86_64",
+    "file": "gsettings-desktop-schemas-50.1-1.fc44.x86_64.rpm",
+    "bytes": 885128
+  },
+  {
+    "name": "gsm",
+    "version": "1.0.24-2.fc44",
+    "arch": "x86_64",
+    "file": "gsm-1.0.24-2.fc44.x86_64.rpm",
+    "bytes": 36888
+  },
+  {
+    "name": "gssdp",
+    "version": "1.6.6-1.fc44",
+    "arch": "x86_64",
+    "file": "gssdp-1.6.6-1.fc44.x86_64.rpm",
+    "bytes": 61799
+  },
+  {
+    "name": "gstreamer1",
+    "version": "1.28.8-1.fc44",
+    "arch": "x86_64",
+    "file": "gstreamer1-1.28.8-1.fc44.x86_64.rpm",
+    "bytes": 1782644
+  },
+  {
+    "name": "gstreamer1-plugins-bad-free-libs",
+    "version": "1.28.8-1.fc44",
+    "arch": "x86_64",
+    "file": "gstreamer1-plugins-bad-free-libs-1.28.8-1.fc44.x86_64.rpm",
+    "bytes": 1235161
+  },
+  {
+    "name": "gstreamer1-plugins-base",
+    "version": "1.28.8-1.fc44",
+    "arch": "x86_64",
+    "file": "gstreamer1-plugins-base-1.28.8-1.fc44.x86_64.rpm",
+    "bytes": 2468491
+  },
+  {
+    "name": "gtk-update-icon-cache",
+    "version": "3.24.52-2.fc44",
+    "arch": "x86_64",
+    "file": "gtk-update-icon-cache-3.24.52-2.fc44.x86_64.rpm",
+    "bytes": 34659
+  },
+  {
+    "name": "gtk3",
+    "version": "3.24.52-2.fc44",
+    "arch": "x86_64",
+    "file": "gtk3-3.24.52-2.fc44.x86_64.rpm",
+    "bytes": 6357077
+  },
+  {
+    "name": "gtk4",
+    "version": "4.22.5-2.fc44",
+    "arch": "x86_64",
+    "file": "gtk4-4.22.5-2.fc44.x86_64.rpm",
+    "bytes": 7052345
+  },
+  {
+    "name": "gupnp",
+    "version": "1.6.10-1.fc44",
+    "arch": "x86_64",
+    "file": "gupnp-1.6.10-1.fc44.x86_64.rpm",
+    "bytes": 112552
+  },
+  {
+    "name": "gupnp-igd",
+    "version": "1.6.0-8.fc44",
+    "arch": "x86_64",
+    "file": "gupnp-igd-1.6.0-8.fc44.x86_64.rpm",
+    "bytes": 34891
+  },
+  {
+    "name": "gvfs",
+    "version": "1.60.3-1.fc44",
+    "arch": "x86_64",
+    "file": "gvfs-1.60.3-1.fc44.x86_64.rpm",
+    "bytes": 374071
+  },
+  {
+    "name": "gvfs-archive",
+    "version": "1.60.3-1.fc44",
+    "arch": "x86_64",
+    "file": "gvfs-archive-1.60.3-1.fc44.x86_64.rpm",
+    "bytes": 24150
+  },
+  {
+    "name": "gvfs-client",
+    "version": "1.60.3-1.fc44",
+    "arch": "x86_64",
+    "file": "gvfs-client-1.60.3-1.fc44.x86_64.rpm",
+    "bytes": 790793
+  },
+  {
+    "name": "gvfs-fuse",
+    "version": "1.60.3-1.fc44",
+    "arch": "x86_64",
+    "file": "gvfs-fuse-1.60.3-1.fc44.x86_64.rpm",
+    "bytes": 30947
+  },
+  {
+    "name": "gvfs-goa",
+    "version": "1.60.3-1.fc44",
+    "arch": "x86_64",
+    "file": "gvfs-goa-1.60.3-1.fc44.x86_64.rpm",
+    "bytes": 60798
+  },
+  {
+    "name": "gzip",
+    "version": "1.14-2.fc44",
+    "arch": "x86_64",
+    "file": "gzip-1.14-2.fc44.x86_64.rpm",
+    "bytes": 183368
+  },
+  {
+    "name": "harfbuzz",
+    "version": "14.1.0-2.fc44",
+    "arch": "x86_64",
+    "file": "harfbuzz-14.1.0-2.fc44.x86_64.rpm",
+    "bytes": 1157427
+  },
+  {
+    "name": "hicolor-icon-theme",
+    "version": "0.18-3.fc44",
+    "arch": "noarch",
+    "file": "hicolor-icon-theme-0.18-3.fc44.noarch.rpm",
+    "bytes": 67588
+  },
+  {
+    "name": "highway",
+    "version": "1.3.0-2.fc44",
+    "arch": "x86_64",
+    "file": "highway-1.3.0-2.fc44.x86_64.rpm",
+    "bytes": 711295
+  },
+  {
+    "name": "hostname",
+    "version": "3.25-4.fc44",
+    "arch": "x86_64",
+    "file": "hostname-3.25-4.fc44.x86_64.rpm",
+    "bytes": 28314
+  },
+  {
+    "name": "hunspell",
+    "version": "1.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "hunspell-1.7.5-1.fc44.x86_64.rpm",
+    "bytes": 462598
+  },
+  {
+    "name": "hunspell-en-US",
+    "version": "0.20260225-2.fc44",
+    "arch": "noarch",
+    "file": "hunspell-en-US-0.20260225-2.fc44.noarch.rpm",
+    "bytes": 175103
+  },
+  {
+    "name": "hunspell-filesystem",
+    "version": "1.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "hunspell-filesystem-1.7.5-1.fc44.x86_64.rpm",
+    "bytes": 8006
+  },
+  {
+    "name": "hwdata",
+    "version": "0.412-1.fc44",
+    "arch": "noarch",
+    "file": "hwdata-0.412-1.fc44.noarch.rpm",
+    "bytes": 1798675
+  },
+  {
+    "name": "i2c-tools",
+    "version": "4.4-4.fc44",
+    "arch": "x86_64",
+    "file": "i2c-tools-4.4-4.fc44.x86_64.rpm",
+    "bytes": 72991
+  },
+  {
+    "name": "ibus-libs",
+    "version": "1.5.34-4.fc44",
+    "arch": "x86_64",
+    "file": "ibus-libs-1.5.34-4.fc44.x86_64.rpm",
+    "bytes": 275150
+  },
+  {
+    "name": "iio-sensor-proxy",
+    "version": "3.8-2.fc44",
+    "arch": "x86_64",
+    "file": "iio-sensor-proxy-3.8-2.fc44.x86_64.rpm",
+    "bytes": 67793
+  },
+  {
+    "name": "ilbc",
+    "version": "3.0.4-19.fc44",
+    "arch": "x86_64",
+    "file": "ilbc-3.0.4-19.fc44.x86_64.rpm",
+    "bytes": 58598
+  },
+  {
+    "name": "ima-evm-utils-libs",
+    "version": "1.6.2-8.fc44",
+    "arch": "x86_64",
+    "file": "ima-evm-utils-libs-1.6.2-8.fc44.x86_64.rpm",
+    "bytes": 30680
+  },
+  {
+    "name": "imath",
+    "version": "3.1.12-6.fc44",
+    "arch": "x86_64",
+    "file": "imath-3.1.12-6.fc44.x86_64.rpm",
+    "bytes": 104173
+  },
+  {
+    "name": "inih",
+    "version": "62-2.fc44",
+    "arch": "x86_64",
+    "file": "inih-62-2.fc44.x86_64.rpm",
+    "bytes": 18694
+  },
+  {
+    "name": "inih-cpp",
+    "version": "62-2.fc44",
+    "arch": "x86_64",
+    "file": "inih-cpp-62-2.fc44.x86_64.rpm",
+    "bytes": 25578
+  },
+  {
+    "name": "intel-audio-firmware",
+    "version": "20261019-1.fc44",
+    "arch": "noarch",
+    "file": "intel-audio-firmware-20261019-1.fc44.noarch.rpm",
+    "bytes": 3725181
+  },
+  {
+    "name": "intel-gpu-firmware",
+    "version": "20261019-1.fc44",
+    "arch": "noarch",
+    "file": "intel-gpu-firmware-20261019-1.fc44.noarch.rpm",
+    "bytes": 12819214
+  },
+  {
+    "name": "iproute",
+    "version": "6.17.0-2.fc44",
+    "arch": "x86_64",
+    "file": "iproute-6.17.0-2.fc44.x86_64.rpm",
+    "bytes": 884945
+  },
+  {
+    "name": "iptables-libs",
+    "version": "1.8.11-13.fc44",
+    "arch": "x86_64",
+    "file": "iptables-libs-1.8.11-13.fc44.x86_64.rpm",
+    "bytes": 415255
+  },
+  {
+    "name": "iputils",
+    "version": "20250605-2.fc44",
+    "arch": "x86_64",
+    "file": "iputils-20250605-2.fc44.x86_64.rpm",
+    "bytes": 215270
+  },
+  {
+    "name": "iso-codes",
+    "version": "4.20.1-3.fc44",
+    "arch": "noarch",
+    "file": "iso-codes-4.20.1-3.fc44.noarch.rpm",
+    "bytes": 4146444
+  },
+  {
+    "name": "iw",
+    "version": "6.17-2.fc44",
+    "arch": "x86_64",
+    "file": "iw-6.17-2.fc44.x86_64.rpm",
+    "bytes": 127472
+  },
+  {
+    "name": "iwlbluetooth-firmware",
+    "version": "20261019-1.fc44",
+    "arch": "noarch",
+    "file": "iwlbluetooth-firmware-20261019-1.fc44.noarch.rpm",
+    "bytes": 12648626
+  },
+  {
+    "name": "iwlwifi-dvm-firmware",
+    "version": "20261019-1.fc44",
+    "arch": "noarch",
+    "file": "iwlwifi-dvm-firmware-20261019-1.fc44.noarch.rpm",
+    "bytes": 1945585
+  },
+  {
+    "name": "iwlwifi-mld-firmware",
+    "version": "20261019-1.fc44",
+    "arch": "noarch",
+    "file": "iwlwifi-mld-firmware-20261019-1.fc44.noarch.rpm",
+    "bytes": 27342379
+  },
+  {
+    "name": "iwlwifi-mvm-firmware",
+    "version": "20261019-1.fc44",
+    "arch": "noarch",
+    "file": "iwlwifi-mvm-firmware-20261019-1.fc44.noarch.rpm",
+    "bytes": 63570376
+  },
+  {
+    "name": "jansson",
+    "version": "2.14-4.fc44",
+    "arch": "x86_64",
+    "file": "jansson-2.14-4.fc44.x86_64.rpm",
+    "bytes": 48245
+  },
+  {
+    "name": "jbigkit-libs",
+    "version": "2.1-33.fc44",
+    "arch": "x86_64",
+    "file": "jbigkit-libs-2.1-33.fc44.x86_64.rpm",
+    "bytes": 55575
+  },
+  {
+    "name": "json-c",
+    "version": "0.18-8.fc44",
+    "arch": "x86_64",
+    "file": "json-c-0.18-8.fc44.x86_64.rpm",
+    "bytes": 47441
+  },
+  {
+    "name": "json-glib",
+    "version": "1.10.8-5.fc44",
+    "arch": "x86_64",
+    "file": "json-glib-1.10.8-5.fc44.x86_64.rpm",
+    "bytes": 179723
+  },
+  {
+    "name": "jsoncpp",
+    "version": "1.9.6-3.fc44",
+    "arch": "x86_64",
+    "file": "jsoncpp-1.9.6-3.fc44.x86_64.rpm",
+    "bytes": 112660
+  },
+  {
+    "name": "kaccounts-integration-qt6",
+    "version": "26.08.1-1.fc44",
+    "arch": "x86_64",
+    "file": "kaccounts-integration-qt6-26.08.1-1.fc44.x86_64.rpm",
+    "bytes": 219425
+  },
+  {
+    "name": "kactivitymanagerd",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "kactivitymanagerd-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 294139
+  },
+  {
+    "name": "kbd",
+    "version": "2.9.0-4.fc44",
+    "arch": "x86_64",
+    "file": "kbd-2.9.0-4.fc44.x86_64.rpm",
+    "bytes": 398326
+  },
+  {
+    "name": "kbd-legacy",
+    "version": "2.9.0-4.fc44",
+    "arch": "noarch",
+    "file": "kbd-legacy-2.9.0-4.fc44.noarch.rpm",
+    "bytes": 595210
+  },
+  {
+    "name": "kbd-misc",
+    "version": "2.9.0-4.fc44",
+    "arch": "noarch",
+    "file": "kbd-misc-2.9.0-4.fc44.noarch.rpm",
+    "bytes": 1732352
+  },
+  {
+    "name": "kcm-plasma-keyboard",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "kcm-plasma-keyboard-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 70730
+  },
+  {
+    "name": "kde-cli-tools",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "kde-cli-tools-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 922143
+  },
+  {
+    "name": "kde-filesystem",
+    "version": "5-7.fc44",
+    "arch": "x86_64",
+    "file": "kde-filesystem-5-7.fc44.x86_64.rpm",
+    "bytes": 38720
+  },
+  {
+    "name": "kde-settings",
+    "version": "44.0-1.fc44",
+    "arch": "noarch",
+    "file": "kde-settings-44.0-1.fc44.noarch.rpm",
+    "bytes": 43147
+  },
+  {
+    "name": "kde-settings-plasma",
+    "version": "44.0-1.fc44",
+    "arch": "noarch",
+    "file": "kde-settings-plasma-44.0-1.fc44.noarch.rpm",
+    "bytes": 14614
+  },
+  {
+    "name": "kde-settings-sddm",
+    "version": "44.0-1.fc44",
+    "arch": "noarch",
+    "file": "kde-settings-sddm-44.0-1.fc44.noarch.rpm",
+    "bytes": 9941
+  },
+  {
+    "name": "kdecoration",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "kdecoration-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 129023
+  },
+  {
+    "name": "kdegraphics-mobipocket",
+    "version": "26.08.1-1.fc44",
+    "arch": "x86_64",
+    "file": "kdegraphics-mobipocket-26.08.1-1.fc44.x86_64.rpm",
+    "bytes": 34045
+  },
+  {
+    "name": "kdesu",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "kdesu-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 278324
+  },
+  {
+    "name": "kdsoap-ws-discovery-client",
+    "version": "0.4.0-6.fc44",
+    "arch": "x86_64",
+    "file": "kdsoap-ws-discovery-client-0.4.0-6.fc44.x86_64.rpm",
+    "bytes": 79448
+  },
+  {
+    "name": "kdsoap6",
+    "version": "2.2.0-9.fc44",
+    "arch": "x86_64",
+    "file": "kdsoap6-2.2.0-9.fc44.x86_64.rpm",
+    "bytes": 152357
+  },
+  {
+    "name": "keditbookmarks",
+    "version": "26.08.1-1.fc44",
+    "arch": "x86_64",
+    "file": "keditbookmarks-26.08.1-1.fc44.x86_64.rpm",
+    "bytes": 449934
+  },
+  {
+    "name": "keditbookmarks-libs",
+    "version": "26.08.1-1.fc44",
+    "arch": "x86_64",
+    "file": "keditbookmarks-libs-26.08.1-1.fc44.x86_64.rpm",
+    "bytes": 52437
+  },
+  {
+    "name": "kernel",
+    "version": "7.2.11-200.fc44",
+    "arch": "x86_64",
+    "file": "kernel-7.2.11-200.fc44.x86_64.rpm",
+    "bytes": 250333
+  },
+  {
+    "name": "kernel-core",
+    "version": "7.2.11-200.fc44",
+    "arch": "x86_64",
+    "file": "kernel-core-7.2.11-200.fc44.x86_64.rpm",
+    "bytes": 21872965
+  },
+  {
+    "name": "kernel-modules",
+    "version": "7.2.11-200.fc44",
+    "arch": "x86_64",
+    "file": "kernel-modules-7.2.11-200.fc44.x86_64.rpm",
+    "bytes": 78791985
+  },
+  {
+    "name": "kernel-modules-core",
+    "version": "7.2.11-200.fc44",
+    "arch": "x86_64",
+    "file": "kernel-modules-core-7.2.11-200.fc44.x86_64.rpm",
+    "bytes": 50817729
+  },
+  {
+    "name": "kernel-modules-extra",
+    "version": "7.2.11-200.fc44",
+    "arch": "x86_64",
+    "file": "kernel-modules-extra-7.2.11-200.fc44.x86_64.rpm",
+    "bytes": 3058741
+  },
+  {
+    "name": "keyutils-libs",
+    "version": "1.6.3-7.fc44",
+    "arch": "x86_64",
+    "file": "keyutils-libs-1.6.3-7.fc44.x86_64.rpm",
+    "bytes": 32285
+  },
+  {
+    "name": "kf6-attica",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-attica-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 215295
+  },
+  {
+    "name": "kf6-baloo",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-baloo-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 416430
+  },
+  {
+    "name": "kf6-baloo-libs",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-baloo-libs-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 295536
+  },
+  {
+    "name": "kf6-bluez-qt",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-bluez-qt-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 373637
+  },
+  {
+    "name": "kf6-breeze-icons",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-breeze-icons-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 3021334
+  },
+  {
+    "name": "kf6-filesystem",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-filesystem-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 11502
+  },
+  {
+    "name": "kf6-frameworkintegration",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-frameworkintegration-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 71292
+  },
+  {
+    "name": "kf6-frameworkintegration-libs",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-frameworkintegration-libs-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 46772
+  },
+  {
+    "name": "kf6-karchive",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-karchive-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 233557
+  },
+  {
+    "name": "kf6-kauth",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kauth-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 164460
+  },
+  {
+    "name": "kf6-kbookmarks",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kbookmarks-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 172631
+  },
+  {
+    "name": "kf6-kcmutils",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kcmutils-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 402213
+  },
+  {
+    "name": "kf6-kcodecs",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kcodecs-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 229476
+  },
+  {
+    "name": "kf6-kcolorscheme",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kcolorscheme-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 96961
+  },
+  {
+    "name": "kf6-kcompletion",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kcompletion-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 161282
+  },
+  {
+    "name": "kf6-kconfig",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kconfig-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 609929
+  },
+  {
+    "name": "kf6-kconfigwidgets",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kconfigwidgets-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 435849
+  },
+  {
+    "name": "kf6-kcoreaddons",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kcoreaddons-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 590489
+  },
+  {
+    "name": "kf6-kcrash",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kcrash-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 46498
+  },
+  {
+    "name": "kf6-kdbusaddons",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kdbusaddons-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 117458
+  },
+  {
+    "name": "kf6-kdeclarative",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kdeclarative-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 278815
+  },
+  {
+    "name": "kf6-kded",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kded-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 99400
+  },
+  {
+    "name": "kf6-kdesu",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kdesu-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 119656
+  },
+  {
+    "name": "kf6-kdnssd",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kdnssd-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 136002
+  },
+  {
+    "name": "kf6-kdoctools",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kdoctools-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 852170
+  },
+  {
+    "name": "kf6-kfilemetadata",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kfilemetadata-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 353473
+  },
+  {
+    "name": "kf6-kglobalaccel",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kglobalaccel-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 151054
+  },
+  {
+    "name": "kf6-kguiaddons",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kguiaddons-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 201109
+  },
+  {
+    "name": "kf6-kholidays",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kholidays-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 377718
+  },
+  {
+    "name": "kf6-ki18n",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-ki18n-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 1860911
+  },
+  {
+    "name": "kf6-kiconthemes",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kiconthemes-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 232674
+  },
+  {
+    "name": "kf6-kidletime",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kidletime-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 71732
+  },
+  {
+    "name": "kf6-kimageformats",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kimageformats-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 796293
+  },
+  {
+    "name": "kf6-kio-core",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kio-core-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 598914
+  },
+  {
+    "name": "kf6-kio-core-libs",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kio-core-libs-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 594676
+  },
+  {
+    "name": "kf6-kio-doc",
+    "version": "6.31.0-1.fc44",
+    "arch": "noarch",
+    "file": "kf6-kio-doc-6.31.0-1.fc44.noarch.rpm",
+    "bytes": 2093354
+  },
+  {
+    "name": "kf6-kio-file-widgets",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kio-file-widgets-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 421434
+  },
+  {
+    "name": "kf6-kio-gui",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kio-gui-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 215732
+  },
+  {
+    "name": "kf6-kio-widgets",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kio-widgets-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 84029
+  },
+  {
+    "name": "kf6-kio-widgets-libs",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kio-widgets-libs-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 453613
+  },
+  {
+    "name": "kf6-kirigami",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kirigami-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 1564430
+  },
+  {
+    "name": "kf6-kirigami-addons",
+    "version": "1.13.1-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kirigami-addons-1.13.1-1.fc44.x86_64.rpm",
+    "bytes": 2280726
+  },
+  {
+    "name": "kf6-kitemmodels",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kitemmodels-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 184182
+  },
+  {
+    "name": "kf6-kitemviews",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kitemviews-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 171224
+  },
+  {
+    "name": "kf6-kjobwidgets",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kjobwidgets-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 200503
+  },
+  {
+    "name": "kf6-knewstuff",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-knewstuff-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 825348
+  },
+  {
+    "name": "kf6-knotifications",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-knotifications-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 145236
+  },
+  {
+    "name": "kf6-knotifyconfig",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-knotifyconfig-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 111298
+  },
+  {
+    "name": "kf6-kpackage",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kpackage-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 240531
+  },
+  {
+    "name": "kf6-kparts",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kparts-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 184660
+  },
+  {
+    "name": "kf6-kpty",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kpty-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 99334
+  },
+  {
+    "name": "kf6-kquickcharts",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kquickcharts-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 239439
+  },
+  {
+    "name": "kf6-krunner",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-krunner-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 167294
+  },
+  {
+    "name": "kf6-kservice",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kservice-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 306005
+  },
+  {
+    "name": "kf6-kstatusnotifieritem",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kstatusnotifieritem-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 150567
+  },
+  {
+    "name": "kf6-ksvg",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-ksvg-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 199466
+  },
+  {
+    "name": "kf6-ktexteditor",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-ktexteditor-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 3062417
+  },
+  {
+    "name": "kf6-ktextwidgets",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-ktextwidgets-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 348606
+  },
+  {
+    "name": "kf6-kunitconversion",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kunitconversion-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 1141292
+  },
+  {
+    "name": "kf6-kuserfeedback",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kuserfeedback-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 311739
+  },
+  {
+    "name": "kf6-kwallet",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kwallet-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 577564
+  },
+  {
+    "name": "kf6-kwallet-libs",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kwallet-libs-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 118260
+  },
+  {
+    "name": "kf6-kwidgetsaddons",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kwidgetsaddons-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 1815440
+  },
+  {
+    "name": "kf6-kwindowsystem",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kwindowsystem-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 292324
+  },
+  {
+    "name": "kf6-kxmlgui",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-kxmlgui-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 773375
+  },
+  {
+    "name": "kf6-modemmanager-qt",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-modemmanager-qt-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 274217
+  },
+  {
+    "name": "kf6-networkmanager-qt",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-networkmanager-qt-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 462120
+  },
+  {
+    "name": "kf6-prison",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-prison-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 103404
+  },
+  {
+    "name": "kf6-qqc2-desktop-style",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-qqc2-desktop-style-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 728399
+  },
+  {
+    "name": "kf6-solid",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-solid-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 541111
+  },
+  {
+    "name": "kf6-sonnet",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-sonnet-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 411734
+  },
+  {
+    "name": "kf6-syndication",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-syndication-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 239884
+  },
+  {
+    "name": "kf6-syntax-highlighting",
+    "version": "6.31.0-1.fc44",
+    "arch": "x86_64",
+    "file": "kf6-syntax-highlighting-6.31.0-1.fc44.x86_64.rpm",
+    "bytes": 1868973
+  },
+  {
+    "name": "kglobalacceld",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "kglobalacceld-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 174634
+  },
+  {
+    "name": "kio-extras",
+    "version": "26.08.1-1.fc44",
+    "arch": "x86_64",
+    "file": "kio-extras-26.08.1-1.fc44.x86_64.rpm",
+    "bytes": 2651410
+  },
+  {
+    "name": "kio-fuse",
+    "version": "5.1.1-3.fc44",
+    "arch": "x86_64",
+    "file": "kio-fuse-5.1.1-3.fc44.x86_64.rpm",
+    "bytes": 106866
+  },
+  {
+    "name": "kmenuedit",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "kmenuedit-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 1142918
+  },
+  {
+    "name": "kmod",
+    "version": "34.2-4.fc44",
+    "arch": "x86_64",
+    "file": "kmod-34.2-4.fc44.x86_64.rpm",
+    "bytes": 139316
+  },
+  {
+    "name": "kmod-libs",
+    "version": "34.2-4.fc44",
+    "arch": "x86_64",
+    "file": "kmod-libs-34.2-4.fc44.x86_64.rpm",
+    "bytes": 72084
+  },
+  {
+    "name": "knighttime",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "knighttime-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 103996
+  },
+  {
+    "name": "konsole",
+    "version": "26.08.1-1.fc44",
+    "arch": "x86_64",
+    "file": "konsole-26.08.1-1.fc44.x86_64.rpm",
+    "bytes": 1476034
+  },
+  {
+    "name": "konsole-part",
+    "version": "26.08.1-1.fc44",
+    "arch": "x86_64",
+    "file": "konsole-part-26.08.1-1.fc44.x86_64.rpm",
+    "bytes": 1120890
+  },
+  {
+    "name": "kpipewire",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "kpipewire-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 217148
+  },
+  {
+    "name": "krb5-libs",
+    "version": "1.22.2-4.fc44",
+    "arch": "x86_64",
+    "file": "krb5-libs-1.22.2-4.fc44.x86_64.rpm",
+    "bytes": 821831
+  },
+  {
+    "name": "kscreenlocker",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "kscreenlocker-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 357291
+  },
+  {
+    "name": "ksystemstats",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "ksystemstats-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 388026
+  },
+  {
+    "name": "kwayland",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "kwayland-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 250808
+  },
+  {
+    "name": "kwin",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "kwin-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 681917
+  },
+  {
+    "name": "kwin-common",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "kwin-common-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 3851126
+  },
+  {
+    "name": "kwin-libs",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "kwin-libs-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 2919751
+  },
+  {
+    "name": "kwrited",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "kwrited-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 42056
+  },
+  {
+    "name": "lame-libs",
+    "version": "3.100-21.fc44",
+    "arch": "x86_64",
+    "file": "lame-libs-3.100-21.fc44.x86_64.rpm",
+    "bytes": 349135
+  },
+  {
+    "name": "layer-shell-qt",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "layer-shell-qt-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 74747
+  },
+  {
+    "name": "lcms2",
+    "version": "2.16-7.fc44",
+    "arch": "x86_64",
+    "file": "lcms2-2.16-7.fc44.x86_64.rpm",
+    "bytes": 195945
+  },
+  {
+    "name": "leptonica",
+    "version": "1.87.0-4.fc44",
+    "arch": "x86_64",
+    "file": "leptonica-1.87.0-4.fc44.x86_64.rpm",
+    "bytes": 1321451
+  },
+  {
+    "name": "less",
+    "version": "710-1.fc44",
+    "arch": "x86_64",
+    "file": "less-710-1.fc44.x86_64.rpm",
+    "bytes": 237089
+  },
+  {
+    "name": "libICE",
+    "version": "1.1.2-4.fc44",
+    "arch": "x86_64",
+    "file": "libICE-1.1.2-4.fc44.x86_64.rpm",
+    "bytes": 82077
+  },
+  {
+    "name": "libSM",
+    "version": "1.2.5-4.fc44",
+    "arch": "x86_64",
+    "file": "libSM-1.2.5-4.fc44.x86_64.rpm",
+    "bytes": 45645
+  },
+  {
+    "name": "libX11",
+    "version": "1.8.13-3.fc44",
+    "arch": "x86_64",
+    "file": "libX11-1.8.13-3.fc44.x86_64.rpm",
+    "bytes": 696289
+  },
+  {
+    "name": "libX11-common",
+    "version": "1.8.13-3.fc44",
+    "arch": "noarch",
+    "file": "libX11-common-1.8.13-3.fc44.noarch.rpm",
+    "bytes": 179489
+  },
+  {
+    "name": "libX11-xcb",
+    "version": "1.8.13-3.fc44",
+    "arch": "x86_64",
+    "file": "libX11-xcb-1.8.13-3.fc44.x86_64.rpm",
+    "bytes": 11093
+  },
+  {
+    "name": "libXNVCtrl",
+    "version": "580.82.09-2.fc44",
+    "arch": "x86_64",
+    "file": "libXNVCtrl-580.82.09-2.fc44.x86_64.rpm",
+    "bytes": 24796
+  },
+  {
+    "name": "libXau",
+    "version": "1.0.12-4.fc44",
+    "arch": "x86_64",
+    "file": "libXau-1.0.12-4.fc44.x86_64.rpm",
+    "bytes": 34530
+  },
+  {
+    "name": "libXaw",
+    "version": "1.0.16-5.fc44",
+    "arch": "x86_64",
+    "file": "libXaw-1.0.16-5.fc44.x86_64.rpm",
+    "bytes": 208950
+  },
+  {
+    "name": "libXcomposite",
+    "version": "0.4.6-7.fc44",
+    "arch": "x86_64",
+    "file": "libXcomposite-0.4.6-7.fc44.x86_64.rpm",
+    "bytes": 24761
+  },
+  {
+    "name": "libXcursor",
+    "version": "1.2.3-4.fc44",
+    "arch": "x86_64",
+    "file": "libXcursor-1.2.3-4.fc44.x86_64.rpm",
+    "bytes": 33267
+  },
+  {
+    "name": "libXdamage",
+    "version": "1.1.6-7.fc44",
+    "arch": "x86_64",
+    "file": "libXdamage-1.1.6-7.fc44.x86_64.rpm",
+    "bytes": 23833
+  },
+  {
+    "name": "libXdmcp",
+    "version": "1.1.5-5.fc44",
+    "arch": "x86_64",
+    "file": "libXdmcp-1.1.5-5.fc44.x86_64.rpm",
+    "bytes": 38012
+  },
+  {
+    "name": "libXext",
+    "version": "1.3.6-5.fc44",
+    "arch": "x86_64",
+    "file": "libXext-1.3.6-5.fc44.x86_64.rpm",
+    "bytes": 41697
+  },
+  {
+    "name": "libXfixes",
+    "version": "6.0.1-7.fc44",
+    "arch": "x86_64",
+    "file": "libXfixes-6.0.1-7.fc44.x86_64.rpm",
+    "bytes": 19765
+  },
+  {
+    "name": "libXfont2",
+    "version": "2.0.9-1.fc44",
+    "arch": "x86_64",
+    "file": "libXfont2-2.0.9-1.fc44.x86_64.rpm",
+    "bytes": 138424
+  },
+  {
+    "name": "libXft",
+    "version": "2.3.8-10.fc44",
+    "arch": "x86_64",
+    "file": "libXft-2.3.8-10.fc44.x86_64.rpm",
+    "bytes": 76042
+  },
+  {
+    "name": "libXi",
+    "version": "1.8.3-1.fc44",
+    "arch": "x86_64",
+    "file": "libXi-1.8.3-1.fc44.x86_64.rpm",
+    "bytes": 42250
+  },
+  {
+    "name": "libXinerama",
+    "version": "1.1.5-10.fc44",
+    "arch": "x86_64",
+    "file": "libXinerama-1.1.5-10.fc44.x86_64.rpm",
+    "bytes": 14650
+  },
+  {
+    "name": "libXmu",
+    "version": "1.2.1-5.fc44",
+    "arch": "x86_64",
+    "file": "libXmu-1.2.1-5.fc44.x86_64.rpm",
+    "bytes": 81490
+  },
+  {
+    "name": "libXpm",
+    "version": "3.5.17-7.fc44",
+    "arch": "x86_64",
+    "file": "libXpm-3.5.17-7.fc44.x86_64.rpm",
+    "bytes": 68276
+  },
+  {
+    "name": "libXrandr",
+    "version": "1.5.4-7.fc44",
+    "arch": "x86_64",
+    "file": "libXrandr-1.5.4-7.fc44.x86_64.rpm",
+    "bytes": 28475
+  },
+  {
+    "name": "libXrender",
+    "version": "0.9.12-4.fc44",
+    "arch": "x86_64",
+    "file": "libXrender-0.9.12-4.fc44.x86_64.rpm",
+    "bytes": 28557
+  },
+  {
+    "name": "libXt",
+    "version": "1.3.1-4.fc44",
+    "arch": "x86_64",
+    "file": "libXt-1.3.1-4.fc44.x86_64.rpm",
+    "bytes": 189361
+  },
+  {
+    "name": "libXtst",
+    "version": "1.2.5-4.fc44",
+    "arch": "x86_64",
+    "file": "libXtst-1.2.5-4.fc44.x86_64.rpm",
+    "bytes": 21525
+  },
+  {
+    "name": "libXv",
+    "version": "1.0.13-4.fc44",
+    "arch": "x86_64",
+    "file": "libXv-1.0.13-4.fc44.x86_64.rpm",
+    "bytes": 19117
+  },
+  {
+    "name": "libXxf86vm",
+    "version": "1.1.6-4.fc44",
+    "arch": "x86_64",
+    "file": "libXxf86vm-1.1.6-4.fc44.x86_64.rpm",
+    "bytes": 18595
+  },
+  {
+    "name": "libaccounts-glib",
+    "version": "1.25-24.fc44",
+    "arch": "x86_64",
+    "file": "libaccounts-glib-1.25-24.fc44.x86_64.rpm",
+    "bytes": 89848
+  },
+  {
+    "name": "libaccounts-qt6",
+    "version": "1.17-4.fc44",
+    "arch": "x86_64",
+    "file": "libaccounts-qt6-1.17-4.fc44.x86_64.rpm",
+    "bytes": 75785
+  },
+  {
+    "name": "libacl",
+    "version": "2.4.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libacl-2.4.0-1.fc44.x86_64.rpm",
+    "bytes": 27922
+  },
+  {
+    "name": "libadwaita",
+    "version": "1.9.4-1.fc44",
+    "arch": "x86_64",
+    "file": "libadwaita-1.9.4-1.fc44.x86_64.rpm",
+    "bytes": 783403
+  },
+  {
+    "name": "libaom",
+    "version": "3.15.2-1.fc44",
+    "arch": "x86_64",
+    "file": "libaom-3.15.2-1.fc44.x86_64.rpm",
+    "bytes": 2009972
+  },
+  {
+    "name": "libarchive",
+    "version": "3.8.7-1.fc44",
+    "arch": "x86_64",
+    "file": "libarchive-3.8.7-1.fc44.x86_64.rpm",
+    "bytes": 452979
+  },
+  {
+    "name": "libaribcaption",
+    "version": "1.1.1-4.fc44",
+    "arch": "x86_64",
+    "file": "libaribcaption-1.1.1-4.fc44.x86_64.rpm",
+    "bytes": 120480
+  },
+  {
+    "name": "libass",
+    "version": "0.17.4-2.fc44",
+    "arch": "x86_64",
+    "file": "libass-0.17.4-2.fc44.x86_64.rpm",
+    "bytes": 136607
+  },
+  {
+    "name": "libassuan",
+    "version": "2.5.7-5.fc44",
+    "arch": "x86_64",
+    "file": "libassuan-2.5.7-5.fc44.x86_64.rpm",
+    "bytes": 70537
+  },
+  {
+    "name": "libasyncns",
+    "version": "0.8-34.fc44",
+    "arch": "x86_64",
+    "file": "libasyncns-0.8-34.fc44.x86_64.rpm",
+    "bytes": 30914
+  },
+  {
+    "name": "libatasmart",
+    "version": "0.19-32.fc44",
+    "arch": "x86_64",
+    "file": "libatasmart-0.19-32.fc44.x86_64.rpm",
+    "bytes": 49183
+  },
+  {
+    "name": "libattr",
+    "version": "2.6.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libattr-2.6.0-1.fc44.x86_64.rpm",
+    "bytes": 18214
+  },
+  {
+    "name": "libavcodec-free",
+    "version": "8.1.3-1.fc44",
+    "arch": "x86_64",
+    "file": "libavcodec-free-8.1.3-1.fc44.x86_64.rpm",
+    "bytes": 4720901
+  },
+  {
+    "name": "libavfilter-free",
+    "version": "8.1.3-1.fc44",
+    "arch": "x86_64",
+    "file": "libavfilter-free-8.1.3-1.fc44.x86_64.rpm",
+    "bytes": 1678804
+  },
+  {
+    "name": "libavformat-free",
+    "version": "8.1.3-1.fc44",
+    "arch": "x86_64",
+    "file": "libavformat-free-8.1.3-1.fc44.x86_64.rpm",
+    "bytes": 1308412
+  },
+  {
+    "name": "libavif",
+    "version": "1.3.0-4.fc44",
+    "arch": "x86_64",
+    "file": "libavif-1.3.0-4.fc44.x86_64.rpm",
+    "bytes": 128809
+  },
+  {
+    "name": "libavutil-free",
+    "version": "8.1.3-1.fc44",
+    "arch": "x86_64",
+    "file": "libavutil-free-8.1.3-1.fc44.x86_64.rpm",
+    "bytes": 390460
+  },
+  {
+    "name": "libb2",
+    "version": "0.98.1-15.fc44",
+    "arch": "x86_64",
+    "file": "libb2-0.98.1-15.fc44.x86_64.rpm",
+    "bytes": 26812
+  },
+  {
+    "name": "libbasicobjects",
+    "version": "0.1.1-61.fc44",
+    "arch": "x86_64",
+    "file": "libbasicobjects-0.1.1-61.fc44.x86_64.rpm",
+    "bytes": 26416
+  },
+  {
+    "name": "libblkid",
+    "version": "2.41.5-1.fc44",
+    "arch": "x86_64",
+    "file": "libblkid-2.41.5-1.fc44.x86_64.rpm",
+    "bytes": 132961
+  },
+  {
+    "name": "libblockdev",
+    "version": "3.5.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libblockdev-3.5.0-1.fc44.x86_64.rpm",
+    "bytes": 110537
+  },
+  {
+    "name": "libblockdev-crypto",
+    "version": "3.5.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libblockdev-crypto-3.5.0-1.fc44.x86_64.rpm",
+    "bytes": 43385
+  },
+  {
+    "name": "libblockdev-fs",
+    "version": "3.5.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libblockdev-fs-3.5.0-1.fc44.x86_64.rpm",
+    "bytes": 56896
+  },
+  {
+    "name": "libblockdev-loop",
+    "version": "3.5.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libblockdev-loop-3.5.0-1.fc44.x86_64.rpm",
+    "bytes": 24561
+  },
+  {
+    "name": "libblockdev-mdraid",
+    "version": "3.5.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libblockdev-mdraid-3.5.0-1.fc44.x86_64.rpm",
+    "bytes": 30366
+  },
+  {
+    "name": "libblockdev-nvme",
+    "version": "3.5.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libblockdev-nvme-3.5.0-1.fc44.x86_64.rpm",
+    "bytes": 34552
+  },
+  {
+    "name": "libblockdev-part",
+    "version": "3.5.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libblockdev-part-3.5.0-1.fc44.x86_64.rpm",
+    "bytes": 32679
+  },
+  {
+    "name": "libblockdev-smart",
+    "version": "3.5.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libblockdev-smart-3.5.0-1.fc44.x86_64.rpm",
+    "bytes": 26565
+  },
+  {
+    "name": "libblockdev-swap",
+    "version": "3.5.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libblockdev-swap-3.5.0-1.fc44.x86_64.rpm",
+    "bytes": 24834
+  },
+  {
+    "name": "libblockdev-utils",
+    "version": "3.5.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libblockdev-utils-3.5.0-1.fc44.x86_64.rpm",
+    "bytes": 33618
+  },
+  {
+    "name": "libbluray",
+    "version": "1.4.0-3.fc44",
+    "arch": "x86_64",
+    "file": "libbluray-1.4.0-3.fc44.x86_64.rpm",
+    "bytes": 153112
+  },
+  {
+    "name": "libbpf",
+    "version": "1.6.3-2.fc44",
+    "arch": "x86_64",
+    "file": "libbpf-1.6.3-2.fc44.x86_64.rpm",
+    "bytes": 204066
+  },
+  {
+    "name": "libbrotli",
+    "version": "1.2.0-3.fc44",
+    "arch": "x86_64",
+    "file": "libbrotli-1.2.0-3.fc44.x86_64.rpm",
+    "bytes": 356158
+  },
+  {
+    "name": "libbs2b",
+    "version": "3.1.0-37.fc44",
+    "arch": "x86_64",
+    "file": "libbs2b-3.1.0-37.fc44.x86_64.rpm",
+    "bytes": 29788
+  },
+  {
+    "name": "libbytesize",
+    "version": "2.12-2.fc44",
+    "arch": "x86_64",
+    "file": "libbytesize-2.12-2.fc44.x86_64.rpm",
+    "bytes": 47234
+  },
+  {
+    "name": "libcanberra",
+    "version": "0.30-39.fc44",
+    "arch": "x86_64",
+    "file": "libcanberra-0.30-39.fc44.x86_64.rpm",
+    "bytes": 90081
+  },
+  {
+    "name": "libcap",
+    "version": "2.78-1.fc44",
+    "arch": "x86_64",
+    "file": "libcap-2.78-1.fc44.x86_64.rpm",
+    "bytes": 90258
+  },
+  {
+    "name": "libcap-ng",
+    "version": "0.9.6-1.fc44",
+    "arch": "x86_64",
+    "file": "libcap-ng-0.9.6-1.fc44.x86_64.rpm",
+    "bytes": 35601
+  },
+  {
+    "name": "libcbor",
+    "version": "0.13.0-2.fc44",
+    "arch": "x86_64",
+    "file": "libcbor-0.13.0-2.fc44.x86_64.rpm",
+    "bytes": 36819
+  },
+  {
+    "name": "libcdio",
+    "version": "2.3.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libcdio-2.3.0-1.fc44.x86_64.rpm",
+    "bytes": 261961
+  },
+  {
+    "name": "libcdio-paranoia",
+    "version": "10.2+2.0.2-6.fc44",
+    "arch": "x86_64",
+    "file": "libcdio-paranoia-10.2+2.0.2-6.fc44.x86_64.rpm",
+    "bytes": 90734
+  },
+  {
+    "name": "libchromaprint",
+    "version": "1.6.0-4.fc44",
+    "arch": "x86_64",
+    "file": "libchromaprint-1.6.0-4.fc44.x86_64.rpm",
+    "bytes": 45067
+  },
+  {
+    "name": "libcloudproviders",
+    "version": "0.4.1-1.fc44",
+    "arch": "x86_64",
+    "file": "libcloudproviders-0.4.1-1.fc44.x86_64.rpm",
+    "bytes": 47271
+  },
+  {
+    "name": "libcollection",
+    "version": "0.7.0-61.fc44",
+    "arch": "x86_64",
+    "file": "libcollection-0.7.0-61.fc44.x86_64.rpm",
+    "bytes": 46367
+  },
+  {
+    "name": "libcom_err",
+    "version": "1.47.3-4.fc44",
+    "arch": "x86_64",
+    "file": "libcom_err-1.47.3-4.fc44.x86_64.rpm",
+    "bytes": 27759
+  },
+  {
+    "name": "libcurl",
+    "version": "8.18.0-14.fc44",
+    "arch": "x86_64",
+    "file": "libcurl-8.18.0-14.fc44.x86_64.rpm",
+    "bytes": 467485
+  },
+  {
+    "name": "libdaemon",
+    "version": "0.14-33.fc44",
+    "arch": "x86_64",
+    "file": "libdaemon-0.14-33.fc44.x86_64.rpm",
+    "bytes": 32819
+  },
+  {
+    "name": "libdatrie",
+    "version": "0.2.14-2.fc44",
+    "arch": "x86_64",
+    "file": "libdatrie-0.2.14-2.fc44.x86_64.rpm",
+    "bytes": 33850
+  },
+  {
+    "name": "libdav1d",
+    "version": "1.5.4-1.fc44",
+    "arch": "x86_64",
+    "file": "libdav1d-1.5.4-1.fc44.x86_64.rpm",
+    "bytes": 680802
+  },
+  {
+    "name": "libdbusmenu",
+    "version": "16.04.0-31.fc44",
+    "arch": "x86_64",
+    "file": "libdbusmenu-16.04.0-31.fc44.x86_64.rpm",
+    "bytes": 136743
+  },
+  {
+    "name": "libdbusmenu-gtk3",
+    "version": "16.04.0-31.fc44",
+    "arch": "x86_64",
+    "file": "libdbusmenu-gtk3-16.04.0-31.fc44.x86_64.rpm",
+    "bytes": 39185
+  },
+  {
+    "name": "libddcutil",
+    "version": "2.2.1-3.fc44",
+    "arch": "x86_64",
+    "file": "libddcutil-2.2.1-3.fc44.x86_64.rpm",
+    "bytes": 443626
+  },
+  {
+    "name": "libdecor",
+    "version": "0.2.5-2.fc44",
+    "arch": "x86_64",
+    "file": "libdecor-0.2.5-2.fc44.x86_64.rpm",
+    "bytes": 61182
+  },
+  {
+    "name": "libdeflate",
+    "version": "1.26-1.fc44",
+    "arch": "x86_64",
+    "file": "libdeflate-1.26-1.fc44.x86_64.rpm",
+    "bytes": 70014
+  },
+  {
+    "name": "libdhash",
+    "version": "0.5.0-61.fc44",
+    "arch": "x86_64",
+    "file": "libdhash-0.5.0-61.fc44.x86_64.rpm",
+    "bytes": 29758
+  },
+  {
+    "name": "libdisplay-info",
+    "version": "0.3.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libdisplay-info-0.3.0-1.fc44.x86_64.rpm",
+    "bytes": 91775
+  },
+  {
+    "name": "libdmtx",
+    "version": "0.7.8-3.fc44",
+    "arch": "x86_64",
+    "file": "libdmtx-0.7.8-3.fc44.x86_64.rpm",
+    "bytes": 66729
+  },
+  {
+    "name": "libdnf5",
+    "version": "5.4.6.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libdnf5-5.4.6.0-1.fc44.x86_64.rpm",
+    "bytes": 1502579
+  },
+  {
+    "name": "libdnf5-cli",
+    "version": "5.4.6.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libdnf5-cli-5.4.6.0-1.fc44.x86_64.rpm",
+    "bytes": 383309
+  },
+  {
+    "name": "libdovi",
+    "version": "3.3.2-3.fc44",
+    "arch": "x86_64",
+    "file": "libdovi-3.3.2-3.fc44.x86_64.rpm",
+    "bytes": 265561
+  },
+  {
+    "name": "libdrm",
+    "version": "2.4.134-1.fc44",
+    "arch": "x86_64",
+    "file": "libdrm-2.4.134-1.fc44.x86_64.rpm",
+    "bytes": 170660
+  },
+  {
+    "name": "libdvdnav",
+    "version": "7.0.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libdvdnav-7.0.0-1.fc44.x86_64.rpm",
+    "bytes": 60090
+  },
+  {
+    "name": "libdvdread",
+    "version": "7.0.1-1.fc44",
+    "arch": "x86_64",
+    "file": "libdvdread-7.0.1-1.fc44.x86_64.rpm",
+    "bytes": 84102
+  },
+  {
+    "name": "libebur128",
+    "version": "1.2.6-15.fc44",
+    "arch": "x86_64",
+    "file": "libebur128-1.2.6-15.fc44.x86_64.rpm",
+    "bytes": 26338
+  },
+  {
+    "name": "libeconf",
+    "version": "0.7.9-3.fc44",
+    "arch": "x86_64",
+    "file": "libeconf-0.7.9-3.fc44.x86_64.rpm",
+    "bytes": 37085
+  },
+  {
+    "name": "libedit",
+    "version": "3.1-59.20260512cvs.fc44",
+    "arch": "x86_64",
+    "file": "libedit-3.1-59.20260512cvs.fc44.x86_64.rpm",
+    "bytes": 113076
+  },
+  {
+    "name": "libei",
+    "version": "1.6.0-2.fc44",
+    "arch": "x86_64",
+    "file": "libei-1.6.0-2.fc44.x86_64.rpm",
+    "bytes": 58616
+  },
+  {
+    "name": "libeis",
+    "version": "1.6.0-2.fc44",
+    "arch": "x86_64",
+    "file": "libeis-1.6.0-2.fc44.x86_64.rpm",
+    "bytes": 60011
+  },
+  {
+    "name": "libepoxy",
+    "version": "1.5.10-12.fc44",
+    "arch": "x86_64",
+    "file": "libepoxy-1.5.10-12.fc44.x86_64.rpm",
+    "bytes": 235904
+  },
+  {
+    "name": "libevdev",
+    "version": "1.13.7-1.fc44",
+    "arch": "x86_64",
+    "file": "libevdev-1.13.7-1.fc44.x86_64.rpm",
+    "bytes": 39947
+  },
+  {
+    "name": "libevent",
+    "version": "2.1.13-1.fc44",
+    "arch": "x86_64",
+    "file": "libevent-2.1.13-1.fc44.x86_64.rpm",
+    "bytes": 296090
+  },
+  {
+    "name": "libexif",
+    "version": "0.6.26-1.fc44",
+    "arch": "x86_64",
+    "file": "libexif-0.6.26-1.fc44.x86_64.rpm",
+    "bytes": 524636
+  },
+  {
+    "name": "libfdisk",
+    "version": "2.41.5-1.fc44",
+    "arch": "x86_64",
+    "file": "libfdisk-2.41.5-1.fc44.x86_64.rpm",
+    "bytes": 172696
+  },
+  {
+    "name": "libffi",
+    "version": "3.5.2-2.fc44",
+    "arch": "x86_64",
+    "file": "libffi-3.5.2-2.fc44.x86_64.rpm",
+    "bytes": 43388
+  },
+  {
+    "name": "libfido2",
+    "version": "1.16.0-5.fc44",
+    "arch": "x86_64",
+    "file": "libfido2-1.16.0-5.fc44.x86_64.rpm",
+    "bytes": 107020
+  },
+  {
+    "name": "libfontenc",
+    "version": "1.1.8-5.fc44",
+    "arch": "x86_64",
+    "file": "libfontenc-1.1.8-5.fc44.x86_64.rpm",
+    "bytes": 33125
+  },
+  {
+    "name": "libfsverity",
+    "version": "1.6-4.fc44",
+    "arch": "x86_64",
+    "file": "libfsverity-1.6-4.fc44.x86_64.rpm",
+    "bytes": 19705
+  },
+  {
+    "name": "libfyaml",
+    "version": "0.8-9.fc44",
+    "arch": "x86_64",
+    "file": "libfyaml-0.8-9.fc44.x86_64.rpm",
+    "bytes": 217118
+  },
+  {
+    "name": "libgcc",
+    "version": "16.2.1-2.fc44",
+    "arch": "x86_64",
+    "file": "libgcc-16.2.1-2.fc44.x86_64.rpm",
+    "bytes": 139555
+  },
+  {
+    "name": "libgcrypt",
+    "version": "1.12.2-1.fc44",
+    "arch": "x86_64",
+    "file": "libgcrypt-1.12.2-1.fc44.x86_64.rpm",
+    "bytes": 644900
+  },
+  {
+    "name": "libglvnd",
+    "version": "1.7.0-9.fc44",
+    "arch": "x86_64",
+    "file": "libglvnd-1.7.0-9.fc44.x86_64.rpm",
+    "bytes": 117450
+  },
+  {
+    "name": "libglvnd-egl",
+    "version": "1.7.0-9.fc44",
+    "arch": "x86_64",
+    "file": "libglvnd-egl-1.7.0-9.fc44.x86_64.rpm",
+    "bytes": 38094
+  },
+  {
+    "name": "libglvnd-glx",
+    "version": "1.7.0-9.fc44",
+    "arch": "x86_64",
+    "file": "libglvnd-glx-1.7.0-9.fc44.x86_64.rpm",
+    "bytes": 135699
+  },
+  {
+    "name": "libglvnd-opengl",
+    "version": "1.7.0-9.fc44",
+    "arch": "x86_64",
+    "file": "libglvnd-opengl-1.7.0-9.fc44.x86_64.rpm",
+    "bytes": 38044
+  },
+  {
+    "name": "libgnomekbd",
+    "version": "3.28.1-9.fc44",
+    "arch": "x86_64",
+    "file": "libgnomekbd-3.28.1-9.fc44.x86_64.rpm",
+    "bytes": 179753
+  },
+  {
+    "name": "libgomp",
+    "version": "16.2.1-2.fc44",
+    "arch": "x86_64",
+    "file": "libgomp-16.2.1-2.fc44.x86_64.rpm",
+    "bytes": 407218
+  },
+  {
+    "name": "libgpg-error",
+    "version": "1.58-2.fc44",
+    "arch": "x86_64",
+    "file": "libgpg-error-1.58-2.fc44.x86_64.rpm",
+    "bytes": 260153
+  },
+  {
+    "name": "libgudev",
+    "version": "238-9.fc44",
+    "arch": "x86_64",
+    "file": "libgudev-238-9.fc44.x86_64.rpm",
+    "bytes": 36040
+  },
+  {
+    "name": "libgusb",
+    "version": "0.4.9-5.fc44",
+    "arch": "x86_64",
+    "file": "libgusb-0.4.9-5.fc44.x86_64.rpm",
+    "bytes": 66281
+  },
+  {
+    "name": "libheif",
+    "version": "1.23.6-1.fc44",
+    "arch": "x86_64",
+    "file": "libheif-1.23.6-1.fc44.x86_64.rpm",
+    "bytes": 878540
+  },
+  {
+    "name": "libi2c",
+    "version": "4.4-4.fc44",
+    "arch": "x86_64",
+    "file": "libi2c-4.4-4.fc44.x86_64.rpm",
+    "bytes": 22725
+  },
+  {
+    "name": "libibverbs",
+    "version": "61.1^20260812git975bdaf-1.fc44",
+    "arch": "x86_64",
+    "file": "libibverbs-61.1^20260812git975bdaf-1.fc44.x86_64.rpm",
+    "bytes": 507564
+  },
+  {
+    "name": "libical",
+    "version": "3.0.20-8.fc44",
+    "arch": "x86_64",
+    "file": "libical-3.0.20-8.fc44.x86_64.rpm",
+    "bytes": 268284
+  },
+  {
+    "name": "libicu",
+    "version": "77.1-3.fc44",
+    "arch": "x86_64",
+    "file": "libicu-77.1-3.fc44.x86_64.rpm",
+    "bytes": 11343938
+  },
+  {
+    "name": "libidn2",
+    "version": "2.3.8-3.fc44",
+    "arch": "x86_64",
+    "file": "libidn2-2.3.8-3.fc44.x86_64.rpm",
+    "bytes": 179767
+  },
+  {
+    "name": "libimobiledevice",
+    "version": "1.4.0-3.fc44",
+    "arch": "x86_64",
+    "file": "libimobiledevice-1.4.0-3.fc44.x86_64.rpm",
+    "bytes": 151738
+  },
+  {
+    "name": "libimobiledevice-glue",
+    "version": "1.3.2-1.fc44",
+    "arch": "x86_64",
+    "file": "libimobiledevice-glue-1.3.2-1.fc44.x86_64.rpm",
+    "bytes": 57097
+  },
+  {
+    "name": "libini_config",
+    "version": "1.3.1-61.fc44",
+    "arch": "x86_64",
+    "file": "libini_config-1.3.1-61.fc44.x86_64.rpm",
+    "bytes": 72082
+  },
+  {
+    "name": "libinput",
+    "version": "1.31.3-1.fc44",
+    "arch": "x86_64",
+    "file": "libinput-1.31.3-1.fc44.x86_64.rpm",
+    "bytes": 284508
+  },
+  {
+    "name": "libjpeg-turbo",
+    "version": "3.1.3-1.fc44",
+    "arch": "x86_64",
+    "file": "libjpeg-turbo-3.1.3-1.fc44.x86_64.rpm",
+    "bytes": 249238
+  },
+  {
+    "name": "libjxl",
+    "version": "0.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "libjxl-0.11.2-1.fc44.x86_64.rpm",
+    "bytes": 1273814
+  },
+  {
+    "name": "libkcapi",
+    "version": "1.5.0-7.fc44",
+    "arch": "x86_64",
+    "file": "libkcapi-1.5.0-7.fc44.x86_64.rpm",
+    "bytes": 48528
+  },
+  {
+    "name": "libkcapi-hasher",
+    "version": "1.5.0-7.fc44",
+    "arch": "x86_64",
+    "file": "libkcapi-hasher-1.5.0-7.fc44.x86_64.rpm",
+    "bytes": 26714
+  },
+  {
+    "name": "libkcapi-hmaccalc",
+    "version": "1.5.0-7.fc44",
+    "arch": "x86_64",
+    "file": "libkcapi-hmaccalc-1.5.0-7.fc44.x86_64.rpm",
+    "bytes": 9116
+  },
+  {
+    "name": "libkexiv2-qt6",
+    "version": "26.08.1-1.fc44",
+    "arch": "x86_64",
+    "file": "libkexiv2-qt6-26.08.1-1.fc44.x86_64.rpm",
+    "bytes": 171110
+  },
+  {
+    "name": "libksba",
+    "version": "1.6.7-5.fc44",
+    "arch": "x86_64",
+    "file": "libksba-1.6.7-5.fc44.x86_64.rpm",
+    "bytes": 171378
+  },
+  {
+    "name": "libkscreen",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "libkscreen-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 433247
+  },
+  {
+    "name": "libksysguard",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "libksysguard-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 941164
+  },
+  {
+    "name": "libksysguard-common",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "libksysguard-common-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 50639
+  },
+  {
+    "name": "libkworkspace6",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "libkworkspace6-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 147240
+  },
+  {
+    "name": "liblastlog2",
+    "version": "2.41.5-1.fc44",
+    "arch": "x86_64",
+    "file": "liblastlog2-2.41.5-1.fc44.x86_64.rpm",
+    "bytes": 24753
+  },
+  {
+    "name": "liblc3",
+    "version": "1.1.3-7.fc44",
+    "arch": "x86_64",
+    "file": "liblc3-1.1.3-7.fc44.x86_64.rpm",
+    "bytes": 109071
+  },
+  {
+    "name": "libldac",
+    "version": "2.0.2.3-19.fc44",
+    "arch": "x86_64",
+    "file": "libldac-2.0.2.3-19.fc44.x86_64.rpm",
+    "bytes": 44569
+  },
+  {
+    "name": "libldb",
+    "version": "4.24.7-1.fc44",
+    "arch": "x86_64",
+    "file": "libldb-4.24.7-1.fc44.x86_64.rpm",
+    "bytes": 203883
+  },
+  {
+    "name": "liblerc",
+    "version": "4.0.0-10.fc44",
+    "arch": "x86_64",
+    "file": "liblerc-4.0.0-10.fc44.x86_64.rpm",
+    "bytes": 231283
+  },
+  {
+    "name": "libmnl",
+    "version": "1.0.5-9.fc44",
+    "arch": "x86_64",
+    "file": "libmnl-1.0.5-9.fc44.x86_64.rpm",
+    "bytes": 28736
+  },
+  {
+    "name": "libmodplug",
+    "version": "0.8.9.0-29.fc44",
+    "arch": "x86_64",
+    "file": "libmodplug-0.8.9.0-29.fc44.x86_64.rpm",
+    "bytes": 187249
+  },
+  {
+    "name": "libmodulemd",
+    "version": "2.15.3-1.fc44",
+    "arch": "x86_64",
+    "file": "libmodulemd-2.15.3-1.fc44.x86_64.rpm",
+    "bytes": 229733
+  },
+  {
+    "name": "libmount",
+    "version": "2.41.5-1.fc44",
+    "arch": "x86_64",
+    "file": "libmount-2.41.5-1.fc44.x86_64.rpm",
+    "bytes": 176565
+  },
+  {
+    "name": "libmtp",
+    "version": "1.1.22-3.fc44",
+    "arch": "x86_64",
+    "file": "libmtp-1.1.22-3.fc44.x86_64.rpm",
+    "bytes": 162485
+  },
+  {
+    "name": "libmysofa",
+    "version": "1.3.3-4.fc44",
+    "arch": "x86_64",
+    "file": "libmysofa-1.3.3-4.fc44.x86_64.rpm",
+    "bytes": 46619
+  },
+  {
+    "name": "libndp",
+    "version": "1.9-5.fc44",
+    "arch": "x86_64",
+    "file": "libndp-1.9-5.fc44.x86_64.rpm",
+    "bytes": 38328
+  },
+  {
+    "name": "libnetfilter_conntrack",
+    "version": "1.1.1-1.fc44",
+    "arch": "x86_64",
+    "file": "libnetfilter_conntrack-1.1.1-1.fc44.x86_64.rpm",
+    "bytes": 63380
+  },
+  {
+    "name": "libnfnetlink",
+    "version": "1.0.1-32.fc44",
+    "arch": "x86_64",
+    "file": "libnfnetlink-1.0.1-32.fc44.x86_64.rpm",
+    "bytes": 30603
+  },
+  {
+    "name": "libnftnl",
+    "version": "1.3.1-2.fc44",
+    "arch": "x86_64",
+    "file": "libnftnl-1.3.1-2.fc44.x86_64.rpm",
+    "bytes": 92236
+  },
+  {
+    "name": "libnghttp2",
+    "version": "1.68.0-5.fc44",
+    "arch": "x86_64",
+    "file": "libnghttp2-1.68.0-5.fc44.x86_64.rpm",
+    "bytes": 78484
+  },
+  {
+    "name": "libnghttp3",
+    "version": "1.18.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libnghttp3-1.18.0-1.fc44.x86_64.rpm",
+    "bytes": 77067
+  },
+  {
+    "name": "libnice",
+    "version": "0.1.23-2.fc44",
+    "arch": "x86_64",
+    "file": "libnice-0.1.23-2.fc44.x86_64.rpm",
+    "bytes": 211885
+  },
+  {
+    "name": "libnl3",
+    "version": "3.12.0-3.fc44",
+    "arch": "x86_64",
+    "file": "libnl3-3.12.0-3.fc44.x86_64.rpm",
+    "bytes": 386399
+  },
+  {
+    "name": "libnotify",
+    "version": "0.8.9-1.fc44",
+    "arch": "x86_64",
+    "file": "libnotify-0.8.9-1.fc44.x86_64.rpm",
+    "bytes": 58068
+  },
+  {
+    "name": "libnsl2",
+    "version": "2.0.1-5.fc44",
+    "arch": "x86_64",
+    "file": "libnsl2-2.0.1-5.fc44.x86_64.rpm",
+    "bytes": 30679
+  },
+  {
+    "name": "libnvme",
+    "version": "1.16.2-1.fc44",
+    "arch": "x86_64",
+    "file": "libnvme-1.16.2-1.fc44.x86_64.rpm",
+    "bytes": 124943
+  },
+  {
+    "name": "liboeffis",
+    "version": "1.6.0-2.fc44",
+    "arch": "x86_64",
+    "file": "liboeffis-1.6.0-2.fc44.x86_64.rpm",
+    "bytes": 22642
+  },
+  {
+    "name": "libogg",
+    "version": "1.3.6-2.fc44",
+    "arch": "x86_64",
+    "file": "libogg-1.3.6-2.fc44.x86_64.rpm",
+    "bytes": 34299
+  },
+  {
+    "name": "libopenjph",
+    "version": "0.25.3-3.fc44",
+    "arch": "x86_64",
+    "file": "libopenjph-0.25.3-3.fc44.x86_64.rpm",
+    "bytes": 165793
+  },
+  {
+    "name": "libopenmpt",
+    "version": "0.8.9-1.fc44",
+    "arch": "x86_64",
+    "file": "libopenmpt-0.8.9-1.fc44.x86_64.rpm",
+    "bytes": 829399
+  },
+  {
+    "name": "libpath_utils",
+    "version": "0.2.1-61.fc44",
+    "arch": "x86_64",
+    "file": "libpath_utils-0.2.1-61.fc44.x86_64.rpm",
+    "bytes": 29803
+  },
+  {
+    "name": "libpcap",
+    "version": "1.10.7-1.fc44",
+    "arch": "x86_64",
+    "file": "libpcap-1.10.7-1.fc44.x86_64.rpm",
+    "bytes": 189127
+  },
+  {
+    "name": "libpciaccess",
+    "version": "0.16-17.fc44",
+    "arch": "x86_64",
+    "file": "libpciaccess-0.16-17.fc44.x86_64.rpm",
+    "bytes": 27863
+  },
+  {
+    "name": "libpipeline",
+    "version": "1.5.8-4.fc44",
+    "arch": "x86_64",
+    "file": "libpipeline-1.5.8-4.fc44.x86_64.rpm",
+    "bytes": 61748
+  },
+  {
+    "name": "libpkgconf",
+    "version": "2.5.1-1.fc44",
+    "arch": "x86_64",
+    "file": "libpkgconf-2.5.1-1.fc44.x86_64.rpm",
+    "bytes": 43700
+  },
+  {
+    "name": "libplacebo",
+    "version": "7.360.1-3.fc44",
+    "arch": "x86_64",
+    "file": "libplacebo-7.360.1-3.fc44.x86_64.rpm",
+    "bytes": 465148
+  },
+  {
+    "name": "libplasma",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "libplasma-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 2522552
+  },
+  {
+    "name": "libplist",
+    "version": "2.7.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libplist-2.7.0-1.fc44.x86_64.rpm",
+    "bytes": 102802
+  },
+  {
+    "name": "libpng",
+    "version": "1.6.58-1.fc44",
+    "arch": "x86_64",
+    "file": "libpng-1.6.58-1.fc44.x86_64.rpm",
+    "bytes": 132636
+  },
+  {
+    "name": "libproxy",
+    "version": "0.5.12-2.fc44",
+    "arch": "x86_64",
+    "file": "libproxy-0.5.12-2.fc44.x86_64.rpm",
+    "bytes": 46512
+  },
+  {
+    "name": "libpsl",
+    "version": "0.21.5-7.fc44",
+    "arch": "x86_64",
+    "file": "libpsl-0.21.5-7.fc44.x86_64.rpm",
+    "bytes": 66819
+  },
+  {
+    "name": "libpwquality",
+    "version": "1.4.5-15.fc44",
+    "arch": "x86_64",
+    "file": "libpwquality-1.4.5-15.fc44.x86_64.rpm",
+    "bytes": 121109
+  },
+  {
+    "name": "libqalculate",
+    "version": "5.9.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libqalculate-5.9.0-1.fc44.x86_64.rpm",
+    "bytes": 2683803
+  },
+  {
+    "name": "librabbitmq",
+    "version": "0.18.0-1.fc44",
+    "arch": "x86_64",
+    "file": "librabbitmq-0.18.0-1.fc44.x86_64.rpm",
+    "bytes": 45438
+  },
+  {
+    "name": "libref_array",
+    "version": "0.1.5-61.fc44",
+    "arch": "x86_64",
+    "file": "libref_array-0.1.5-61.fc44.x86_64.rpm",
+    "bytes": 28180
+  },
+  {
+    "name": "librepo",
+    "version": "1.21.2-1.fc44",
+    "arch": "x86_64",
+    "file": "librepo-1.21.2-1.fc44.x86_64.rpm",
+    "bytes": 104996
+  },
+  {
+    "name": "libreport-filesystem",
+    "version": "2.17.15-10.fc44",
+    "arch": "noarch",
+    "file": "libreport-filesystem-2.17.15-10.fc44.noarch.rpm",
+    "bytes": 9850
+  },
+  {
+    "name": "librist",
+    "version": "0.2.11-1.fc44",
+    "arch": "x86_64",
+    "file": "librist-0.2.11-1.fc44.x86_64.rpm",
+    "bytes": 90296
+  },
+  {
+    "name": "librsvg2",
+    "version": "2.62.4-1.fc44",
+    "arch": "x86_64",
+    "file": "librsvg2-2.62.4-1.fc44.x86_64.rpm",
+    "bytes": 1953895
+  },
+  {
+    "name": "libsamplerate",
+    "version": "0.2.2-12.fc44",
+    "arch": "x86_64",
+    "file": "libsamplerate-0.2.2-12.fc44.x86_64.rpm",
+    "bytes": 1351566
+  },
+  {
+    "name": "libsbc",
+    "version": "2.1-2.fc44",
+    "arch": "x86_64",
+    "file": "libsbc-2.1-2.fc44.x86_64.rpm",
+    "bytes": 51353
+  },
+  {
+    "name": "libseccomp",
+    "version": "2.6.1-2.fc44",
+    "arch": "x86_64",
+    "file": "libseccomp-2.6.1-2.fc44.x86_64.rpm",
+    "bytes": 77791
+  },
+  {
+    "name": "libsecret",
+    "version": "0.21.8.2-2.fc44",
+    "arch": "x86_64",
+    "file": "libsecret-0.21.8.2-2.fc44.x86_64.rpm",
+    "bytes": 184832
+  },
+  {
+    "name": "libselinux",
+    "version": "3.11-2.fc44",
+    "arch": "x86_64",
+    "file": "libselinux-3.11-2.fc44.x86_64.rpm",
+    "bytes": 106767
+  },
+  {
+    "name": "libselinux-utils",
+    "version": "3.11-2.fc44",
+    "arch": "x86_64",
+    "file": "libselinux-utils-3.11-2.fc44.x86_64.rpm",
+    "bytes": 122591
+  },
+  {
+    "name": "libsemanage",
+    "version": "3.11-1.fc44",
+    "arch": "x86_64",
+    "file": "libsemanage-3.11-1.fc44.x86_64.rpm",
+    "bytes": 130372
+  },
+  {
+    "name": "libsepol",
+    "version": "3.11-1.fc44",
+    "arch": "x86_64",
+    "file": "libsepol-3.11-1.fc44.x86_64.rpm",
+    "bytes": 374084
+  },
+  {
+    "name": "libshaderc",
+    "version": "2026.1-1.fc44",
+    "arch": "x86_64",
+    "file": "libshaderc-2026.1-1.fc44.x86_64.rpm",
+    "bytes": 1290220
+  },
+  {
+    "name": "libsmartcols",
+    "version": "2.41.5-1.fc44",
+    "arch": "x86_64",
+    "file": "libsmartcols-2.41.5-1.fc44.x86_64.rpm",
+    "bytes": 89483
+  },
+  {
+    "name": "libsmbclient",
+    "version": "4.24.7-1.fc44",
+    "arch": "x86_64",
+    "file": "libsmbclient-4.24.7-1.fc44.x86_64.rpm",
+    "bytes": 83908
+  },
+  {
+    "name": "libsndfile",
+    "version": "1.2.2-11.fc44",
+    "arch": "x86_64",
+    "file": "libsndfile-1.2.2-11.fc44.x86_64.rpm",
+    "bytes": 229462
+  },
+  {
+    "name": "libsodium",
+    "version": "1.0.22-1.fc44",
+    "arch": "x86_64",
+    "file": "libsodium-1.0.22-1.fc44.x86_64.rpm",
+    "bytes": 215010
+  },
+  {
+    "name": "libsolv",
+    "version": "0.7.40-2.fc44",
+    "arch": "x86_64",
+    "file": "libsolv-0.7.40-2.fc44.x86_64.rpm",
+    "bytes": 460879
+  },
+  {
+    "name": "libsoup3",
+    "version": "3.6.6-10.fc44",
+    "arch": "x86_64",
+    "file": "libsoup3-3.6.6-10.fc44.x86_64.rpm",
+    "bytes": 418230
+  },
+  {
+    "name": "libss",
+    "version": "1.47.3-4.fc44",
+    "arch": "x86_64",
+    "file": "libss-1.47.3-4.fc44.x86_64.rpm",
+    "bytes": 33515
+  },
+  {
+    "name": "libssh",
+    "version": "0.12.2-1.fc44",
+    "arch": "x86_64",
+    "file": "libssh-0.12.2-1.fc44.x86_64.rpm",
+    "bytes": 302976
+  },
+  {
+    "name": "libssh-config",
+    "version": "0.12.2-1.fc44",
+    "arch": "noarch",
+    "file": "libssh-config-0.12.2-1.fc44.noarch.rpm",
+    "bytes": 9154
+  },
+  {
+    "name": "libsss_certmap",
+    "version": "2.13.1-2.fc44",
+    "arch": "x86_64",
+    "file": "libsss_certmap-2.13.1-2.fc44.x86_64.rpm",
+    "bytes": 88593
+  },
+  {
+    "name": "libsss_idmap",
+    "version": "2.13.1-2.fc44",
+    "arch": "x86_64",
+    "file": "libsss_idmap-2.13.1-2.fc44.x86_64.rpm",
+    "bytes": 39073
+  },
+  {
+    "name": "libsss_nss_idmap",
+    "version": "2.13.1-2.fc44",
+    "arch": "x86_64",
+    "file": "libsss_nss_idmap-2.13.1-2.fc44.x86_64.rpm",
+    "bytes": 42592
+  },
+  {
+    "name": "libsss_sudo",
+    "version": "2.13.1-2.fc44",
+    "arch": "x86_64",
+    "file": "libsss_sudo-2.13.1-2.fc44.x86_64.rpm",
+    "bytes": 31170
+  },
+  {
+    "name": "libstdc++",
+    "version": "16.2.1-2.fc44",
+    "arch": "x86_64",
+    "file": "libstdc++-16.2.1-2.fc44.x86_64.rpm",
+    "bytes": 1049046
+  },
+  {
+    "name": "libstemmer",
+    "version": "3.0.1-11.fc44",
+    "arch": "x86_64",
+    "file": "libstemmer-3.0.1-11.fc44.x86_64.rpm",
+    "bytes": 149738
+  },
+  {
+    "name": "libswresample-free",
+    "version": "8.1.3-1.fc44",
+    "arch": "x86_64",
+    "file": "libswresample-free-8.1.3-1.fc44.x86_64.rpm",
+    "bytes": 72387
+  },
+  {
+    "name": "libswscale-free",
+    "version": "8.1.3-1.fc44",
+    "arch": "x86_64",
+    "file": "libswscale-free-8.1.3-1.fc44.x86_64.rpm",
+    "bytes": 339376
+  },
+  {
+    "name": "libtalloc",
+    "version": "2.4.4-1.fc44",
+    "arch": "x86_64",
+    "file": "libtalloc-2.4.4-1.fc44.x86_64.rpm",
+    "bytes": 37369
+  },
+  {
+    "name": "libtasn1",
+    "version": "4.21.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libtasn1-4.21.0-1.fc44.x86_64.rpm",
+    "bytes": 77814
+  },
+  {
+    "name": "libtdb",
+    "version": "1.4.15-1.fc44",
+    "arch": "x86_64",
+    "file": "libtdb-1.4.15-1.fc44.x86_64.rpm",
+    "bytes": 58523
+  },
+  {
+    "name": "libtevent",
+    "version": "0.17.1-4.fc44",
+    "arch": "x86_64",
+    "file": "libtevent-0.17.1-4.fc44.x86_64.rpm",
+    "bytes": 54706
+  },
+  {
+    "name": "libtextstyle",
+    "version": "0.26-5.fc44",
+    "arch": "x86_64",
+    "file": "libtextstyle-0.26-5.fc44.x86_64.rpm",
+    "bytes": 144060
+  },
+  {
+    "name": "libthai",
+    "version": "0.1.30-2.fc44",
+    "arch": "x86_64",
+    "file": "libthai-0.1.30-2.fc44.x86_64.rpm",
+    "bytes": 221268
+  },
+  {
+    "name": "libtheora",
+    "version": "1.1.1-41.fc44",
+    "arch": "x86_64",
+    "file": "libtheora-1.1.1-41.fc44.x86_64.rpm",
+    "bytes": 174045
+  },
+  {
+    "name": "libtiff",
+    "version": "4.7.2-3.fc44",
+    "arch": "x86_64",
+    "file": "libtiff-4.7.2-3.fc44.x86_64.rpm",
+    "bytes": 239111
+  },
+  {
+    "name": "libtinysparql",
+    "version": "3.11.1-1.fc44",
+    "arch": "x86_64",
+    "file": "libtinysparql-3.11.1-1.fc44.x86_64.rpm",
+    "bytes": 373049
+  },
+  {
+    "name": "libtirpc",
+    "version": "1.3.8-0.fc44",
+    "arch": "x86_64",
+    "file": "libtirpc-1.3.8-0.fc44.x86_64.rpm",
+    "bytes": 101555
+  },
+  {
+    "name": "libtool-ltdl",
+    "version": "2.5.4-10.fc44",
+    "arch": "x86_64",
+    "file": "libtool-ltdl-2.5.4-10.fc44.x86_64.rpm",
+    "bytes": 37921
+  },
+  {
+    "name": "libudfread",
+    "version": "1.2.0-3.fc44",
+    "arch": "x86_64",
+    "file": "libudfread-1.2.0-3.fc44.x86_64.rpm",
+    "bytes": 35517
+  },
+  {
+    "name": "libudisks2",
+    "version": "2.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "libudisks2-2.11.2-1.fc44.x86_64.rpm",
+    "bytes": 226094
+  },
+  {
+    "name": "libunibreak",
+    "version": "6.1-5.fc44",
+    "arch": "x86_64",
+    "file": "libunibreak-6.1-5.fc44.x86_64.rpm",
+    "bytes": 34075
+  },
+  {
+    "name": "libunistring",
+    "version": "1.1-11.fc44",
+    "arch": "x86_64",
+    "file": "libunistring-1.1-11.fc44.x86_64.rpm",
+    "bytes": 560970
+  },
+  {
+    "name": "libunity-gtk3-parser",
+    "version": "0.0.0+17.04.20170403-24.fc44",
+    "arch": "x86_64",
+    "file": "libunity-gtk3-parser-0.0.0+17.04.20170403-24.fc44.x86_64.rpm",
+    "bytes": 48867
+  },
+  {
+    "name": "libunwind",
+    "version": "1.8.3-4.fc44",
+    "arch": "x86_64",
+    "file": "libunwind-1.8.3-4.fc44.x86_64.rpm",
+    "bytes": 81534
+  },
+  {
+    "name": "libusb1",
+    "version": "1.0.30-1.fc44",
+    "arch": "x86_64",
+    "file": "libusb1-1.0.30-1.fc44.x86_64.rpm",
+    "bytes": 85378
+  },
+  {
+    "name": "libusbmuxd",
+    "version": "2.1.1-1.fc44",
+    "arch": "x86_64",
+    "file": "libusbmuxd-2.1.1-1.fc44.x86_64.rpm",
+    "bytes": 38348
+  },
+  {
+    "name": "libutempter",
+    "version": "1.2.1-20.fc44",
+    "arch": "x86_64",
+    "file": "libutempter-1.2.1-20.fc44.x86_64.rpm",
+    "bytes": 27385
+  },
+  {
+    "name": "libuuid",
+    "version": "2.41.5-1.fc44",
+    "arch": "x86_64",
+    "file": "libuuid-2.41.5-1.fc44.x86_64.rpm",
+    "bytes": 27715
+  },
+  {
+    "name": "libva",
+    "version": "2.23.0-3.fc44",
+    "arch": "x86_64",
+    "file": "libva-2.23.0-3.fc44.x86_64.rpm",
+    "bytes": 124185
+  },
+  {
+    "name": "libvdpau",
+    "version": "1.5-11.fc44",
+    "arch": "x86_64",
+    "file": "libvdpau-1.5-11.fc44.x86_64.rpm",
+    "bytes": 16877
+  },
+  {
+    "name": "libverto",
+    "version": "0.3.2-12.fc44",
+    "arch": "x86_64",
+    "file": "libverto-0.3.2-12.fc44.x86_64.rpm",
+    "bytes": 21633
+  },
+  {
+    "name": "libvisual",
+    "version": "0.4.2-4.fc44",
+    "arch": "x86_64",
+    "file": "libvisual-0.4.2-4.fc44.x86_64.rpm",
+    "bytes": 162327
+  },
+  {
+    "name": "libvmaf",
+    "version": "3.0.0-5.fc44",
+    "arch": "x86_64",
+    "file": "libvmaf-3.0.0-5.fc44.x86_64.rpm",
+    "bytes": 207721
+  },
+  {
+    "name": "libvorbis",
+    "version": "1.3.7-14.fc44",
+    "arch": "x86_64",
+    "file": "libvorbis-1.3.7-14.fc44.x86_64.rpm",
+    "bytes": 195613
+  },
+  {
+    "name": "libvpl",
+    "version": "2.17.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libvpl-2.17.0-1.fc44.x86_64.rpm",
+    "bytes": 170884
+  },
+  {
+    "name": "libvpx",
+    "version": "1.15.0-5.fc44",
+    "arch": "x86_64",
+    "file": "libvpx-1.15.0-5.fc44.x86_64.rpm",
+    "bytes": 1259442
+  },
+  {
+    "name": "libwacom",
+    "version": "2.19.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libwacom-2.19.0-1.fc44.x86_64.rpm",
+    "bytes": 53653
+  },
+  {
+    "name": "libwacom-data",
+    "version": "2.19.0-1.fc44",
+    "arch": "noarch",
+    "file": "libwacom-data-2.19.0-1.fc44.noarch.rpm",
+    "bytes": 355212
+  },
+  {
+    "name": "libwayland-client",
+    "version": "1.26.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libwayland-client-1.26.0-1.fc44.x86_64.rpm",
+    "bytes": 36340
+  },
+  {
+    "name": "libwayland-cursor",
+    "version": "1.26.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libwayland-cursor-1.26.0-1.fc44.x86_64.rpm",
+    "bytes": 19701
+  },
+  {
+    "name": "libwayland-egl",
+    "version": "1.26.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libwayland-egl-1.26.0-1.fc44.x86_64.rpm",
+    "bytes": 12710
+  },
+  {
+    "name": "libwayland-server",
+    "version": "1.26.0-1.fc44",
+    "arch": "x86_64",
+    "file": "libwayland-server-1.26.0-1.fc44.x86_64.rpm",
+    "bytes": 45059
+  },
+  {
+    "name": "libwbclient",
+    "version": "4.24.7-1.fc44",
+    "arch": "x86_64",
+    "file": "libwbclient-4.24.7-1.fc44.x86_64.rpm",
+    "bytes": 50028
+  },
+  {
+    "name": "libwebp",
+    "version": "1.6.0-3.fc44",
+    "arch": "x86_64",
+    "file": "libwebp-1.6.0-3.fc44.x86_64.rpm",
+    "bytes": 337783
+  },
+  {
+    "name": "libxcb",
+    "version": "1.17.0-7.fc44",
+    "arch": "x86_64",
+    "file": "libxcb-1.17.0-7.fc44.x86_64.rpm",
+    "bytes": 243678
+  },
+  {
+    "name": "libxcrypt",
+    "version": "4.5.2-3.fc44",
+    "arch": "x86_64",
+    "file": "libxcrypt-4.5.2-3.fc44.x86_64.rpm",
+    "bytes": 134355
+  },
+  {
+    "name": "libxcvt",
+    "version": "0.1.2-11.fc44",
+    "arch": "x86_64",
+    "file": "libxcvt-0.1.2-11.fc44.x86_64.rpm",
+    "bytes": 13930
+  },
+  {
+    "name": "libxkbcommon",
+    "version": "1.13.1-2.fc44",
+    "arch": "x86_64",
+    "file": "libxkbcommon-1.13.1-2.fc44.x86_64.rpm",
+    "bytes": 190238
+  },
+  {
+    "name": "libxkbcommon-x11",
+    "version": "1.13.1-2.fc44",
+    "arch": "x86_64",
+    "file": "libxkbcommon-x11-1.13.1-2.fc44.x86_64.rpm",
+    "bytes": 23812
+  },
+  {
+    "name": "libxkbfile",
+    "version": "1.1.3-5.fc44",
+    "arch": "x86_64",
+    "file": "libxkbfile-1.1.3-5.fc44.x86_64.rpm",
+    "bytes": 95975
+  },
+  {
+    "name": "libxklavier",
+    "version": "5.4-30.fc44",
+    "arch": "x86_64",
+    "file": "libxklavier-5.4-30.fc44.x86_64.rpm",
+    "bytes": 66031
+  },
+  {
+    "name": "libxml2",
+    "version": "2.12.10-6.fc44",
+    "arch": "x86_64",
+    "file": "libxml2-2.12.10-6.fc44.x86_64.rpm",
+    "bytes": 742039
+  },
+  {
+    "name": "libxmlb",
+    "version": "0.3.29-1.fc44",
+    "arch": "x86_64",
+    "file": "libxmlb-0.3.29-1.fc44.x86_64.rpm",
+    "bytes": 122264
+  },
+  {
+    "name": "libxshmfence",
+    "version": "1.3.2-8.fc44",
+    "arch": "x86_64",
+    "file": "libxshmfence-1.3.2-8.fc44.x86_64.rpm",
+    "bytes": 13533
+  },
+  {
+    "name": "libxslt",
+    "version": "1.1.43-6.fc44",
+    "arch": "x86_64",
+    "file": "libxslt-1.1.43-6.fc44.x86_64.rpm",
+    "bytes": 197353
+  },
+  {
+    "name": "libyaml",
+    "version": "0.2.5-18.fc44",
+    "arch": "x86_64",
+    "file": "libyaml-0.2.5-18.fc44.x86_64.rpm",
+    "bytes": 64563
+  },
+  {
+    "name": "libyuv",
+    "version": "0-0.61.20260213git6067afd.fc44",
+    "arch": "x86_64",
+    "file": "libyuv-0-0.61.20260213git6067afd.fc44.x86_64.rpm",
+    "bytes": 214352
+  },
+  {
+    "name": "libzstd",
+    "version": "1.5.7-5.fc44",
+    "arch": "x86_64",
+    "file": "libzstd-1.5.7-5.fc44.x86_64.rpm",
+    "bytes": 372900
+  },
+  {
+    "name": "lilv-libs",
+    "version": "0.26.4-1.fc44",
+    "arch": "x86_64",
+    "file": "lilv-libs-0.26.4-1.fc44.x86_64.rpm",
+    "bytes": 59416
+  },
+  {
+    "name": "linux-firmware",
+    "version": "20261019-1.fc44",
+    "arch": "noarch",
+    "file": "linux-firmware-20261019-1.fc44.noarch.rpm",
+    "bytes": 36626624
+  },
+  {
+    "name": "linux-firmware-whence",
+    "version": "20261019-1.fc44",
+    "arch": "noarch",
+    "file": "linux-firmware-whence-20261019-1.fc44.noarch.rpm",
+    "bytes": 78442
+  },
+  {
+    "name": "llvm-filesystem",
+    "version": "22.1.8-4.fc44",
+    "arch": "x86_64",
+    "file": "llvm-filesystem-22.1.8-4.fc44.x86_64.rpm",
+    "bytes": 10255
+  },
+  {
+    "name": "llvm-libs",
+    "version": "22.1.8-4.fc44",
+    "arch": "x86_64",
+    "file": "llvm-libs-22.1.8-4.fc44.x86_64.rpm",
+    "bytes": 35736228
+  },
+  {
+    "name": "lm_sensors-libs",
+    "version": "3.6.0-24.fc44",
+    "arch": "x86_64",
+    "file": "lm_sensors-libs-3.6.0-24.fc44.x86_64.rpm",
+    "bytes": 42940
+  },
+  {
+    "name": "lmdb-libs",
+    "version": "0.9.34-2.fc44",
+    "arch": "x86_64",
+    "file": "lmdb-libs-0.9.34-2.fc44.x86_64.rpm",
+    "bytes": 65359
+  },
+  {
+    "name": "lpcnetfreedv",
+    "version": "0.5-10.fc44",
+    "arch": "x86_64",
+    "file": "lpcnetfreedv-0.5-10.fc44.x86_64.rpm",
+    "bytes": 7690083
+  },
+  {
+    "name": "lua-libs",
+    "version": "5.4.8-5.fc44",
+    "arch": "x86_64",
+    "file": "lua-libs-5.4.8-5.fc44.x86_64.rpm",
+    "bytes": 139832
+  },
+  {
+    "name": "lz4-libs",
+    "version": "1.10.0-4.fc44",
+    "arch": "x86_64",
+    "file": "lz4-libs-1.10.0-4.fc44.x86_64.rpm",
+    "bytes": 79562
+  },
+  {
+    "name": "lzo",
+    "version": "2.10-16.fc44",
+    "arch": "x86_64",
+    "file": "lzo-2.10-16.fc44.x86_64.rpm",
+    "bytes": 71373
+  },
+  {
+    "name": "man-db",
+    "version": "2.13.1-3.fc44",
+    "arch": "x86_64",
+    "file": "man-db-2.13.1-3.fc44.x86_64.rpm",
+    "bytes": 1431872
+  },
+  {
+    "name": "mdadm",
+    "version": "4.3-11.fc44",
+    "arch": "x86_64",
+    "file": "mdadm-4.3-11.fc44.x86_64.rpm",
+    "bytes": 470122
+  },
+  {
+    "name": "mesa-dri-drivers",
+    "version": "26.2.5-1.fc44",
+    "arch": "x86_64",
+    "file": "mesa-dri-drivers-26.2.5-1.fc44.x86_64.rpm",
+    "bytes": 14502730
+  },
+  {
+    "name": "mesa-filesystem",
+    "version": "26.2.5-1.fc44",
+    "arch": "x86_64",
+    "file": "mesa-filesystem-26.2.5-1.fc44.x86_64.rpm",
+    "bytes": 9360
+  },
+  {
+    "name": "mesa-libEGL",
+    "version": "26.2.5-1.fc44",
+    "arch": "x86_64",
+    "file": "mesa-libEGL-26.2.5-1.fc44.x86_64.rpm",
+    "bytes": 144433
+  },
+  {
+    "name": "mesa-libGL",
+    "version": "26.2.5-1.fc44",
+    "arch": "x86_64",
+    "file": "mesa-libGL-26.2.5-1.fc44.x86_64.rpm",
+    "bytes": 141969
+  },
+  {
+    "name": "mesa-libgbm",
+    "version": "26.2.5-1.fc44",
+    "arch": "x86_64",
+    "file": "mesa-libgbm-26.2.5-1.fc44.x86_64.rpm",
+    "bytes": 15511
+  },
+  {
+    "name": "mesa-vulkan-drivers",
+    "version": "26.2.5-1.fc44",
+    "arch": "x86_64",
+    "file": "mesa-vulkan-drivers-26.2.5-1.fc44.x86_64.rpm",
+    "bytes": 29125516
+  },
+  {
+    "name": "microcode_ctl",
+    "version": "2.1-74.fc44",
+    "arch": "x86_64",
+    "file": "microcode_ctl-2.1-74.fc44.x86_64.rpm",
+    "bytes": 13710185
+  },
+  {
+    "name": "mokutil",
+    "version": "0.7.2-3.fc44",
+    "arch": "x86_64",
+    "file": "mokutil-0.7.2-3.fc44.x86_64.rpm",
+    "bytes": 50492
+  },
+  {
+    "name": "mpdecimal",
+    "version": "4.0.1-3.fc44",
+    "arch": "x86_64",
+    "file": "mpdecimal-4.0.1-3.fc44.x86_64.rpm",
+    "bytes": 101509
+  },
+  {
+    "name": "mpfr",
+    "version": "4.2.2-3.fc44",
+    "arch": "x86_64",
+    "file": "mpfr-4.2.2-3.fc44.x86_64.rpm",
+    "bytes": 366409
+  },
+  {
+    "name": "mpg123-libs",
+    "version": "1.32.10-3.fc44",
+    "arch": "x86_64",
+    "file": "mpg123-libs-1.32.10-3.fc44.x86_64.rpm",
+    "bytes": 370998
+  },
+  {
+    "name": "msgraph",
+    "version": "0.3.5-1.fc44",
+    "arch": "x86_64",
+    "file": "msgraph-0.3.5-1.fc44.x86_64.rpm",
+    "bytes": 59890
+  },
+  {
+    "name": "mt7xxx-firmware",
+    "version": "20261019-1.fc44",
+    "arch": "noarch",
+    "file": "mt7xxx-firmware-20261019-1.fc44.noarch.rpm",
+    "bytes": 32063074
+  },
+  {
+    "name": "mtdev",
+    "version": "1.1.6-12.fc44",
+    "arch": "x86_64",
+    "file": "mtdev-1.1.6-12.fc44.x86_64.rpm",
+    "bytes": 21692
+  },
+  {
+    "name": "ncurses",
+    "version": "6.6-1.fc44",
+    "arch": "x86_64",
+    "file": "ncurses-6.6-1.fc44.x86_64.rpm",
+    "bytes": 440103
+  },
+  {
+    "name": "ncurses-base",
+    "version": "6.6-1.fc44",
+    "arch": "noarch",
+    "file": "ncurses-base-6.6-1.fc44.noarch.rpm",
+    "bytes": 90110
+  },
+  {
+    "name": "ncurses-libs",
+    "version": "6.6-1.fc44",
+    "arch": "x86_64",
+    "file": "ncurses-libs-6.6-1.fc44.x86_64.rpm",
+    "bytes": 352355
+  },
+  {
+    "name": "nemo",
+    "version": "6.6.3-3.fc44",
+    "arch": "x86_64",
+    "file": "nemo-6.6.3-3.fc44.x86_64.rpm",
+    "bytes": 1123867
+  },
+  {
+    "name": "nemo-extensions",
+    "version": "6.6.3-3.fc44",
+    "arch": "x86_64",
+    "file": "nemo-extensions-6.6.3-3.fc44.x86_64.rpm",
+    "bytes": 56586
+  },
+  {
+    "name": "nettle",
+    "version": "3.10.1-3.fc44",
+    "arch": "x86_64",
+    "file": "nettle-3.10.1-3.fc44.x86_64.rpm",
+    "bytes": 438310
+  },
+  {
+    "name": "nftables",
+    "version": "1.1.6-2.fc44",
+    "arch": "x86_64",
+    "file": "nftables-1.1.6-2.fc44.x86_64.rpm",
+    "bytes": 461281
+  },
+  {
+    "name": "nftables-services",
+    "version": "1.1.6-2.fc44",
+    "arch": "noarch",
+    "file": "nftables-services-1.1.6-2.fc44.noarch.rpm",
+    "bytes": 22156
+  },
+  {
+    "name": "ngtcp2",
+    "version": "1.22.1-1.fc44",
+    "arch": "x86_64",
+    "file": "ngtcp2-1.22.1-1.fc44.x86_64.rpm",
+    "bytes": 161199
+  },
+  {
+    "name": "ngtcp2-crypto-gnutls",
+    "version": "1.22.1-1.fc44",
+    "arch": "x86_64",
+    "file": "ngtcp2-crypto-gnutls-1.22.1-1.fc44.x86_64.rpm",
+    "bytes": 25166
+  },
+  {
+    "name": "ngtcp2-crypto-ossl",
+    "version": "1.22.1-1.fc44",
+    "arch": "x86_64",
+    "file": "ngtcp2-crypto-ossl-1.22.1-1.fc44.x86_64.rpm",
+    "bytes": 28418
+  },
+  {
+    "name": "noopenh264",
+    "version": "2.6.0-4.fc44",
+    "arch": "x86_64",
+    "file": "noopenh264-2.6.0-4.fc44.x86_64.rpm",
+    "bytes": 22540
+  },
+  {
+    "name": "npth",
+    "version": "1.8-4.fc44",
+    "arch": "x86_64",
+    "file": "npth-1.8-4.fc44.x86_64.rpm",
+    "bytes": 26371
+  },
+  {
+    "name": "nspr",
+    "version": "4.39.0-7.fc44",
+    "arch": "x86_64",
+    "file": "nspr-4.39.0-7.fc44.x86_64.rpm",
+    "bytes": 147847
+  },
+  {
+    "name": "nss",
+    "version": "3.131.0-1.fc44",
+    "arch": "x86_64",
+    "file": "nss-3.131.0-1.fc44.x86_64.rpm",
+    "bytes": 783499
+  },
+  {
+    "name": "nss-mdns",
+    "version": "0.15.1-28.fc44",
+    "arch": "x86_64",
+    "file": "nss-mdns-0.15.1-28.fc44.x86_64.rpm",
+    "bytes": 47184
+  },
+  {
+    "name": "nss-softokn",
+    "version": "3.131.0-1.fc44",
+    "arch": "x86_64",
+    "file": "nss-softokn-3.131.0-1.fc44.x86_64.rpm",
+    "bytes": 460162
+  },
+  {
+    "name": "nss-softokn-freebl",
+    "version": "3.131.0-1.fc44",
+    "arch": "x86_64",
+    "file": "nss-softokn-freebl-3.131.0-1.fc44.x86_64.rpm",
+    "bytes": 400283
+  },
+  {
+    "name": "nss-sysinit",
+    "version": "3.131.0-1.fc44",
+    "arch": "x86_64",
+    "file": "nss-sysinit-3.131.0-1.fc44.x86_64.rpm",
+    "bytes": 20707
+  },
+  {
+    "name": "nss-util",
+    "version": "3.131.0-1.fc44",
+    "arch": "x86_64",
+    "file": "nss-util-3.131.0-1.fc44.x86_64.rpm",
+    "bytes": 93779
+  },
+  {
+    "name": "nvidia-gpu-firmware",
+    "version": "20261019-1.fc44",
+    "arch": "noarch",
+    "file": "nvidia-gpu-firmware-20261019-1.fc44.noarch.rpm",
+    "bytes": 104080671
+  },
+  {
+    "name": "ocean-sound-theme",
+    "version": "6.7.5-1.fc44",
+    "arch": "noarch",
+    "file": "ocean-sound-theme-6.7.5-1.fc44.noarch.rpm",
+    "bytes": 2065737
+  },
+  {
+    "name": "openapv-libs",
+    "version": "0.2.1.2-1.fc44",
+    "arch": "x86_64",
+    "file": "openapv-libs-0.2.1.2-1.fc44.x86_64.rpm",
+    "bytes": 69689
+  },
+  {
+    "name": "opencore-amr",
+    "version": "0.1.6-10.fc44",
+    "arch": "x86_64",
+    "file": "opencore-amr-0.1.6-10.fc44.x86_64.rpm",
+    "bytes": 187850
+  },
+  {
+    "name": "openexr-libs",
+    "version": "3.2.4-7.fc44",
+    "arch": "x86_64",
+    "file": "openexr-libs-3.2.4-7.fc44.x86_64.rpm",
+    "bytes": 1209465
+  },
+  {
+    "name": "openjpeg",
+    "version": "2.5.4-3.fc44",
+    "arch": "x86_64",
+    "file": "openjpeg-2.5.4-3.fc44.x86_64.rpm",
+    "bytes": 202843
+  },
+  {
+    "name": "openldap",
+    "version": "2.6.15-1.fc44",
+    "arch": "x86_64",
+    "file": "openldap-2.6.15-1.fc44.x86_64.rpm",
+    "bytes": 278117
+  },
+  {
+    "name": "openpgm",
+    "version": "5.3.128-6.fc44",
+    "arch": "x86_64",
+    "file": "openpgm-5.3.128-6.fc44.x86_64.rpm",
+    "bytes": 189307
+  },
+  {
+    "name": "openssh",
+    "version": "10.2p1-16.fc44",
+    "arch": "x86_64",
+    "file": "openssh-10.2p1-16.fc44.x86_64.rpm",
+    "bytes": 364418
+  },
+  {
+    "name": "openssh-clients",
+    "version": "10.2p1-16.fc44",
+    "arch": "x86_64",
+    "file": "openssh-clients-10.2p1-16.fc44.x86_64.rpm",
+    "bytes": 797140
+  },
+  {
+    "name": "openssh-server",
+    "version": "10.2p1-16.fc44",
+    "arch": "x86_64",
+    "file": "openssh-server-10.2p1-16.fc44.x86_64.rpm",
+    "bytes": 645248
+  },
+  {
+    "name": "openssl-libs",
+    "version": "3.5.9-1.fc44",
+    "arch": "x86_64",
+    "file": "openssl-libs-3.5.9-1.fc44.x86_64.rpm",
+    "bytes": 2890271
+  },
+  {
+    "name": "openxr-libs",
+    "version": "1.1.65-1.fc44",
+    "arch": "x86_64",
+    "file": "openxr-libs-1.1.65-1.fc44.x86_64.rpm",
+    "bytes": 119748
+  },
+  {
+    "name": "opus",
+    "version": "1.6-2.fc44",
+    "arch": "x86_64",
+    "file": "opus-1.6-2.fc44.x86_64.rpm",
+    "bytes": 261496
+  },
+  {
+    "name": "orc",
+    "version": "0.4.41-3.fc44",
+    "arch": "x86_64",
+    "file": "orc-0.4.41-3.fc44.x86_64.rpm",
+    "bytes": 229582
+  },
+  {
+    "name": "os-prober",
+    "version": "1.81-11.fc44",
+    "arch": "x86_64",
+    "file": "os-prober-1.81-11.fc44.x86_64.rpm",
+    "bytes": 51349
+  },
+  {
+    "name": "p11-kit",
+    "version": "0.26.5-1.fc44",
+    "arch": "x86_64",
+    "file": "p11-kit-0.26.5-1.fc44.x86_64.rpm",
+    "bytes": 574015
+  },
+  {
+    "name": "p11-kit-trust",
+    "version": "0.26.5-1.fc44",
+    "arch": "x86_64",
+    "file": "p11-kit-trust-0.26.5-1.fc44.x86_64.rpm",
+    "bytes": 150057
+  },
+  {
+    "name": "pam",
+    "version": "1.7.2-2.fc44",
+    "arch": "x86_64",
+    "file": "pam-1.7.2-2.fc44.x86_64.rpm",
+    "bytes": 566354
+  },
+  {
+    "name": "pam-kwallet",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "pam-kwallet-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 23932
+  },
+  {
+    "name": "pam-libs",
+    "version": "1.7.2-2.fc44",
+    "arch": "x86_64",
+    "file": "pam-libs-1.7.2-2.fc44.x86_64.rpm",
+    "bytes": 60028
+  },
+  {
+    "name": "pango",
+    "version": "1.57.1-1.fc44",
+    "arch": "x86_64",
+    "file": "pango-1.57.1-1.fc44.x86_64.rpm",
+    "bytes": 374863
+  },
+  {
+    "name": "parted",
+    "version": "3.6-15.fc44",
+    "arch": "x86_64",
+    "file": "parted-3.6-15.fc44.x86_64.rpm",
+    "bytes": 612148
+  },
+  {
+    "name": "passim-libs",
+    "version": "0.1.12-1.fc44",
+    "arch": "x86_64",
+    "file": "passim-libs-0.1.12-1.fc44.x86_64.rpm",
+    "bytes": 33292
+  },
+  {
+    "name": "pciutils",
+    "version": "3.15.0-1.fc44",
+    "arch": "x86_64",
+    "file": "pciutils-3.15.0-1.fc44.x86_64.rpm",
+    "bytes": 131960
+  },
+  {
+    "name": "pciutils-libs",
+    "version": "3.15.0-1.fc44",
+    "arch": "x86_64",
+    "file": "pciutils-libs-3.15.0-1.fc44.x86_64.rpm",
+    "bytes": 54459
+  },
+  {
+    "name": "pcre2",
+    "version": "10.47-1.fc44.1",
+    "arch": "x86_64",
+    "file": "pcre2-10.47-1.fc44.1.x86_64.rpm",
+    "bytes": 284397
+  },
+  {
+    "name": "pcre2-syntax",
+    "version": "10.47-1.fc44.1",
+    "arch": "noarch",
+    "file": "pcre2-syntax-10.47-1.fc44.1.noarch.rpm",
+    "bytes": 168666
+  },
+  {
+    "name": "pcre2-utf16",
+    "version": "10.47-1.fc44.1",
+    "arch": "x86_64",
+    "file": "pcre2-utf16-10.47-1.fc44.1.x86_64.rpm",
+    "bytes": 262462
+  },
+  {
+    "name": "pinentry",
+    "version": "1.3.2-3.fc44",
+    "arch": "x86_64",
+    "file": "pinentry-1.3.2-3.fc44.x86_64.rpm",
+    "bytes": 115577
+  },
+  {
+    "name": "pinentry-gnome3",
+    "version": "1.3.2-3.fc44",
+    "arch": "x86_64",
+    "file": "pinentry-gnome3-1.3.2-3.fc44.x86_64.rpm",
+    "bytes": 46585
+  },
+  {
+    "name": "pipewire-libs",
+    "version": "1.6.10-1.fc44",
+    "arch": "x86_64",
+    "file": "pipewire-libs-1.6.10-1.fc44.x86_64.rpm",
+    "bytes": 2777478
+  },
+  {
+    "name": "pipewire-pulseaudio",
+    "version": "1.6.10-1.fc44",
+    "arch": "x86_64",
+    "file": "pipewire-pulseaudio-1.6.10-1.fc44.x86_64.rpm",
+    "bytes": 226185
+  },
+  {
+    "name": "pixman",
+    "version": "0.46.2-3.fc44",
+    "arch": "x86_64",
+    "file": "pixman-0.46.2-3.fc44.x86_64.rpm",
+    "bytes": 304584
+  },
+  {
+    "name": "pkgconf",
+    "version": "2.5.1-1.fc44",
+    "arch": "x86_64",
+    "file": "pkgconf-2.5.1-1.fc44.x86_64.rpm",
+    "bytes": 49863
+  },
+  {
+    "name": "pkgconf-m4",
+    "version": "2.5.1-1.fc44",
+    "arch": "noarch",
+    "file": "pkgconf-m4-2.5.1-1.fc44.noarch.rpm",
+    "bytes": 14083
+  },
+  {
+    "name": "pkgconf-pkg-config",
+    "version": "2.5.1-1.fc44",
+    "arch": "x86_64",
+    "file": "pkgconf-pkg-config-2.5.1-1.fc44.x86_64.rpm",
+    "bytes": 9695
+  },
+  {
+    "name": "plasma-activities",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "plasma-activities-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 163210
+  },
+  {
+    "name": "plasma-activities-stats",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "plasma-activities-stats-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 127501
+  },
+  {
+    "name": "plasma-breeze",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "plasma-breeze-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 296300
+  },
+  {
+    "name": "plasma-breeze-common",
+    "version": "6.7.5-1.fc44",
+    "arch": "noarch",
+    "file": "plasma-breeze-common-6.7.5-1.fc44.noarch.rpm",
+    "bytes": 41664699
+  },
+  {
+    "name": "plasma-breeze-qt6",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "plasma-breeze-qt6-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 251342
+  },
+  {
+    "name": "plasma-desktop",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "plasma-desktop-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 15272906
+  },
+  {
+    "name": "plasma-integration",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "plasma-integration-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 202385
+  },
+  {
+    "name": "plasma-keyboard",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "plasma-keyboard-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 434720
+  },
+  {
+    "name": "plasma-lookandfeel-fedora",
+    "version": "6.7.5-1.fc44",
+    "arch": "noarch",
+    "file": "plasma-lookandfeel-fedora-6.7.5-1.fc44.noarch.rpm",
+    "bytes": 907572
+  },
+  {
+    "name": "plasma-nm",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "plasma-nm-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 1716254
+  },
+  {
+    "name": "plasma-pa",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "plasma-pa-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 648476
+  },
+  {
+    "name": "plasma-systemsettings",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "plasma-systemsettings-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 478976
+  },
+  {
+    "name": "plasma-workspace",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "plasma-workspace-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 17347620
+  },
+  {
+    "name": "plasma-workspace-common",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "plasma-workspace-common-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 35318
+  },
+  {
+    "name": "plasma-workspace-libs",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "plasma-workspace-libs-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 4457233
+  },
+  {
+    "name": "plasma5support",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "plasma5support-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 1534930
+  },
+  {
+    "name": "plymouth",
+    "version": "24.004.60-24.fc44",
+    "arch": "x86_64",
+    "file": "plymouth-24.004.60-24.fc44.x86_64.rpm",
+    "bytes": 130768
+  },
+  {
+    "name": "plymouth-core-libs",
+    "version": "24.004.60-24.fc44",
+    "arch": "x86_64",
+    "file": "plymouth-core-libs-24.004.60-24.fc44.x86_64.rpm",
+    "bytes": 127970
+  },
+  {
+    "name": "plymouth-scripts",
+    "version": "24.004.60-24.fc44",
+    "arch": "x86_64",
+    "file": "plymouth-scripts-24.004.60-24.fc44.x86_64.rpm",
+    "bytes": 18534
+  },
+  {
+    "name": "policycoreutils",
+    "version": "3.11-2.fc44",
+    "arch": "x86_64",
+    "file": "policycoreutils-3.11-2.fc44.x86_64.rpm",
+    "bytes": 265196
+  },
+  {
+    "name": "policycoreutils-python-utils",
+    "version": "3.11-2.fc44",
+    "arch": "noarch",
+    "file": "policycoreutils-python-utils-3.11-2.fc44.noarch.rpm",
+    "bytes": 51626
+  },
+  {
+    "name": "polkit",
+    "version": "127-2.fc44.2",
+    "arch": "x86_64",
+    "file": "polkit-127-2.fc44.2.x86_64.rpm",
+    "bytes": 175939
+  },
+  {
+    "name": "polkit-kde",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "polkit-kde-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 119633
+  },
+  {
+    "name": "polkit-libs",
+    "version": "127-2.fc44.2",
+    "arch": "x86_64",
+    "file": "polkit-libs-127-2.fc44.2.x86_64.rpm",
+    "bytes": 74525
+  },
+  {
+    "name": "polkit-qt6-1",
+    "version": "0.201.1-1.fc44",
+    "arch": "x86_64",
+    "file": "polkit-qt6-1-0.201.1-1.fc44.x86_64.rpm",
+    "bytes": 97341
+  },
+  {
+    "name": "poly2tri",
+    "version": "0.0^20130501hg26242d0aa7b8-7.fc44",
+    "arch": "x86_64",
+    "file": "poly2tri-0.0^20130501hg26242d0aa7b8-7.fc44.x86_64.rpm",
+    "bytes": 32999
+  },
+  {
+    "name": "poppler",
+    "version": "26.01.0-3.fc44",
+    "arch": "x86_64",
+    "file": "poppler-26.01.0-3.fc44.x86_64.rpm",
+    "bytes": 1433284
+  },
+  {
+    "name": "poppler-data",
+    "version": "0.4.11-11.fc44",
+    "arch": "noarch",
+    "file": "poppler-data-0.4.11-11.fc44.noarch.rpm",
+    "bytes": 2061793
+  },
+  {
+    "name": "poppler-qt6",
+    "version": "26.01.0-3.fc44",
+    "arch": "x86_64",
+    "file": "poppler-qt6-26.01.0-3.fc44.x86_64.rpm",
+    "bytes": 239097
+  },
+  {
+    "name": "popt",
+    "version": "1.19-10.fc44",
+    "arch": "x86_64",
+    "file": "popt-1.19-10.fc44.x86_64.rpm",
+    "bytes": 68537
+  },
+  {
+    "name": "powerdevil",
+    "version": "6.7.5-3.fc44",
+    "arch": "x86_64",
+    "file": "powerdevil-6.7.5-3.fc44.x86_64.rpm",
+    "bytes": 2000836
+  },
+  {
+    "name": "prefixdevname",
+    "version": "0.2.0-8.fc44",
+    "arch": "x86_64",
+    "file": "prefixdevname-0.2.0-8.fc44.x86_64.rpm",
+    "bytes": 706616
+  },
+  {
+    "name": "procps-ng",
+    "version": "4.0.6-1.fc44",
+    "arch": "x86_64",
+    "file": "procps-ng-4.0.6-1.fc44.x86_64.rpm",
+    "bytes": 408466
+  },
+  {
+    "name": "psmisc",
+    "version": "23.7-7.fc44",
+    "arch": "x86_64",
+    "file": "psmisc-23.7-7.fc44.x86_64.rpm",
+    "bytes": 328883
+  },
+  {
+    "name": "publicsuffix-list-dafsa",
+    "version": "20260116-1.fc44",
+    "arch": "noarch",
+    "file": "publicsuffix-list-dafsa-20260116-1.fc44.noarch.rpm",
+    "bytes": 61722
+  },
+  {
+    "name": "pugixml",
+    "version": "1.16-1.fc44",
+    "arch": "x86_64",
+    "file": "pugixml-1.16-1.fc44.x86_64.rpm",
+    "bytes": 118150
+  },
+  {
+    "name": "pulseaudio-libs",
+    "version": "17.0-9.fc44",
+    "arch": "x86_64",
+    "file": "pulseaudio-libs-17.0-9.fc44.x86_64.rpm",
+    "bytes": 722182
+  },
+  {
+    "name": "pulseaudio-libs-glib2",
+    "version": "17.0-9.fc44",
+    "arch": "x86_64",
+    "file": "pulseaudio-libs-glib2-17.0-9.fc44.x86_64.rpm",
+    "bytes": 16740
+  },
+  {
+    "name": "pulseaudio-qt-qt6",
+    "version": "1.8.1-1.fc44",
+    "arch": "x86_64",
+    "file": "pulseaudio-qt-qt6-1.8.1-1.fc44.x86_64.rpm",
+    "bytes": 145943
+  },
+  {
+    "name": "pulseaudio-utils",
+    "version": "17.0-9.fc44",
+    "arch": "x86_64",
+    "file": "pulseaudio-utils-17.0-9.fc44.x86_64.rpm",
+    "bytes": 93006
+  },
+  {
+    "name": "python-pip-wheel",
+    "version": "26.0.1-3.fc44",
+    "arch": "noarch",
+    "file": "python-pip-wheel-26.0.1-3.fc44.noarch.rpm",
+    "bytes": 1205378
+  },
+  {
+    "name": "python-pyqt6-rpm-macros",
+    "version": "6.11.0-8.fc44",
+    "arch": "noarch",
+    "file": "python-pyqt6-rpm-macros-6.11.0-8.fc44.noarch.rpm",
+    "bytes": 10272
+  },
+  {
+    "name": "python3",
+    "version": "3.14.8-1.fc44",
+    "arch": "x86_64",
+    "file": "python3-3.14.8-1.fc44.x86_64.rpm",
+    "bytes": 30106
+  },
+  {
+    "name": "python3-audit",
+    "version": "4.2.1-1.fc44",
+    "arch": "x86_64",
+    "file": "python3-audit-4.2.1-1.fc44.x86_64.rpm",
+    "bytes": 75120
+  },
+  {
+    "name": "python3-cairo",
+    "version": "1.28.0-5.fc44",
+    "arch": "x86_64",
+    "file": "python3-cairo-1.28.0-5.fc44.x86_64.rpm",
+    "bytes": 133088
+  },
+  {
+    "name": "python3-dbus",
+    "version": "1.4.0-9.fc44",
+    "arch": "x86_64",
+    "file": "python3-dbus-1.4.0-9.fc44.x86_64.rpm",
+    "bytes": 167924
+  },
+  {
+    "name": "python3-distro",
+    "version": "1.9.0-11.fc44",
+    "arch": "noarch",
+    "file": "python3-distro-1.9.0-11.fc44.noarch.rpm",
+    "bytes": 48347
+  },
+  {
+    "name": "python3-firewall",
+    "version": "2.4.4-1.fc44",
+    "arch": "noarch",
+    "file": "python3-firewall-2.4.4-1.fc44.noarch.rpm",
+    "bytes": 528485
+  },
+  {
+    "name": "python3-gobject",
+    "version": "3.56.3-1.fc44",
+    "arch": "x86_64",
+    "file": "python3-gobject-3.56.3-1.fc44.x86_64.rpm",
+    "bytes": 18481
+  },
+  {
+    "name": "python3-gobject-base",
+    "version": "3.56.3-1.fc44",
+    "arch": "x86_64",
+    "file": "python3-gobject-base-3.56.3-1.fc44.x86_64.rpm",
+    "bytes": 414241
+  },
+  {
+    "name": "python3-libs",
+    "version": "3.14.8-1.fc44",
+    "arch": "x86_64",
+    "file": "python3-libs-3.14.8-1.fc44.x86_64.rpm",
+    "bytes": 10645039
+  },
+  {
+    "name": "python3-libselinux",
+    "version": "3.11-2.fc44",
+    "arch": "x86_64",
+    "file": "python3-libselinux-3.11-2.fc44.x86_64.rpm",
+    "bytes": 217101
+  },
+  {
+    "name": "python3-libsemanage",
+    "version": "3.11-1.fc44",
+    "arch": "x86_64",
+    "file": "python3-libsemanage-3.11-1.fc44.x86_64.rpm",
+    "bytes": 86427
+  },
+  {
+    "name": "python3-nftables",
+    "version": "1.1.6-2.fc44",
+    "arch": "noarch",
+    "file": "python3-nftables-1.1.6-2.fc44.noarch.rpm",
+    "bytes": 22151
+  },
+  {
+    "name": "python3-policycoreutils",
+    "version": "3.11-2.fc44",
+    "arch": "noarch",
+    "file": "python3-policycoreutils-3.11-2.fc44.noarch.rpm",
+    "bytes": 2309798
+  },
+  {
+    "name": "python3-pyqt6",
+    "version": "6.11.0-8.fc44",
+    "arch": "x86_64",
+    "file": "python3-pyqt6-6.11.0-8.fc44.x86_64.rpm",
+    "bytes": 1153543
+  },
+  {
+    "name": "python3-pyqt6-base",
+    "version": "6.11.0-8.fc44",
+    "arch": "x86_64",
+    "file": "python3-pyqt6-base-6.11.0-8.fc44.x86_64.rpm",
+    "bytes": 3305777
+  },
+  {
+    "name": "python3-pyqt6-sip",
+    "version": "13.11.1-1.fc44",
+    "arch": "x86_64",
+    "file": "python3-pyqt6-sip-13.11.1-1.fc44.x86_64.rpm",
+    "bytes": 75088
+  },
+  {
+    "name": "python3-setools",
+    "version": "4.6.0-6.fc44",
+    "arch": "x86_64",
+    "file": "python3-setools-4.6.0-6.fc44.x86_64.rpm",
+    "bytes": 747954
+  },
+  {
+    "name": "python3-xapps-overrides",
+    "version": "3.2.2-3.fc44",
+    "arch": "x86_64",
+    "file": "python3-xapps-overrides-3.2.2-3.fc44.x86_64.rpm",
+    "bytes": 10606
+  },
+  {
+    "name": "qaccessibilityclient-qt6",
+    "version": "0.6.0-5.fc44",
+    "arch": "x86_64",
+    "file": "qaccessibilityclient-qt6-0.6.0-5.fc44.x86_64.rpm",
+    "bytes": 119438
+  },
+  {
+    "name": "qca-qt6",
+    "version": "2.3.10-4.fc44",
+    "arch": "x86_64",
+    "file": "qca-qt6-2.3.10-4.fc44.x86_64.rpm",
+    "bytes": 566586
+  },
+  {
+    "name": "qca-qt6-ossl",
+    "version": "2.3.10-4.fc44",
+    "arch": "x86_64",
+    "file": "qca-qt6-ossl-2.3.10-4.fc44.x86_64.rpm",
+    "bytes": 136984
+  },
+  {
+    "name": "qcoro-qt6",
+    "version": "0.12.0-6.fc44",
+    "arch": "x86_64",
+    "file": "qcoro-qt6-0.12.0-6.fc44.x86_64.rpm",
+    "bytes": 147604
+  },
+  {
+    "name": "qqc2-breeze-style",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "qqc2-breeze-style-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 611222
+  },
+  {
+    "name": "qrencode-libs",
+    "version": "4.1.1-12.fc44",
+    "arch": "x86_64",
+    "file": "qrencode-libs-4.1.1-12.fc44.x86_64.rpm",
+    "bytes": 65631
+  },
+  {
+    "name": "qt6-filesystem",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-filesystem-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 10702
+  },
+  {
+    "name": "qt6-qt5compat",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qt5compat-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 599652
+  },
+  {
+    "name": "qt6-qtbase",
+    "version": "6.11.2-3.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtbase-6.11.2-3.fc44.x86_64.rpm",
+    "bytes": 4616012
+  },
+  {
+    "name": "qt6-qtbase-common",
+    "version": "6.11.2-3.fc44",
+    "arch": "noarch",
+    "file": "qt6-qtbase-common-6.11.2-3.fc44.noarch.rpm",
+    "bytes": 11617
+  },
+  {
+    "name": "qt6-qtbase-gui",
+    "version": "6.11.2-3.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtbase-gui-6.11.2-3.fc44.x86_64.rpm",
+    "bytes": 9104647
+  },
+  {
+    "name": "qt6-qtconnectivity",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtconnectivity-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 557999
+  },
+  {
+    "name": "qt6-qtdeclarative",
+    "version": "6.11.2-2.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtdeclarative-6.11.2-2.fc44.x86_64.rpm",
+    "bytes": 15495088
+  },
+  {
+    "name": "qt6-qtlocation",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtlocation-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 783475
+  },
+  {
+    "name": "qt6-qtmultimedia",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtmultimedia-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 1533626
+  },
+  {
+    "name": "qt6-qtpdf",
+    "version": "6.11.2-2.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtpdf-6.11.2-2.fc44.x86_64.rpm",
+    "bytes": 8734413
+  },
+  {
+    "name": "qt6-qtpositioning",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtpositioning-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 476737
+  },
+  {
+    "name": "qt6-qtquick3d",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtquick3d-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 6009219
+  },
+  {
+    "name": "qt6-qtquicktimeline",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtquicktimeline-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 98544
+  },
+  {
+    "name": "qt6-qtremoteobjects",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtremoteobjects-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 552084
+  },
+  {
+    "name": "qt6-qtsensors",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtsensors-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 239828
+  },
+  {
+    "name": "qt6-qtserialport",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtserialport-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 83453
+  },
+  {
+    "name": "qt6-qtshadertools",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtshadertools-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 2371771
+  },
+  {
+    "name": "qt6-qtspeech",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtspeech-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 124648
+  },
+  {
+    "name": "qt6-qtsvg",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtsvg-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 327196
+  },
+  {
+    "name": "qt6-qttools",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qttools-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 241808
+  },
+  {
+    "name": "qt6-qttools-common",
+    "version": "6.11.2-1.fc44",
+    "arch": "noarch",
+    "file": "qt6-qttools-common-6.11.2-1.fc44.noarch.rpm",
+    "bytes": 11679
+  },
+  {
+    "name": "qt6-qttools-libs-designer",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qttools-libs-designer-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 3160511
+  },
+  {
+    "name": "qt6-qttools-libs-help",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qttools-libs-help-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 226929
+  },
+  {
+    "name": "qt6-qtvirtualkeyboard",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtvirtualkeyboard-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 2681335
+  },
+  {
+    "name": "qt6-qtwayland",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtwayland-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 821045
+  },
+  {
+    "name": "qt6-qtwebchannel",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtwebchannel-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 167125
+  },
+  {
+    "name": "qt6-qtwebsockets",
+    "version": "6.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "qt6-qtwebsockets-6.11.2-1.fc44.x86_64.rpm",
+    "bytes": 115748
+  },
+  {
+    "name": "qtkeychain-qt6",
+    "version": "0.16.0-1.fc44",
+    "arch": "x86_64",
+    "file": "qtkeychain-qt6-0.16.0-1.fc44.x86_64.rpm",
+    "bytes": 82044
+  },
+  {
+    "name": "rav1e-libs",
+    "version": "0.8.1-3.fc44",
+    "arch": "x86_64",
+    "file": "rav1e-libs-0.8.1-3.fc44.x86_64.rpm",
+    "bytes": 1119995
+  },
+  {
+    "name": "rdma-core-common",
+    "version": "61.1^20260812git975bdaf-1.fc44",
+    "arch": "noarch",
+    "file": "rdma-core-common-61.1^20260812git975bdaf-1.fc44.noarch.rpm",
+    "bytes": 17552
+  },
+  {
+    "name": "readline",
+    "version": "8.3-4.fc44",
+    "arch": "x86_64",
+    "file": "readline-8.3-4.fc44.x86_64.rpm",
+    "bytes": 235274
+  },
+  {
+    "name": "realtek-firmware",
+    "version": "20261019-1.fc44",
+    "arch": "noarch",
+    "file": "realtek-firmware-20261019-1.fc44.noarch.rpm",
+    "bytes": 7760424
+  },
+  {
+    "name": "redhat-menus",
+    "version": "12.0.2-39.fc44",
+    "arch": "noarch",
+    "file": "redhat-menus-12.0.2-39.fc44.noarch.rpm",
+    "bytes": 159297
+  },
+  {
+    "name": "rest",
+    "version": "0.10.2-9.fc44",
+    "arch": "x86_64",
+    "file": "rest-0.10.2-9.fc44.x86_64.rpm",
+    "bytes": 73176
+  },
+  {
+    "name": "rootfiles",
+    "version": "9.0-6.fc44",
+    "arch": "noarch",
+    "file": "rootfiles-9.0-6.fc44.noarch.rpm",
+    "bytes": 10433
+  },
+  {
+    "name": "rpm",
+    "version": "6.0.2-1.fc44",
+    "arch": "x86_64",
+    "file": "rpm-6.0.2-1.fc44.x86_64.rpm",
+    "bytes": 589935
+  },
+  {
+    "name": "rpm-build-libs",
+    "version": "6.0.2-1.fc44",
+    "arch": "x86_64",
+    "file": "rpm-build-libs-6.0.2-1.fc44.x86_64.rpm",
+    "bytes": 132806
+  },
+  {
+    "name": "rpm-libs",
+    "version": "6.0.2-1.fc44",
+    "arch": "x86_64",
+    "file": "rpm-libs-6.0.2-1.fc44.x86_64.rpm",
+    "bytes": 422991
+  },
+  {
+    "name": "rpm-plugin-selinux",
+    "version": "6.0.2-1.fc44",
+    "arch": "x86_64",
+    "file": "rpm-plugin-selinux-6.0.2-1.fc44.x86_64.rpm",
+    "bytes": 17358
+  },
+  {
+    "name": "rpm-sequoia",
+    "version": "1.10.3-1.fc44",
+    "arch": "x86_64",
+    "file": "rpm-sequoia-1.10.3-1.fc44.x86_64.rpm",
+    "bytes": 963488
+  },
+  {
+    "name": "rpm-sign-libs",
+    "version": "6.0.2-1.fc44",
+    "arch": "x86_64",
+    "file": "rpm-sign-libs-6.0.2-1.fc44.x86_64.rpm",
+    "bytes": 26457
+  },
+  {
+    "name": "rubberband-libs",
+    "version": "4.0.0-5.fc44",
+    "arch": "x86_64",
+    "file": "rubberband-libs-4.0.0-5.fc44.x86_64.rpm",
+    "bytes": 181412
+  },
+  {
+    "name": "samba-client-libs",
+    "version": "4.24.7-1.fc44",
+    "arch": "x86_64",
+    "file": "samba-client-libs-4.24.7-1.fc44.x86_64.rpm",
+    "bytes": 3369775
+  },
+  {
+    "name": "samba-common",
+    "version": "4.24.7-1.fc44",
+    "arch": "noarch",
+    "file": "samba-common-4.24.7-1.fc44.noarch.rpm",
+    "bytes": 190323
+  },
+  {
+    "name": "samba-core-libs",
+    "version": "4.24.7-1.fc44",
+    "arch": "x86_64",
+    "file": "samba-core-libs-4.24.7-1.fc44.x86_64.rpm",
+    "bytes": 526464
+  },
+  {
+    "name": "samba-ndr-libs",
+    "version": "4.24.7-1.fc44",
+    "arch": "x86_64",
+    "file": "samba-ndr-libs-4.24.7-1.fc44.x86_64.rpm",
+    "bytes": 1326687
+  },
+  {
+    "name": "sdbus-cpp",
+    "version": "2.2.1-2.fc44",
+    "arch": "x86_64",
+    "file": "sdbus-cpp-2.2.1-2.fc44.x86_64.rpm",
+    "bytes": 136075
+  },
+  {
+    "name": "sddm",
+    "version": "0.21.0-13.fc44",
+    "arch": "x86_64",
+    "file": "sddm-0.21.0-13.fc44.x86_64.rpm",
+    "bytes": 689363
+  },
+  {
+    "name": "sddm-breeze",
+    "version": "6.7.5-1.fc44",
+    "arch": "noarch",
+    "file": "sddm-breeze-6.7.5-1.fc44.noarch.rpm",
+    "bytes": 1123872
+  },
+  {
+    "name": "sddm-wayland-plasma",
+    "version": "6.7.5-1.fc44",
+    "arch": "noarch",
+    "file": "sddm-wayland-plasma-6.7.5-1.fc44.noarch.rpm",
+    "bytes": 8784
+  },
+  {
+    "name": "sdl2-compat",
+    "version": "2.32.74-1.fc44",
+    "arch": "x86_64",
+    "file": "sdl2-compat-2.32.74-1.fc44.x86_64.rpm",
+    "bytes": 144079
+  },
+  {
+    "name": "sed",
+    "version": "4.9-7.fc44",
+    "arch": "x86_64",
+    "file": "sed-4.9-7.fc44.x86_64.rpm",
+    "bytes": 326830
+  },
+  {
+    "name": "selinux-policy",
+    "version": "44.11-1.fc44",
+    "arch": "noarch",
+    "file": "selinux-policy-44.11-1.fc44.noarch.rpm",
+    "bytes": 27604
+  },
+  {
+    "name": "selinux-policy-targeted",
+    "version": "44.11-1.fc44",
+    "arch": "noarch",
+    "file": "selinux-policy-targeted-44.11-1.fc44.noarch.rpm",
+    "bytes": 7115301
+  },
+  {
+    "name": "serd",
+    "version": "0.32.8-1.fc44",
+    "arch": "x86_64",
+    "file": "serd-0.32.8-1.fc44.x86_64.rpm",
+    "bytes": 69147
+  },
+  {
+    "name": "setup",
+    "version": "2.15.0-28.fc44",
+    "arch": "noarch",
+    "file": "setup-2.15.0-28.fc44.noarch.rpm",
+    "bytes": 160947
+  },
+  {
+    "name": "setxkbmap",
+    "version": "1.3.4-7.fc44",
+    "arch": "x86_64",
+    "file": "setxkbmap-1.3.4-7.fc44.x86_64.rpm",
+    "bytes": 22702
+  },
+  {
+    "name": "sgml-common",
+    "version": "0.6.3-68.fc44",
+    "arch": "noarch",
+    "file": "sgml-common-0.6.3-68.fc44.noarch.rpm",
+    "bytes": 61990
+  },
+  {
+    "name": "shadow-utils",
+    "version": "4.19.0-7.fc44",
+    "arch": "x86_64",
+    "file": "shadow-utils-4.19.0-7.fc44.x86_64.rpm",
+    "bytes": 1361457
+  },
+  {
+    "name": "shared-mime-info",
+    "version": "2.4-3.fc44",
+    "arch": "x86_64",
+    "file": "shared-mime-info-2.4-3.fc44.x86_64.rpm",
+    "bytes": 411690
+  },
+  {
+    "name": "shim-x64",
+    "version": "16.1-7",
+    "arch": "x86_64",
+    "file": "shim-x64-16.1-7.x86_64.rpm",
+    "bytes": 497743
+  },
+  {
+    "name": "signon",
+    "version": "8.60^20240205.c8ad982-5.fc44",
+    "arch": "x86_64",
+    "file": "signon-8.60^20240205.c8ad982-5.fc44.x86_64.rpm",
+    "bytes": 334273
+  },
+  {
+    "name": "signon-plugin-oauth2",
+    "version": "0.25^20231216.fab6988-7.fc44",
+    "arch": "x86_64",
+    "file": "signon-plugin-oauth2-0.25^20231216.fab6988-7.fc44.x86_64.rpm",
+    "bytes": 94485
+  },
+  {
+    "name": "signon-qt6",
+    "version": "8.60^20240205.c8ad982-5.fc44",
+    "arch": "x86_64",
+    "file": "signon-qt6-8.60^20240205.c8ad982-5.fc44.x86_64.rpm",
+    "bytes": 95886
+  },
+  {
+    "name": "snappy",
+    "version": "1.2.2-4.fc44",
+    "arch": "x86_64",
+    "file": "snappy-1.2.2-4.fc44.x86_64.rpm",
+    "bytes": 44279
+  },
+  {
+    "name": "socat",
+    "version": "1.8.1.3-1.fc44",
+    "arch": "x86_64",
+    "file": "socat-1.8.1.3-1.fc44.x86_64.rpm",
+    "bytes": 404288
+  },
+  {
+    "name": "sord",
+    "version": "0.16.22-1.fc44",
+    "arch": "x86_64",
+    "file": "sord-0.16.22-1.fc44.x86_64.rpm",
+    "bytes": 38783
+  },
+  {
+    "name": "sound-theme-freedesktop",
+    "version": "0.8-31.fc44",
+    "arch": "noarch",
+    "file": "sound-theme-freedesktop-0.8-31.fc44.noarch.rpm",
+    "bytes": 391671
+  },
+  {
+    "name": "source-foundry-hack-fonts",
+    "version": "3.003-7.fc44",
+    "arch": "noarch",
+    "file": "source-foundry-hack-fonts-3.003-7.fc44.noarch.rpm",
+    "bytes": 409620
+  },
+  {
+    "name": "soxr",
+    "version": "0.1.3-21.fc44",
+    "arch": "x86_64",
+    "file": "soxr-0.1.3-21.fc44.x86_64.rpm",
+    "bytes": 90268
+  },
+  {
+    "name": "spandsp",
+    "version": "0.0.6-22.fc44",
+    "arch": "x86_64",
+    "file": "spandsp-0.0.6-22.fc44.x86_64.rpm",
+    "bytes": 343015
+  },
+  {
+    "name": "speex",
+    "version": "1.2.0-21.fc44",
+    "arch": "x86_64",
+    "file": "speex-1.2.0-21.fc44.x86_64.rpm",
+    "bytes": 73304
+  },
+  {
+    "name": "spirv-tools-libs",
+    "version": "2026.1-1.fc44",
+    "arch": "x86_64",
+    "file": "spirv-tools-libs-2026.1-1.fc44.x86_64.rpm",
+    "bytes": 1825635
+  },
+  {
+    "name": "sqlite-libs",
+    "version": "3.51.2-2.fc44",
+    "arch": "x86_64",
+    "file": "sqlite-libs-3.51.2-2.fc44.x86_64.rpm",
+    "bytes": 815700
+  },
+  {
+    "name": "sratom",
+    "version": "0.6.22-1.fc44",
+    "arch": "x86_64",
+    "file": "sratom-0.6.22-1.fc44.x86_64.rpm",
+    "bytes": 28264
+  },
+  {
+    "name": "srt-libs",
+    "version": "1.5.7-1.fc44",
+    "arch": "x86_64",
+    "file": "srt-libs-1.5.7-1.fc44.x86_64.rpm",
+    "bytes": 439616
+  },
+  {
+    "name": "sssd-client",
+    "version": "2.13.1-2.fc44",
+    "arch": "x86_64",
+    "file": "sssd-client-2.13.1-2.fc44.x86_64.rpm",
+    "bytes": 173295
+  },
+  {
+    "name": "sssd-common",
+    "version": "2.13.1-2.fc44",
+    "arch": "x86_64",
+    "file": "sssd-common-2.13.1-2.fc44.x86_64.rpm",
+    "bytes": 1720266
+  },
+  {
+    "name": "sssd-kcm",
+    "version": "2.13.1-2.fc44",
+    "arch": "x86_64",
+    "file": "sssd-kcm-2.13.1-2.fc44.x86_64.rpm",
+    "bytes": 112775
+  },
+  {
+    "name": "sssd-krb5-common",
+    "version": "2.13.1-2.fc44",
+    "arch": "x86_64",
+    "file": "sssd-krb5-common-2.13.1-2.fc44.x86_64.rpm",
+    "bytes": 95396
+  },
+  {
+    "name": "sudo",
+    "version": "1.9.17-10.p2.fc44",
+    "arch": "x86_64",
+    "file": "sudo-1.9.17-10.p2.fc44.x86_64.rpm",
+    "bytes": 1358035
+  },
+  {
+    "name": "svt-av1-libs",
+    "version": "3.1.2-2.fc44",
+    "arch": "x86_64",
+    "file": "svt-av1-libs-3.1.2-2.fc44.x86_64.rpm",
+    "bytes": 2124091
+  },
+  {
+    "name": "systemd",
+    "version": "259.10-1.fc44",
+    "arch": "x86_64",
+    "file": "systemd-259.10-1.fc44.x86_64.rpm",
+    "bytes": 4490868
+  },
+  {
+    "name": "systemd-libs",
+    "version": "259.10-1.fc44",
+    "arch": "x86_64",
+    "file": "systemd-libs-259.10-1.fc44.x86_64.rpm",
+    "bytes": 890575
+  },
+  {
+    "name": "systemd-resolved",
+    "version": "259.10-1.fc44",
+    "arch": "x86_64",
+    "file": "systemd-resolved-259.10-1.fc44.x86_64.rpm",
+    "bytes": 293381
+  },
+  {
+    "name": "systemd-shared",
+    "version": "259.10-1.fc44",
+    "arch": "x86_64",
+    "file": "systemd-shared-259.10-1.fc44.x86_64.rpm",
+    "bytes": 2108647
+  },
+  {
+    "name": "systemd-sysusers",
+    "version": "259.10-1.fc44",
+    "arch": "x86_64",
+    "file": "systemd-sysusers-259.10-1.fc44.x86_64.rpm",
+    "bytes": 50715
+  },
+  {
+    "name": "systemd-udev",
+    "version": "259.10-1.fc44",
+    "arch": "x86_64",
+    "file": "systemd-udev-259.10-1.fc44.x86_64.rpm",
+    "bytes": 2786868
+  },
+  {
+    "name": "taglib",
+    "version": "2.3-2.fc44",
+    "arch": "x86_64",
+    "file": "taglib-2.3-2.fc44.x86_64.rpm",
+    "bytes": 526879
+  },
+  {
+    "name": "tesseract-common",
+    "version": "5.5.3-2.fc44",
+    "arch": "noarch",
+    "file": "tesseract-common-5.5.3-2.fc44.noarch.rpm",
+    "bytes": 25222
+  },
+  {
+    "name": "tesseract-langpack-eng",
+    "version": "4.1.0-12.fc44",
+    "arch": "noarch",
+    "file": "tesseract-langpack-eng-4.1.0-12.fc44.noarch.rpm",
+    "bytes": 1817218
+  },
+  {
+    "name": "tesseract-libs",
+    "version": "5.5.3-2.fc44",
+    "arch": "x86_64",
+    "file": "tesseract-libs-5.5.3-2.fc44.x86_64.rpm",
+    "bytes": 1434629
+  },
+  {
+    "name": "tesseract-tessdata-doc",
+    "version": "4.1.0-12.fc44",
+    "arch": "noarch",
+    "file": "tesseract-tessdata-doc-4.1.0-12.fc44.noarch.rpm",
+    "bytes": 13696
+  },
+  {
+    "name": "tpm2-tss",
+    "version": "4.1.3-9.fc44",
+    "arch": "x86_64",
+    "file": "tpm2-tss-4.1.3-9.fc44.x86_64.rpm",
+    "bytes": 451445
+  },
+  {
+    "name": "tslib",
+    "version": "1.24-2.fc44",
+    "arch": "x86_64",
+    "file": "tslib-1.24-2.fc44.x86_64.rpm",
+    "bytes": 159727
+  },
+  {
+    "name": "twolame-libs",
+    "version": "0.4.0-9.fc44",
+    "arch": "x86_64",
+    "file": "twolame-libs-0.4.0-9.fc44.x86_64.rpm",
+    "bytes": 70245
+  },
+  {
+    "name": "tzdata",
+    "version": "2026e-1.fc44",
+    "arch": "noarch",
+    "file": "tzdata-2026e-1.fc44.noarch.rpm",
+    "bytes": 730762
+  },
+  {
+    "name": "udisks2",
+    "version": "2.11.2-1.fc44",
+    "arch": "x86_64",
+    "file": "udisks2-2.11.2-1.fc44.x86_64.rpm",
+    "bytes": 579056
+  },
+  {
+    "name": "unity-gtk-module-common",
+    "version": "0.0.0+17.04.20170403-24.fc44",
+    "arch": "noarch",
+    "file": "unity-gtk-module-common-0.0.0+17.04.20170403-24.fc44.noarch.rpm",
+    "bytes": 23137
+  },
+  {
+    "name": "unity-gtk3-module",
+    "version": "0.0.0+17.04.20170403-24.fc44",
+    "arch": "x86_64",
+    "file": "unity-gtk3-module-0.0.0+17.04.20170403-24.fc44.x86_64.rpm",
+    "bytes": 19205
+  },
+  {
+    "name": "usbutils",
+    "version": "019-2.fc44",
+    "arch": "x86_64",
+    "file": "usbutils-019-2.fc44.x86_64.rpm",
+    "bytes": 117966
+  },
+  {
+    "name": "util-linux",
+    "version": "2.41.5-1.fc44",
+    "arch": "x86_64",
+    "file": "util-linux-2.41.5-1.fc44.x86_64.rpm",
+    "bytes": 1262928
+  },
+  {
+    "name": "util-linux-core",
+    "version": "2.41.5-1.fc44",
+    "arch": "x86_64",
+    "file": "util-linux-core-2.41.5-1.fc44.x86_64.rpm",
+    "bytes": 571516
+  },
+  {
+    "name": "vid.stab",
+    "version": "1.1.1-8.fc44",
+    "arch": "x86_64",
+    "file": "vid.stab-1.1.1-8.fc44.x86_64.rpm",
+    "bytes": 52159
+  },
+  {
+    "name": "vim-data",
+    "version": "9.2.1202-1.fc44",
+    "arch": "noarch",
+    "file": "vim-data-9.2.1202-1.fc44.noarch.rpm",
+    "bytes": 17934
+  },
+  {
+    "name": "vim-minimal",
+    "version": "9.2.1202-1.fc44",
+    "arch": "x86_64",
+    "file": "vim-minimal-9.2.1202-1.fc44.x86_64.rpm",
+    "bytes": 919740
+  },
+  {
+    "name": "vo-amrwbenc",
+    "version": "0.1.3-24.fc44",
+    "arch": "x86_64",
+    "file": "vo-amrwbenc-0.1.3-24.fc44.x86_64.rpm",
+    "bytes": 87060
+  },
+  {
+    "name": "volume_key-libs",
+    "version": "0.3.12-29.fc44",
+    "arch": "x86_64",
+    "file": "volume_key-libs-0.3.12-29.fc44.x86_64.rpm",
+    "bytes": 153324
+  },
+  {
+    "name": "vulkan-loader",
+    "version": "1.4.341.0-1.fc44",
+    "arch": "x86_64",
+    "file": "vulkan-loader-1.4.341.0-1.fc44.x86_64.rpm",
+    "bytes": 169809
+  },
+  {
+    "name": "webrtc-audio-processing",
+    "version": "2.1-5.fc44",
+    "arch": "x86_64",
+    "file": "webrtc-audio-processing-2.1-5.fc44.x86_64.rpm",
+    "bytes": 452500
+  },
+  {
+    "name": "which",
+    "version": "2.25-1.fc44",
+    "arch": "x86_64",
+    "file": "which-2.25-1.fc44.x86_64.rpm",
+    "bytes": 43072
+  },
+  {
+    "name": "wireless-regdb",
+    "version": "2026.09.03-1.fc44",
+    "arch": "noarch",
+    "file": "wireless-regdb-2026.09.03-1.fc44.noarch.rpm",
+    "bytes": 16884
+  },
+  {
+    "name": "wireplumber",
+    "version": "0.5.18-1.fc44",
+    "arch": "x86_64",
+    "file": "wireplumber-0.5.18-1.fc44.x86_64.rpm",
+    "bytes": 140139
+  },
+  {
+    "name": "wireplumber-libs",
+    "version": "0.5.18-1.fc44",
+    "arch": "x86_64",
+    "file": "wireplumber-libs-0.5.18-1.fc44.x86_64.rpm",
+    "bytes": 484299
+  },
+  {
+    "name": "wpa_supplicant",
+    "version": "2.11-9.fc44",
+    "arch": "x86_64",
+    "file": "wpa_supplicant-2.11-9.fc44.x86_64.rpm",
+    "bytes": 1873356
+  },
+  {
+    "name": "wsdd",
+    "version": "0.8-6.fc44",
+    "arch": "noarch",
+    "file": "wsdd-0.8-6.fc44.noarch.rpm",
+    "bytes": 40914
+  },
+  {
+    "name": "xapps",
+    "version": "3.2.2-3.fc44",
+    "arch": "x86_64",
+    "file": "xapps-3.2.2-3.fc44.x86_64.rpm",
+    "bytes": 5576730
+  },
+  {
+    "name": "xcb-util",
+    "version": "0.4.1-9.fc44",
+    "arch": "x86_64",
+    "file": "xcb-util-0.4.1-9.fc44.x86_64.rpm",
+    "bytes": 18351
+  },
+  {
+    "name": "xcb-util-cursor",
+    "version": "0.1.6-2.fc44",
+    "arch": "x86_64",
+    "file": "xcb-util-cursor-0.1.6-2.fc44.x86_64.rpm",
+    "bytes": 19179
+  },
+  {
+    "name": "xcb-util-image",
+    "version": "0.4.1-9.fc44",
+    "arch": "x86_64",
+    "file": "xcb-util-image-0.4.1-9.fc44.x86_64.rpm",
+    "bytes": 19310
+  },
+  {
+    "name": "xcb-util-keysyms",
+    "version": "0.4.1-9.fc44",
+    "arch": "x86_64",
+    "file": "xcb-util-keysyms-0.4.1-9.fc44.x86_64.rpm",
+    "bytes": 14491
+  },
+  {
+    "name": "xcb-util-renderutil",
+    "version": "0.3.10-9.fc44",
+    "arch": "x86_64",
+    "file": "xcb-util-renderutil-0.3.10-9.fc44.x86_64.rpm",
+    "bytes": 17849
+  },
+  {
+    "name": "xcb-util-wm",
+    "version": "0.4.2-9.fc44",
+    "arch": "x86_64",
+    "file": "xcb-util-wm-0.4.2-9.fc44.x86_64.rpm",
+    "bytes": 31325
+  },
+  {
+    "name": "xdg-desktop-portal",
+    "version": "1.22.1-1.fc44",
+    "arch": "x86_64",
+    "file": "xdg-desktop-portal-1.22.1-1.fc44.x86_64.rpm",
+    "bytes": 543260
+  },
+  {
+    "name": "xdg-desktop-portal-gtk",
+    "version": "1.15.3-3.fc44",
+    "arch": "x86_64",
+    "file": "xdg-desktop-portal-gtk-1.15.3-3.fc44.x86_64.rpm",
+    "bytes": 146866
+  },
+  {
+    "name": "xdg-desktop-portal-kde",
+    "version": "6.7.5-1.fc44",
+    "arch": "x86_64",
+    "file": "xdg-desktop-portal-kde-6.7.5-1.fc44.x86_64.rpm",
+    "bytes": 790637
+  },
+  {
+    "name": "xdg-user-dirs",
+    "version": "0.18-11.fc43",
+    "arch": "x86_64",
+    "file": "xdg-user-dirs-0.18-11.fc43.x86_64.rpm",
+    "bytes": 83970
+  },
+  {
+    "name": "xdg-utils",
+    "version": "1.2.1-5.fc44",
+    "arch": "noarch",
+    "file": "xdg-utils-1.2.1-5.fc44.noarch.rpm",
+    "bytes": 80786
+  },
+  {
+    "name": "xevd-libs",
+    "version": "0.5.0-6.fc44",
+    "arch": "x86_64",
+    "file": "xevd-libs-0.5.0-6.fc44.x86_64.rpm",
+    "bytes": 173716
+  },
+  {
+    "name": "xeve-libs",
+    "version": "0.5.1-6.fc44",
+    "arch": "x86_64",
+    "file": "xeve-libs-0.5.1-6.fc44.x86_64.rpm",
+    "bytes": 290695
+  },
+  {
+    "name": "xhost",
+    "version": "1.0.9-11.fc44",
+    "arch": "x86_64",
+    "file": "xhost-1.0.9-11.fc44.x86_64.rpm",
+    "bytes": 20921
+  },
+  {
+    "name": "xkbcomp",
+    "version": "1.5.0-2.fc44",
+    "arch": "x86_64",
+    "file": "xkbcomp-1.5.0-2.fc44.x86_64.rpm",
+    "bytes": 106439
+  },
+  {
+    "name": "xkeyboard-config",
+    "version": "2.47-1.fc44",
+    "arch": "noarch",
+    "file": "xkeyboard-config-2.47-1.fc44.noarch.rpm",
+    "bytes": 1024590
+  },
+  {
+    "name": "xmessage",
+    "version": "1.0.7-8.fc44",
+    "arch": "x86_64",
+    "file": "xmessage-1.0.7-8.fc44.x86_64.rpm",
+    "bytes": 31392
+  },
+  {
+    "name": "xml-common",
+    "version": "0.6.3-68.fc44",
+    "arch": "noarch",
+    "file": "xml-common-0.6.3-68.fc44.noarch.rpm",
+    "bytes": 31879
+  },
+  {
+    "name": "xmodmap",
+    "version": "1.0.11-10.fc44",
+    "arch": "x86_64",
+    "file": "xmodmap-1.0.11-10.fc44.x86_64.rpm",
+    "bytes": 32674
+  },
+  {
+    "name": "xorg-x11-server-Xwayland",
+    "version": "24.1.14-1.fc44",
+    "arch": "x86_64",
+    "file": "xorg-x11-server-Xwayland-24.1.14-1.fc44.x86_64.rpm",
+    "bytes": 1116272
+  },
+  {
+    "name": "xorg-x11-xauth",
+    "version": "1.1.5-1.fc44",
+    "arch": "x86_64",
+    "file": "xorg-x11-xauth-1.1.5-1.fc44.x86_64.rpm",
+    "bytes": 35166
+  },
+  {
+    "name": "xorg-x11-xinit",
+    "version": "1.4.3-4.fc44",
+    "arch": "x86_64",
+    "file": "xorg-x11-xinit-1.4.3-4.fc44.x86_64.rpm",
+    "bytes": 60926
+  },
+  {
+    "name": "xprop",
+    "version": "1.2.8-5.fc44",
+    "arch": "x86_64",
+    "file": "xprop-1.2.8-5.fc44.x86_64.rpm",
+    "bytes": 36147
+  },
+  {
+    "name": "xrdb",
+    "version": "1.2.2-7.fc44",
+    "arch": "x86_64",
+    "file": "xrdb-1.2.2-7.fc44.x86_64.rpm",
+    "bytes": 29783
+  },
+  {
+    "name": "xvidcore",
+    "version": "1.3.7-19.fc44",
+    "arch": "x86_64",
+    "file": "xvidcore-1.3.7-19.fc44.x86_64.rpm",
+    "bytes": 273409
+  },
+  {
+    "name": "xz",
+    "version": "5.8.2-2.fc44",
+    "arch": "x86_64",
+    "file": "xz-5.8.2-2.fc44.x86_64.rpm",
+    "bytes": 621817
+  },
+  {
+    "name": "xz-libs",
+    "version": "5.8.2-2.fc44",
+    "arch": "x86_64",
+    "file": "xz-libs-5.8.2-2.fc44.x86_64.rpm",
+    "bytes": 119631
+  },
+  {
+    "name": "zchunk-libs",
+    "version": "1.5.4-1.fc44",
+    "arch": "x86_64",
+    "file": "zchunk-libs-1.5.4-1.fc44.x86_64.rpm",
+    "bytes": 55927
+  },
+  {
+    "name": "zeromq",
+    "version": "4.3.5-22.fc43",
+    "arch": "x86_64",
+    "file": "zeromq-4.3.5-22.fc43.x86_64.rpm",
+    "bytes": 479459
+  },
+  {
+    "name": "zimg",
+    "version": "3.0.6-3.fc44",
+    "arch": "x86_64",
+    "file": "zimg-3.0.6-3.fc44.x86_64.rpm",
+    "bytes": 242180
+  },
+  {
+    "name": "zix",
+    "version": "0.8.0-2.fc44",
+    "arch": "x86_64",
+    "file": "zix-0.8.0-2.fc44.x86_64.rpm",
+    "bytes": 36568
+  },
+  {
+    "name": "zlib-ng-compat",
+    "version": "2.3.3-3.fc44",
+    "arch": "x86_64",
+    "file": "zlib-ng-compat-2.3.3-3.fc44.x86_64.rpm",
+    "bytes": 93304
+  },
+  {
+    "name": "zram-generator",
+    "version": "1.2.1-5.fc44",
+    "arch": "x86_64",
+    "file": "zram-generator-1.2.1-5.fc44.x86_64.rpm",
+    "bytes": 408410
+  },
+  {
+    "name": "zram-generator-defaults",
+    "version": "1.2.1-5.fc44",
+    "arch": "noarch",
+    "file": "zram-generator-defaults-1.2.1-5.fc44.noarch.rpm",
+    "bytes": 7542
+  },
+  {
+    "name": "zstd",
+    "version": "1.5.7-5.fc44",
+    "arch": "x86_64",
+    "file": "zstd-1.5.7-5.fc44.x86_64.rpm",
+    "bytes": 197134
+  },
+  {
+    "name": "zvbi",
+    "version": "0.2.44-3.fc44",
+    "arch": "x86_64",
+    "file": "zvbi-0.2.44-3.fc44.x86_64.rpm",
+    "bytes": 454085
+  },
+  {
+    "name": "zxing-cpp",
+    "version": "2.2.1-6.fc44",
+    "arch": "x86_64",
+    "file": "zxing-cpp-2.2.1-6.fc44.x86_64.rpm",
+    "bytes": 656409
+  }
+]
