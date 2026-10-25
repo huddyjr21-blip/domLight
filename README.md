@@ -46,9 +46,23 @@ Keep old package versions for manual recovery. If the repository config or timer
 
 The private signing key and its revocation certificate remain in the private Fedora VM. Keep an encrypted offline backup of that signing directory and preserve the passphrase. Never commit private keys, browser profiles, credentials or VM disks. The key expires October 24, 2028; plan renewal before then.
 
-## Installer 0.1.4
+## Recommended installation: official Fedora KDE + online domLight setup
 
-Use `domLight-0.1.4-Fedora44-x86_64-offline.iso` for Intel/AMD PCs. This replaces the 0.1.3 installer, whose custom pre-install account wizard could abort before disk selection with an empty log. The custom wizard, console redirection and generated Kickstart include are removed. Create your account in Fedora's native **User Creation** screen and keep **Make this user administrator** selected. Root stays locked; a post-install guard verifies that a usable administrator account and sudo policy exist before installation completes.
+The custom 0.1.4 installer has also failed on the physical test machine; the error stage and cause remain unknown. Use the unmodified [Fedora KDE 44 x86-64 live image](https://fedoraproject.org/kde/download/) instead. Boot its live desktop and confirm Wi-Fi and graphics work before opening Install to Hard Drive. Create an administrator account, complete installation, remove the USB and boot the installed desktop.
+
+Connect Wi-Fi, open Konsole as your normal desktop user, then run:
+
+```bash
+curl --fail --location https://huddyjr21-blip.github.io/domLight/setup-domlight.sh -o setup-domlight.sh
+less setup-domlight.sh
+bash setup-domlight.sh
+```
+
+This separate online step installs the signed domLight desktop and release RPMs, replaces Dolphin with Nemo, backs up and applies the desktop configuration, and enables daily signed desktop updates. DNF displays the proposed transaction before proceeding. Sign out and back in afterward. It does not run any custom Anaconda scripts or change the display manager. The Fedora image includes the standard KDE application set; this route is larger than the custom minimal image. End-to-end physical installation and the new bootstrap workflow remain untested.
+
+## Superseded custom installer 0.1.4
+
+`domLight-0.1.4-Fedora44-x86_64-offline.iso` is retained for investigation and is no longer recommended for installation. It replaced the 0.1.3 installer, whose custom pre-install account wizard could abort before disk selection with an empty log. The custom wizard, console redirection and generated Kickstart include were removed. Root stays locked; a post-install guard verifies that a usable administrator account and sudo policy exist before installation completes.
 
 The complete offline installation package set and hardware firmware from 0.1.3 are retained byte-for-byte: 922 RPMs, including the Realtek RTL8821CE Wi-Fi/Bluetooth and Intel Apollo Lake audio firmware. Nemo remains the file manager and signed desktop updates are enrolled automatically. Disk selection remains interactive, with no default credentials or automatic disk erasure.
 
