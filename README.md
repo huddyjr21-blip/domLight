@@ -46,7 +46,13 @@ Keep old package versions for manual recovery. If the repository config or timer
 
 The private signing key and its revocation certificate remain in the private Fedora VM. Keep an encrypted offline backup of that signing directory and preserve the passphrase. Never commit private keys, browser profiles, credentials or VM disks. The key expires October 24, 2028; plan renewal before then.
 
-## Installer and limitations
+## Installer 0.1.2
+
+The rebuilt x86-64 network installer requires choosing an administrator username and password (12 characters minimum) before disk selection. It refuses installation completion if no usable wheel-group account exists. The sudo policy is validated, SDDM is explicitly enabled, Plasma Wayland login and Mesa drivers are included, and Nemo is the file manager. Signed desktop updates are enrolled automatically. Disk selection remains interactive.
+
+Use `domLight-0.1.2-Fedora44-x86_64-netinst.iso`, not the old 0.1.0 installer. Checksums and installer sources are in `installer/`. Media integrity, boot configurations, embedded package, wizard input validation and hashing were checked. Full installation and physical graphics startup still need hardware testing.
+
+## Earlier installer limitations
 
 The initial ISO is an Intel/AMD network installer requiring internet access. Disk selection and user creation remain interactive. This ISO predates repository enrollment; run the command above after installation. Physical hardware boot testing is pending.
 

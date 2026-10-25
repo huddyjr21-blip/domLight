@@ -1,0 +1,103 @@
+# domLight Fedora 44 x86_64 installer. Disk selection remains interactive.
+%include /tmp/domlight-admin.ks
+graphical
+lang en_US.UTF-8
+keyboard us
+timezone America/New_York --utc
+rootpw --lock
+selinux --enforcing
+firewall --enabled
+url --url=https://dl.fedoraproject.org/pub/fedora/linux/releases/44/Everything/x86_64/os/
+repo --name=updates --baseurl=https://dl.fedoraproject.org/pub/fedora/linux/updates/44/Everything/x86_64/
+repo --name=cloud-flex --baseurl=file:///run/install/repo/cloud-flex/
+services --enabled=NetworkManager,sddm
+xconfig --startxonboot
+
+%packages --exclude-weakdeps
+@core
+kernel
+linux-firmware
+NetworkManager-wifi
+sddm
+sddm-breeze
+sddm-wayland-plasma
+mesa-dri-drivers
+mesa-vulkan-drivers
+sudo
+cloud-flex-desktop
+-dolphin
+cloud-flex-release
+grub2-efi-x64
+shim-x64
+efibootmgr
+grub2-pc
+grub2-tools
+btrfs-progs
+%end
+
+%post --erroronfail --log=/var/log/cloud-flex-install.log
+printf '%%wheel ALL=(ALL) ALL\n' >/etc/sudoers.d/90-domlight-admin
+chmod 0440 /etc/sudoers.d/90-domlight-admin
+visudo -cf /etc/sudoers
+systemctl enable --force sddm.service
+systemctl set-default graphical.target
+test -e /usr/share/wayland-sessions/plasma.desktop
+test "$(readlink -f /etc/systemd/system/display-manager.service)" = /usr/lib/systemd/system/sddm.service
+python3 - <<'PYCHECK'
+import grp,pwd
+from pathlib import Path
+shadow={r.split(":",2)[0]:r.split(":",2)[1] for r in Path("/etc/shadow").read_text().splitlines()}
+admins=set(grp.getgrnam("wheel").gr_mem)
+assert any(u.pw_uid>=1000 and u.pw_name in admins and shadow.get(u.pw_name,"!") not in ["", "!", "!!", "*"] and not shadow.get(u.pw_name,"!").startswith("!") for u in pwd.getpwall()), "No usable administrator account created"
+PYCHECK
+systemctl enable cloud-flex-update.timer
+python3 /usr/share/cloud-flex/setup.py --apply --offline --home /etc/skel
+python3 - <<'PYSETUP'
+import pwd,subprocess,os
+from pathlib import Path
+for user in pwd.getpwall():
+ if 1000 <= user.pw_uid < 60000 and user.pw_dir.startswith('/home/'):
+  home=Path(user.pw_dir)
+  if not home.is_dir():continue
+  subprocess.run(['python3','/usr/share/cloud-flex/setup.py','--apply','--offline','--home',str(home)],check=True)
+  for rel in ['.config','.local/state/cloud-flex']:
+   root=home/rel
+   if root.exists():
+    os.chown(root,user.pw_uid,user.pw_gid)
+    for parent,dirs,files in os.walk(root):
+     for name in dirs+files:os.chown(Path(parent)/name,user.pw_uid,user.pw_gid,follow_symlinks=False)
+PYSETUP
+%end
+
+%pre --interpreter=/bin/bash --erroronfail
+#!/bin/bash
+set -euo pipefail
+# Use a dedicated console, then return to the installer's original console.
+original_vt=$(cat /sys/class/tty/tty0/active)
+original_vt=${original_vt#tty}
+exec </dev/tty5 >/dev/tty5 2>&1
+chvt 5
+trap 'chvt "$original_vt"' EXIT
+clear
+printf '\nWelcome to domLight setup\n\nCreate your administrator account to continue.\nThere is no default account or password.\n\n'
+while true; do
+ read -r -p 'Username (lowercase letters, digits, underscore or hyphen): ' admin_name
+ [[ "$admin_name" =~ ^[a-z_][a-z0-9_-]{0,30}$ ]] && [[ "$admin_name" != root ]] && break
+ printf 'Choose a valid username other than root.\n'
+done
+while true; do
+ read -r -s -p 'Password (at least 12 characters): ' admin_password; printf '\n'
+ read -r -s -p 'Confirm password: ' admin_confirm; printf '\n'
+ [[ ${#admin_password} -ge 12 && "$admin_password" == "$admin_confirm" ]] && break
+ printf 'Passwords must match and contain at least 12 characters.\n'
+done
+# Password travels via stdin, never command arguments or installer output.
+admin_hash=$(printf '%s\n' "$admin_password" | openssl passwd -6 -stdin)
+unset admin_password admin_confirm
+[[ "$admin_hash" == '$6$'* ]]
+umask 077
+printf 'user --name=%s --groups=wheel --iscrypted --password=%s\n' "$admin_name" "$admin_hash" >/tmp/domlight-admin.ks
+unset admin_hash
+printf '\nAdministrator account configured. Returning to disk selection...\n'
+
+%end

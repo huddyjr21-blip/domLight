@@ -1,0 +1,14 @@
+{
+  "installer_wizard_dependencies": [
+    "usr/bin/openssl",
+    "usr/bin/bash",
+    "usr/bin/chvt"
+  ],
+  "hardware_boot_tested": false,
+  "full_install_tested": false,
+  "account_and_desktop_guards": "present; no automatic disk erasure",
+  "embedded_desktop": "signed Nemo 0.1.1 package matches published RPM",
+  "boot_configurations": "BIOS and both UEFI configurations reference corrected installer",
+  "sha256": "317f2b0d148cfb7de7048c4e638c5f370dfbe17e67ee58e6d93349a00cfeb165",
+  "bytes": 1217527808
+}
