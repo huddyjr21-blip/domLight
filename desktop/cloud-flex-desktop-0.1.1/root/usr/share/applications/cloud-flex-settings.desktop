@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Settings
+Exec=python3 /usr/share/cloud-flex/flex-settings.py
+Icon=/usr/share/cloud-flex/flex-icons/settings-app.svg
+Terminal=false
+Categories=Settings;

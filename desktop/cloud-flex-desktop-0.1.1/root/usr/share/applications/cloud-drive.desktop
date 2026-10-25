@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Google Drive
+Exec=chromium-browser --app=https://drive.google.com/
+Icon=/usr/share/cloud-flex/google-drive-web.png
+Terminal=false
+Categories=Network;Office;

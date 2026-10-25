@@ -1,0 +1,11 @@
+[Plugins]
+blurEnabled=false
+backgroundcontrastEnabled=false
+
+[org.kde.kdecoration2]
+BorderSize=None
+BorderSizeAuto=false
+ButtonsOnLeft=
+ButtonsOnRight=IAX
+library=org.kde.kwin.aurorae.v2
+theme=__aurorae__svg__CloudFlexWindows

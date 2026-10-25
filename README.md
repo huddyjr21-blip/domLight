@@ -2,6 +2,10 @@
 
 Lightweight Fedora 44 desktop for Google web apps and basic browsing. Signed updates share desktop assets across x86-64 and ARM64.
 
+## Latest update: 0.1.1
+
+Replaces Dolphin with Nemo, updates the Files launcher and default folder handler, and applies the Nemo theme at next sign-in. A one-time migration backs up affected user configuration.
+
 ## Enroll a test machine
 
 Run once after installing the initial ISO, from a terminal on the Fedora test machine:

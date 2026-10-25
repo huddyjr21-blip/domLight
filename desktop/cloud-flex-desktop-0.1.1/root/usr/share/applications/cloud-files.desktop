@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Files
+Exec=nemo %U
+Icon=system-file-manager
+MimeType=inode/directory;
+Categories=System;FileTools;FileManager;

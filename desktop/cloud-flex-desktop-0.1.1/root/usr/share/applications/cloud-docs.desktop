@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Google Docs
+Exec=chromium-browser --app=https://docs.google.com/
+Icon=/usr/share/cloud-flex/docs.svg
+Terminal=false
+Categories=Network;Office;

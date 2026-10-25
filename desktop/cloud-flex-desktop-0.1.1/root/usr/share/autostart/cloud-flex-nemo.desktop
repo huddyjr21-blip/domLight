@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=domLight Files migration
+Exec=python3 /usr/share/cloud-flex/migrate-nemo.py
+OnlyShowIn=KDE;
+X-KDE-autostart-phase=0
+NoDisplay=true

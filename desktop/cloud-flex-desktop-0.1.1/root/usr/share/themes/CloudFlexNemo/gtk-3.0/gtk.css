@@ -1,0 +1,21 @@
+@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained.css");
+* { font-family: "Noto Sans"; font-size: 14px; }
+window, .background { background-color:#f0f4f9; color:#202124; }
+toolbar, .toolbar, menubar { background-image:none; background-color:#f0f4f9; border:0; box-shadow:none; padding:8px; }
+toolbar button { background-image:none; background-color:transparent; border:0; box-shadow:none; border-radius:18px; min-width:26px; min-height:26px; }
+toolbar button:hover { background-color:#d3e3fd; }
+toolbar button:checked { background-color:#c2e7ff; }
+.sidebar, .sidebar .view, .sidebar treeview { background-color:#e9eef6; color:#444746; }
+.sidebar treeview { -NemoPlacesTreeView-disk-full-bg-color:#e9eef6; }
+.sidebar treeview.view { padding:0; }
+.sidebar .view:selected, .sidebar treeview:selected { background-color:#c2e7ff; color:#001d35; }
+.view { background-color:#ffffff; color:#202124; }
+.view:selected { background-color:#c2e7ff; color:#001d35; }
+.nemo-window .nemo-window-pane widget.entry, entry { background-image:none; background-color:#ffffff; border:1px solid #dadce0; border-radius:20px; padding:8px 14px; box-shadow:none; }
+entry:focus { border-color:#0b57d0; }
+treeview.view header button { background-image:none; background-color:#f8fafd; border:0; border-bottom:1px solid #e9eef6; box-shadow:none; padding:10px; }
+scrollbar { background-color:transparent; }
+scrollbar slider { background-color:#c4c7c5; border:0; border-radius:5px; min-width:6px; min-height:36px; }
+statusbar { background-color:#f0f4f9; padding:6px; }
+
+* { color:#202124; -gtk-icon-shadow:none; } image { color:#444746; opacity:1; }
