@@ -1,0 +1,47 @@
+Emulated x86-64 BIOS installation using production package selection and post-install configuration.
+Private text-mode test Kickstart supplied only a disposable account, network and blank-disk partitioning.
+The production ISO retains interactive graphical account and disk screens and contains no default credentials.
+Excerpt from captured serial output:
+
+Installing boot loader
+.
+
+Performing post-installation setup tasks
+.
+
+Importing certificates
+.
+
+Configuring installed system
+.
+
+Writing network configuration
+.
+
+Creating users
+.
+
+Configuring addons
+.
+
+Generating initramfs
+....
+
+Storing configuration files and kickstarts
+.
+
+Running post-installation scripts
+.DOMLIGHT_POST_INSTALL_PROOF
+cloud-flex-desktop-0.1.1-1.fc44.noarch
+cloud-flex-release-0.1.0-1.fc44.noarch
+nemo-6.6.3-3.fc44.x86_64
+sddm-0.21.0-13.fc44.x86_64
+realtek-firmware-20260309-1.fc44.noarch
+/usr/lib/systemd/system/graphical.target
+/usr/lib/systemd/system/sddm.service
+UNKNOWN UNKNOWN /mnt/sysroot/home/domtest/.config/plasma-org.kde.plasma.desktop-appletsrc
+Created symlink '/etc/systemd/system/timers.target.wants/cloud-flex-update.timer' -> '/usr/lib/systemd/system/cloud-flex-update.timer'.
+END_DOMLIGHT_PROOF
+..
+
+Complete!

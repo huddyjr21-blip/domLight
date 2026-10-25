@@ -1,0 +1,37 @@
+{
+  "version": "0.1.5",
+  "installation": "online Fedora packages, embedded signed domLight packages, automatic appearance and update enrollment",
+  "account_and_storage": "native interactive; no default credentials or automatic disk erasure",
+  "kickstart_validation": "PASS",
+  "post_shell_and_python_syntax": "PASS",
+  "media_check": "PASS",
+  "boot_configs": "BIOS and both UEFI configurations checked",
+  "embedded_packages": "match published signed desktop 0.1.1 and release 0.1.0",
+  "full_install_tested": false,
+  "physical_hardware_boot_tested": false,
+  "bytes": 1217527808,
+  "sha256": "a09031d8c908ae07512531d6e171b9782d199e3c28b45bb58407e0c3b24a8f11",
+  "installation_flow_tested": true,
+  "installation_test": {
+    "environment": "QEMU x86-64 TCG, q35, BIOS, blank 40 GiB virtual disk",
+    "mode": "text installer with separate private account/partitioning automation; production package selection and post script unchanged",
+    "result": "Complete; clean poweroff",
+    "packages_installed": 926,
+    "desktop": "cloud-flex-desktop 0.1.1; Nemo installed; graphical target and SDDM enabled",
+    "appearance": "Plasma layout file exists in test user home",
+    "updates": "cloud-flex-update.timer enabled",
+    "production_graphical_account_and_disk_interaction_tested": false,
+    "scope": "Full install on pre-fix build 4f1e04670322a24de784ce91038343961b211453f071e668a80d2e56b3e9af9b, then targeted systemd-pam installation and SDDM restart; complete final-ISO reinstall not repeated"
+  },
+  "boot_test": {
+    "disk_boot": "PASS: GRUB and installed kernel booted without installation media",
+    "initial_graphical_result": "FAIL: pam_systemd.so missing, XDG_RUNTIME_DIR unavailable, greeter exited",
+    "repair": "Installed systemd-pam-259.5-1.fc44 from Fedora release repository and restarted SDDM",
+    "after_repair": "PASS: registered seat0 Wayland greeter, graphical login screen visually verified",
+    "account": "Test user uid/gid 1000, wheel member, successful password login",
+    "appearance": "User Plasma layout exists with uid/gid 1000 and mode 0644",
+    "file_manager": "Nemo installed, Dolphin absent",
+    "updates": "cloud-flex-update.timer enabled",
+    "production_graphical_account_and_disk_interaction_tested": false
+  }
+}

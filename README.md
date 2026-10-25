@@ -46,7 +46,15 @@ Keep old package versions for manual recovery. If the repository config or timer
 
 The private signing key and its revocation certificate remain in the private Fedora VM. Keep an encrypted offline backup of that signing directory and preserve the passphrase. Never commit private keys, browser profiles, credentials or VM disks. The key expires October 24, 2028; plan renewal before then.
 
-## Recommended installation: official Fedora KDE + online domLight setup
+## Automatic online installer 0.1.5
+
+`domLight-0.1.5-Fedora44-x86_64-online.iso` installs Fedora and domLight in one operation. Connect Wi-Fi, choose the disk, create an administrator account using Fedora's User Creation screen, and begin installation. The selected packages include Nemo, Chromium, the web-app launchers, Plasma and hardware firmware. The installer applies appearance defaults to the new account and enables signed desktop updates before first boot. No terminal commands are needed afterward.
+
+This is a customized Fedora Everything network installer, not the KDE live image. Fedora packages download online; the signed domLight desktop 0.1.1 and release 0.1.0 RPMs are embedded. The custom console account wizard and the extra account, firmware and display-manager assertions from 0.1.4 are removed. Disk selection and account creation remain interactive; the image contains no default credentials or automatic disk erasure instructions. The emulated boot test reproduced a blank graphical screen caused by missing `systemd-pam`: SDDM could not load `pam_systemd.so`, so its greeter had no valid session/runtime directory. This package is now explicitly selected. The earlier physical installer-abort error remains undiagnosed.
+
+Validation: a complete 926-package emulated BIOS installation passed, then installing the missing matching Fedora `systemd-pam` package and restarting SDDM produced the graphical greeter. Account login, wheel membership, theme-file ownership, Nemo/Dolphin selection and update-timer enrollment were checked. The final image adds that dependency; a complete fresh reinstall of the final revised image was not repeated. Sources, checksum, instructions, screenshot and detailed results are under `installer/`. The ISO is distributed separately. Physical Intel graphics/Wi-Fi and UEFI installation still require hardware validation.
+
+## Alternative: official Fedora KDE + online domLight setup
 
 The custom 0.1.4 installer has also failed on the physical test machine; the error stage and cause remain unknown. Use the unmodified [Fedora KDE 44 x86-64 live image](https://fedoraproject.org/kde/download/) instead. Boot its live desktop and confirm Wi-Fi and graphics work before opening Install to Hard Drive. Create an administrator account, complete installation, remove the USB and boot the installed desktop.
 

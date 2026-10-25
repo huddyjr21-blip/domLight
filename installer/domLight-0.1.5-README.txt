@@ -1,0 +1,13 @@
+domLight 0.1.5 — automatic online installer for Intel/AMD x86-64 PCs
+
+Image: domLight-0.1.5-Fedora44-x86_64-online.iso
+Size: 1,217,527,808 bytes (1.22 GB)
+SHA256: a09031d8c908ae07512531d6e171b9782d199e3c28b45bb58407e0c3b24a8f11
+
+Flash this ISO to a USB drive using an image-writing application. Boot the USB, connect Wi-Fi using Fedora's Network & Host Name screen, choose the target disk, and create your administrator account in User Creation. Keep Make this user administrator selected. Review the disk changes and begin installation. Root remains locked; there are no default login credentials and no automatic disk erasure instructions.
+
+Fedora packages download over the internet during installation. The domLight desktop and repository-enrollment packages are embedded, and match the signed published desktop 0.1.1 and release 0.1.0 RPMs. The installer selects Nemo, Chromium, the Google web-app launchers, and the desktop theme automatically. It applies appearance settings before first login and enables signed desktop updates. No commands are needed after installation. Remove the USB and reboot normally when Fedora finishes.
+
+This is a customized Fedora Everything network installer, not the stock KDE live image. It does not offer a live desktop preview. It uses native Fedora disk/account screens and does not use the previous custom console account wizard. Package downloads require a working internet connection. It retains the expanded installed firmware list from 0.1.4.
+
+Validation: Kickstart parsing, post-install shell/Python syntax, embedded package hashes, BIOS and both UEFI boot configurations, media integrity and SHA256 of the Mac copy. See the accompanying validation report for installation-test results. A full emulated x86 BIOS installation completed with the original 926-package selection. Disk boot exposed missing systemd-pam: SDDM could not load pam_systemd.so and failed to create its greeter session. Installing that one matching Fedora package and restarting SDDM produced the graphical login screen, verified visually. The final ISO explicitly adds systemd-pam; a complete fresh installation of the final revised ISO was not repeated. Physical mini-PC graphics, Wi-Fi and boot remain unverified for this build. The earlier installer-abort error remains undiagnosed.

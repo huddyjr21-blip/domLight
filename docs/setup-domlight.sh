@@ -18,7 +18,7 @@ printf '%s  %s\n' 4633a9b4f80cfb48cb07a6aa652749bfe0a939418bd07a5e8a44debc2c3cdc
 echo 'Installs domLight, replaces Dolphin with Nemo, and enables daily signed desktop updates.'
 sudo rpmkeys --import "$workdir/key"
 rpmkeys --checksig "$workdir/release.rpm" "$workdir/desktop.rpm"
-sudo dnf --refresh --setopt=localpkg_gpgcheck=true install "$workdir/release.rpm" "$workdir/desktop.rpm"
+sudo dnf --refresh --setopt=localpkg_gpgcheck=true install systemd-pam "$workdir/release.rpm" "$workdir/desktop.rpm"
 python3 /usr/share/cloud-flex/setup.py --apply
 sudo systemctl daemon-reload
 sudo systemctl enable --now cloud-flex-update.timer
