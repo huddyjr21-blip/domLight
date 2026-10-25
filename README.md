@@ -1,19 +1,49 @@
 # domLight
 
-Lightweight Fedora 44 desktop for Google web apps and basic browsing, with shared desktop assets for x86-64 and ARM64.
+Lightweight Fedora 44 desktop for Google web apps and basic browsing. Signed updates share desktop assets across x86-64 and ARM64.
 
-## Status
+## Enroll a test machine
 
-Initial x86-64 network installer built. Signed update feed is being prepared; this repository is not yet ready for client enrollment.
+Run once after installing the initial ISO, from a terminal on the Fedora test machine:
 
-## Update publishing
+```bash
+curl --fail --location https://huddyjr21-blip.github.io/domLight/enroll.sh -o enroll-domlight.sh
+less enroll-domlight.sh
+bash enroll-domlight.sh
+```
 
-The `tools/` scripts build the repository configuration package, sign desktop RPMs and repository metadata, and generate the enrollment script. Run signing on the private Fedora build machine. Only public keys, signed packages and generated metadata belong in the published feed.
+The script verifies the pinned public-key checksum, checks the enrollment RPM signature, installs repository configuration and enables daily desktop updates. Both RPM signatures and repository metadata signatures are required. It targets Fedora 44 x86-64/aarch64 with the domLight desktop package already installed. It never forces a reboot. Sign out and back in after desktop updates.
 
-Private signing keys, account profiles, credentials and VM disks must never be committed.
+Manual update:
 
-Updates cover `cloud-flex-desktop` and `cloud-flex-release`. Fedora continues to supply operating system packages. Desktop configuration migrations require explicit versioned changes; package updates do not overwrite existing user preferences.
+```bash
+sudo systemctl start cloud-flex-update.service
+journalctl -u cloud-flex-update.service -n 30
+```
 
-## Installer
+Disable automatic checks:
 
-The initial ISO is a network installer for Intel/AMD PCs and needs internet access. Disk selection and user creation remain interactive. Physical hardware boot testing is pending.
+```bash
+sudo systemctl disable --now cloud-flex-update.timer
+```
+
+Updates cover `cloud-flex-desktop` and `cloud-flex-release`. Fedora supplies operating-system updates separately. Existing user preferences are not reset automatically.
+
+Signing fingerprint: `9F8C932CE936A621EA9A154B9132D5D869E228F3`.
+
+## Publish an update
+
+1. Bump the desktop RPM version/release, rebuild and test it on a test machine. Keep the same NEVRA immutable.
+2. On the private Fedora signing VM, clone/pull this repository and set `GNUPGHOME=$HOME/.local/share/domlight-signing/gnupg`.
+3. Run `python3 tools/publish.py --root docs --key 9F8C932CE936A621EA9A154B9132D5D869E228F3 /path/to/new-desktop.noarch.rpm`. Enter the signing passphrase when prompted. Fedora build tools `rpm-build rpm-sign createrepo_c gnupg2` are required. Administrator access is used only for an isolated verification database with Fedora SELinux labels.
+4. Review `git diff`, commit the updated `docs/` files and push to `main`. GitHub Pages publishes from `main:/docs`; enrolled machines check daily.
+
+Keep old package versions for manual recovery. If the repository config or timer changes, bump and rebuild `cloud-flex-release` too; the initial generator is under `tools/make-release.py`. User configuration changes need explicit tested migrations.
+
+The private signing key and its revocation certificate remain in the private Fedora VM. Keep an encrypted offline backup of that signing directory and preserve the passphrase. Never commit private keys, browser profiles, credentials or VM disks. The key expires October 24, 2028; plan renewal before then.
+
+## Installer and limitations
+
+The initial ISO is an Intel/AMD network installer requiring internet access. Disk selection and user creation remain interactive. This ISO predates repository enrollment; run the command above after installation. Physical hardware boot testing is pending.
+
+The original ARM development VM has user-local theme/widget overrides; migrate those before enrolling it so they do not shadow packaged updates. Fresh ISO installations use system assets.

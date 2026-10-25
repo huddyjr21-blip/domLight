@@ -1,0 +1,16 @@
+{
+  "published_at": "2026-10-25T20:29:51.410947+00:00",
+  "fingerprint": "9F8C932CE936A621EA9A154B9132D5D869E228F3",
+  "packages": [
+    {
+      "file": "fedora/44/noarch/Packages/cloud-flex-desktop-0.1.0-1.fc44.noarch.rpm",
+      "version": "0.1.0-1.fc44",
+      "signature": "digests signatures OK"
+    },
+    {
+      "file": "fedora/44/noarch/Packages/cloud-flex-release-0.1.0-1.fc44.noarch.rpm",
+      "version": "0.1.0-1.fc44",
+      "signature": "digests signatures OK"
+    }
+  ]
+}
