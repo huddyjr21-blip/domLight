@@ -1,0 +1,10 @@
+[Unit]
+Description=Install signed Cloud Flex desktop updates
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/dnf --refresh --assumeyes upgrade cloud-flex-desktop cloud-flex-release
+Nice=10
+IOSchedulingClass=idle

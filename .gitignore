@@ -1,0 +1,7 @@
+*.iso
+*.qcow2
+*.utm/
+__pycache__/
+*.pyc
+private/
+gnupg/
