@@ -46,13 +46,13 @@ Keep old package versions for manual recovery. If the repository config or timer
 
 The private signing key and its revocation certificate remain in the private Fedora VM. Keep an encrypted offline backup of that signing directory and preserve the passphrase. Never commit private keys, browser profiles, credentials or VM disks. The key expires October 24, 2028; plan renewal before then.
 
-## Installer 0.1.3
+## Installer 0.1.4
 
-Use `domLight-0.1.3-Fedora44-x86_64-offline.iso` for Intel/AMD PCs. This replaces the previous network installers and contains the complete desktop installation package set; setup needs no internet connection. It explicitly includes common Wi-Fi, Bluetooth, graphics and audio firmware, standard/extra kernel modules, CPU microcode and hardware diagnostic tools. The Realtek RTL8821CE Wi-Fi/Bluetooth and Intel Apollo Lake SOF firmware files reported missing on the KAMRUI test PC were verified in the image.
+Use `domLight-0.1.4-Fedora44-x86_64-offline.iso` for Intel/AMD PCs. This replaces the 0.1.3 installer, whose custom pre-install account wizard could abort before disk selection with an empty log. The custom wizard, console redirection and generated Kickstart include are removed. Create your account in Fedora's native **User Creation** screen and keep **Make this user administrator** selected. Root stays locked; a post-install guard verifies that a usable administrator account and sudo policy exist before installation completes.
 
-The installer requires an administrator account (password at least 12 characters), validates sudo access, enables graphical login, uses Nemo, and enrolls signed desktop updates. Disk selection remains interactive. No default credentials or automatic disk erasure are configured.
+The complete offline installation package set and hardware firmware from 0.1.3 are retained byte-for-byte: 922 RPMs, including the Realtek RTL8821CE Wi-Fi/Bluetooth and Intel Apollo Lake audio firmware. Nemo remains the file manager and signed desktop updates are enrolled automatically. Disk selection remains interactive, with no default credentials or automatic disk erasure.
 
-The 2.62 GB image was checked for USB-local dependency closure, all 922 RPM signatures, repository checksums, firmware paths, BIOS/UEFI configurations and media integrity. Full installation and physical GPU startup remain untested; the earlier black screen is not yet confirmed resolved. Sources, manifest, checksum and optional offline repair instructions for existing installations are in `installer/`. The ISO binary is distributed separately.
+Validated: Kickstart parsing, post-install shell syntax, native account-screen source behavior, all embedded RPMs identical to the signature-verified set, BIOS/UEFI configurations and media integrity. Full installation and physical GPU startup remain untested. Installer sources, checksum and instructions are in `installer/`; the 2.62 GB ISO is distributed separately.
 
 ## Earlier installer limitations
 

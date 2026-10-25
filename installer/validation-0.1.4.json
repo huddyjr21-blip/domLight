@@ -1,0 +1,15 @@
+{
+  "version": "0.1.4",
+  "account_setup": "native Anaconda user screen; custom pre-install script and include removed",
+  "administrator_guard": "locked root, native mandatory account screen, post-install wheel/password verification",
+  "offline_packages_verified_identical": 922,
+  "media_check": "PASS",
+  "boot_configs": "BIOS, root UEFI and appended EFI verified",
+  "kickstart_validation": "PASS",
+  "post_script_syntax": "PASS",
+  "physical_hardware_boot_tested": false,
+  "full_install_tested": false,
+  "bytes": 2623406080,
+  "sha256": "de55b9b8ea58792f8be9c92fd436ab17a255f4a281189efc345b0eb78c034c31",
+  "emulated_startup": "Anaconda 44.30-2 started and parsed Kickstart past the removed pre-script; graphical setup and full installation not confirmed in headless emulation"
+}
