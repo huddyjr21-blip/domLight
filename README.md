@@ -2,9 +2,9 @@
 
 Lightweight Fedora 44 desktop for Google web apps and basic browsing. Signed updates share desktop assets across x86-64 and ARM64.
 
-## Latest update: 0.1.1
+## Latest update: 0.1.2
 
-Replaces Dolphin with Nemo, updates the Files launcher and default folder handler, and applies the Nemo theme at next sign-in. A one-time migration backs up affected user configuration.
+Adds **Settings → Device → Display and scaling** for resolution, scaling, refresh rate and display layout, with an explicit KScreen dependency. Also requires `systemd-pam` for valid graphical login sessions. Nemo remains the default file manager and replaces Dolphin.
 
 ## Enroll a test machine
 
@@ -80,4 +80,4 @@ Validated: Kickstart parsing, post-install shell syntax, native account-screen s
 
 The initial ISO is an Intel/AMD network installer requiring internet access. Disk selection and user creation remain interactive. This ISO predates repository enrollment; run the command above after installation. Physical hardware boot testing is pending.
 
-The original ARM development VM has user-local theme/widget overrides; migrate those before enrolling it so they do not shadow packaged updates. Fresh ISO installations use system assets.
+The original ARM development VM’s development overrides are backed up and retired before switching to packaged assets. Fresh ISO installations use system assets.

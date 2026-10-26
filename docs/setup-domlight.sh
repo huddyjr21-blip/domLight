@@ -13,8 +13,8 @@ trap 'rm -rf -- "$workdir"' EXIT
 curl --fail --location --silent --show-error "$repo_url/RPM-GPG-KEY-cloud-flex" -o "$workdir/key"
 printf '%s  %s\n' 5100490d0d82f480f3ba6535635268fc265d1600e5d98827f5ea0dd1cd434e96 "$workdir/key" | sha256sum --check -
 curl --fail --location --silent --show-error "$repo_url/fedora/44/noarch/Packages/cloud-flex-release-0.1.0-1.fc44.noarch.rpm" -o "$workdir/release.rpm"
-curl --fail --location --silent --show-error "$repo_url/fedora/44/noarch/Packages/cloud-flex-desktop-0.1.1-1.fc44.noarch.rpm" -o "$workdir/desktop.rpm"
-printf '%s  %s\n' 4633a9b4f80cfb48cb07a6aa652749bfe0a939418bd07a5e8a44debc2c3cdc50 "$workdir/release.rpm" b921d22c004910663cf3f4f3942980137274427ce9fb40401c7f1a7a86ee22aa "$workdir/desktop.rpm" | sha256sum --check -
+curl --fail --location --silent --show-error "$repo_url/fedora/44/noarch/Packages/cloud-flex-desktop-0.1.2-1.fc44.noarch.rpm" -o "$workdir/desktop.rpm"
+printf '%s  %s\n' 4633a9b4f80cfb48cb07a6aa652749bfe0a939418bd07a5e8a44debc2c3cdc50 "$workdir/release.rpm" 494544e54e4209d13495fc00f05648269c344021257bc4ed96022e6905bf7d33 "$workdir/desktop.rpm" | sha256sum --check -
 echo 'Installs domLight, replaces Dolphin with Nemo, and enables daily signed desktop updates.'
 sudo rpmkeys --import "$workdir/key"
 rpmkeys --checksig "$workdir/release.rpm" "$workdir/desktop.rpm"
